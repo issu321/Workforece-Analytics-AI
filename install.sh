@@ -32,7 +32,8 @@ typewriter() {
     _i=0
     _len=$(printf '%s' "$_text" | wc -c)
     while [ "$_i" -lt "$_len" ]; do
-        _char=$(printf '%s' "$_text" | cut -c$((_i + 1)))
+        _pos=$((_i + 1))
+        _char=$(printf '%s' "$_text" | cut -c"$_pos")
         printf '%s' "$_char"
         sleep "$_delay"
         _i=$((_i + 1))
