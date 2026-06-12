@@ -26,12 +26,7 @@ echo ========================================
 echo   Installation Complete!
 echo ========================================
 echo.
-echo To start the application:
-echo   venv\Scripts\activate.bat
-echo   python app.py
-echo.
-echo Then open http://localhost:5000 in your browser.
-echo.
-echo Default login: admin / admin123
+echo "Launching...(Please Wait)"
+python app.py
 echo.
 pause
