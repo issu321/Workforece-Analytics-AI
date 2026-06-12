@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@company.com",
+      "password": "scrypt:32768:8:1$jxvBXMcY2h9oAKZK$6e8d7b60620d74442ece29cde11cad9ffe40d1fface054738610191666f1165d075d6f7378ae803ff694188858b6c2fa3d0fa03300db979edb93756d069d5ab8",
+      "role": "admin",
+      "created_at": "2026-06-12T10:25:57.759681",
+      "last_login": null
+    }
+  ]
+}

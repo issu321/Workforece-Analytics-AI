@@ -1,0 +1,146 @@
+{% extends "layout.html" %}
+{% block title %}Workforce Intelligence - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-users"></i> Workforce Intelligence</h1>
+            <p>AI insights, retention strategies, and workforce forecasting</p>
+        </div>
+        <div class="header-actions">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-outline btn-sm"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+
+    {% if not has_data %}
+    <div class="empty-state glass">
+        <div class="empty-icon"><i class="fas fa-database"></i></div>
+        <h2>No Data Loaded</h2>
+        <p>Please upload a dataset or load demo data first.</p>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Go to Dashboard</a>
+    </div>
+    {% else %}
+
+    <div class="section-header">
+        <h2><i class="fas fa-tachometer-alt"></i> Workforce Health Scores</h2>
+    </div>
+    <div class="scores-grid">
+        {% for key, value in scores.items() %}
+        <div class="score-card glass">
+            <div class="score-ring" data-score="{{ value }}">
+                <svg viewBox="0 0 100 100">
+                    <circle class="score-bg" cx="50" cy="50" r="42"/>
+                    <circle class="score-progress" cx="50" cy="50" r="42" 
+                            stroke-dasharray="264" 
+                            stroke-dashoffset="{{ 264 - (value / 100 * 264) }}"/>
+                </svg>
+                <div class="score-value">{{ value }}</div>
+            </div>
+            <div class="score-label">{{ key.replace('_', ' ').title() }}</div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-lightbulb"></i> AI-Generated Insights</h2>
+    </div>
+    <div class="insights-list">
+        {% for insight in insights %}
+        <div class="insight-card glass insight-{{ insight.severity|lower }}">
+            <div class="insight-header">
+                <span class="insight-type">{{ insight.type }}</span>
+                <span class="insight-severity badge badge-{{ insight.severity|lower }}">{{ insight.severity }}</span>
+            </div>
+            <div class="insight-body">
+                <p class="insight-text"><i class="fas fa-info-circle"></i> {{ insight.insight }}</p>
+                <p class="insight-recommendation"><i class="fas fa-check-circle"></i> <strong>Recommendation:</strong> {{ insight.recommendation }}</p>
+            </div>
+        </div>
+        {% else %}
+        <div class="empty-state-small glass">
+            <p>No insights available. Train models or upload more comprehensive data.</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-shield-alt"></i> Retention Strategy Recommendations</h2>
+    </div>
+    <div class="recommendations-list">
+        {% for rec in recommendations %}
+        <div class="recommendation-card glass priority-{{ rec.priority|lower }}">
+            <div class="rec-header">
+                <div class="rec-priority">
+                    <span class="priority-dot"></span>
+                    <span class="priority-label">{{ rec.priority }} Priority</span>
+                </div>
+                <span class="rec-category">{{ rec.category }}</span>
+            </div>
+            <h4 class="rec-target"><i class="fas fa-bullseye"></i> {{ rec.target }}</h4>
+            <p class="rec-issue"><i class="fas fa-exclamation-circle"></i> <strong>Issue:</strong> {{ rec.issue }}</p>
+            <p class="rec-recommendation"><i class="fas fa-lightbulb"></i> <strong>Recommendation:</strong> {{ rec.recommendation }}</p>
+            {% if rec.action_plan %}
+            <div class="action-plan">
+                <h5><i class="fas fa-tasks"></i> Action Plan</h5>
+                <ul>
+                    {% for action in rec.action_plan %}
+                    <li>{{ action }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-chart-line"></i> Workforce Forecast (12 Months)</h2>
+    </div>
+    <div class="card glass">
+        <div class="card-body"><div id="forecastChart" style="height:700px;"></div></div>
+    </div>
+
+    <div class="card glass">
+        <div class="card-header"><h3><i class="fas fa-table"></i> Forecast Details</h3></div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr><th>Month</th><th>Projected Attrition Rate</th><th>Projected Departures</th><th>Projected Workforce Size</th><th>Hiring Needed</th></tr>
+                    </thead>
+                    <tbody>
+                        {% for i in range(forecast.attrition_forecast|length) %}
+                        <tr>
+                            <td>Month {{ forecast.attrition_forecast[i].month }}</td>
+                            <td>{{ forecast.attrition_forecast[i].projected_attrition_rate }}%</td>
+                            <td>{{ forecast.attrition_forecast[i].projected_departures }}</td>
+                            <td>{{ forecast.workforce_size_forecast[i].projected_size }}</td>
+                            <td>{{ forecast.hiring_needs[i].hiring_needed }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    {% endif %}
+</div>
+
+<script>
+{% if has_data %}
+fetch('/api/charts/forecast')
+    .then(r => r.json())
+    .then(data => {
+        if(data.chart) {
+            Plotly.newPlot('forecastChart', data.chart.data, data.chart.layout, {responsive: true});
+        } else {
+            document.getElementById('forecastChart').innerHTML = '<div class="text-muted text-center" style="padding:100px 0;">Forecast not available</div>';
+        }
+    })
+    .catch(() => {
+        document.getElementById('forecastChart').innerHTML = '<div class="text-muted text-center" style="padding:100px 0;">Error loading forecast</div>';
+    });
+{% endif %}
+</script>
+{% endblock %}

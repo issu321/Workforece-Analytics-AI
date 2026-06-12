@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block title %}Settings - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-cog"></i> Settings</h1>
+            <p>Customize your experience</p>
+        </div>
+    </div>
+    <div class="settings-grid">
+        <div class="card glass">
+            <div class="card-header"><h3><i class="fas fa-palette"></i> Appearance</h3></div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('settings') }}" class="auth-form">
+                    <div class="form-group">
+                        <label><i class="fas fa-moon"></i> Theme</label>
+                        <select name="theme" class="form-select">
+                            <option value="dark" {% if settings.theme == 'dark' %}selected{% endif %}>Dark Mode</option>
+                            <option value="light" {% if settings.theme == 'light' %}selected{% endif %}>Light Mode</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save Settings</button>
+                </form>
+            </div>
+        </div>
+        <div class="card glass">
+            <div class="card-header"><h3><i class="fas fa-robot"></i> Model Preferences</h3></div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('settings') }}" class="auth-form">
+                    <div class="form-group">
+                        <label><i class="fas fa-brain"></i> Default Model</label>
+                        <select name="default_model" class="form-select">
+                            <option value="xgboost" {% if settings.default_model == 'xgboost' %}selected{% endif %}>XGBoost</option>
+                            <option value="lightgbm" {% if settings.default_model == 'lightgbm' %}selected{% endif %}>LightGBM</option>
+                            <option value="catboost" {% if settings.default_model == 'catboost' %}selected{% endif %}>CatBoost</option>
+                            <option value="random_forest" {% if settings.default_model == 'random_forest' %}selected{% endif %}>Random Forest</option>
+                            <option value="logistic_regression" {% if settings.default_model == 'logistic_regression' %}selected{% endif %}>Logistic Regression</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save Settings</button>
+                </form>
+            </div>
+        </div>
+        <div class="card glass">
+            <div class="card-header"><h3><i class="fas fa-bell"></i> Notifications</h3></div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('settings') }}" class="auth-form">
+                    <div class="form-group form-check">
+                        <input type="checkbox" name="notifications" id="notifications" {% if settings.notifications %}checked{% endif %}>
+                        <label for="notifications">Enable notifications</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save Settings</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

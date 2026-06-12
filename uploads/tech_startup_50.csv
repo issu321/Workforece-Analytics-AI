@@ -1,0 +1,51 @@
+EmployeeID,Name,Age,Gender,Department,JobRole,Education,EducationLevel,MonthlyIncome,DailyRate,HourlyRate,PercentSalaryHike,TotalWorkingYears,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,JobSatisfaction,EnvironmentSatisfaction,WorkLifeBalance,JobInvolvement,PerformanceRating,OverTime,BusinessTravel,MaritalStatus,NumCompaniesWorked,TrainingTimesLastYear,StockOptionLevel,DistanceFromHome,Attrition
+EMP_0001,Lisa Moore,31,Female,Marketing,Senior Engineer,Master,2,4590,415,33,7,4,1,1,0,6,4,3,3,2,4,No,Travel_Rarely,Married,6,3,2,1,No
+EMP_0002,Timothy Lopez,45,Male,Sales,Senior Engineer,Master,3,1740,986,52,9,22,3,5,0,0,3,2,2,2,3,Yes,Travel_Frequently,Married,6,1,1,1,Yes
+EMP_0003,Karen Wilson,52,Female,Sales,Senior Engineer,Bachelor,3,2230,897,60,8,20,0,5,0,0,1,2,1,1,3,Yes,Travel_Frequently,Divorced,2,1,0,1,Yes
+EMP_0004,David Green,39,Male,Sales,Director,Bachelor,2,5456,259,97,8,7,0,0,6,0,2,3,1,3,3,No,Non-Travel,Divorced,4,2,1,4,Yes
+EMP_0005,Sharon Smith,46,Female,Product,Director,Master,1,5436,700,62,8,7,5,1,3,0,4,3,3,3,4,No,Travel_Rarely,Married,3,2,3,2,No
+EMP_0006,William Gonzalez,45,Male,Sales,Designer,Bachelor,2,1977,157,81,22,1,6,6,2,0,3,1,3,2,3,No,Travel_Frequently,Married,2,4,1,18,No
+EMP_0007,Samantha Roberts,25,Female,Product,Analyst,Bachelor,2,1781,930,35,19,0,2,3,2,2,1,4,3,1,3,Yes,Travel_Frequently,Married,0,2,1,1,Yes
+EMP_0008,Janet Rodriguez,18,Female,Marketing,Senior Engineer,High School,2,1390,497,24,13,9,18,1,4,12,3,2,4,4,3,No,Travel_Frequently,Married,0,0,0,1,No
+EMP_0009,Cynthia Wright,27,Female,Sales,Director,Bachelor,2,1944,647,55,10,14,4,2,4,0,1,2,4,1,3,No,Travel_Rarely,Divorced,3,4,2,8,No
+EMP_0010,Thomas Martin,30,Male,Marketing,Designer,High School,2,6643,1043,28,6,1,26,5,1,2,3,4,2,4,3,No,Travel_Rarely,Divorced,3,2,1,3,No
+EMP_0011,Daniel Gonzalez,47,Male,HR,Manager,High School,4,3270,603,31,6,4,1,3,1,0,3,4,3,4,3,No,Travel_Rarely,Single,2,2,0,6,No
+EMP_0012,Debra White,26,Female,Sales,Designer,PhD,1,1813,501,53,13,9,1,0,0,8,4,1,3,3,3,Yes,Non-Travel,Divorced,2,2,3,3,Yes
+EMP_0013,Gregory Martinez,37,Male,HR,Engineer,Master,4,2790,1302,87,16,24,30,3,2,3,1,3,2,3,3,Yes,Travel_Rarely,Single,1,3,0,2,No
+EMP_0014,Sarah Torres,40,Female,Product,Engineer,Bachelor,4,1529,378,75,20,0,2,0,0,14,2,1,3,1,3,No,Travel_Rarely,Married,1,2,0,9,Yes
+EMP_0015,Anna Lewis,40,Female,Marketing,Director,PhD,1,2850,642,93,17,14,0,1,0,9,3,4,3,2,3,No,Travel_Rarely,Single,2,1,0,5,Yes
+EMP_0016,Jessica Hernandez,33,Female,Product,Manager,Master,3,4227,197,68,22,40,8,0,0,1,1,1,4,2,3,Yes,Travel_Rarely,Single,4,3,0,20,Yes
+EMP_0017,Benjamin Hill,26,Male,Marketing,Engineer,High School,4,1473,716,63,15,3,2,4,0,1,4,1,3,2,3,Yes,Travel_Rarely,Married,3,6,0,10,Yes
+EMP_0018,Charles Jackson,42,Male,Engineering,Designer,PhD,2,4607,650,98,18,9,5,1,0,1,1,4,2,3,3,No,Travel_Rarely,Single,3,5,1,16,Yes
+EMP_0019,Jessica Flores,40,Female,Engineering,Senior Engineer,PhD,3,6587,896,56,5,32,1,0,0,0,2,3,2,4,3,No,Travel_Rarely,Divorced,2,6,0,1,Yes
+EMP_0020,Rachel Smith,41,Female,Product,Senior Engineer,Bachelor,4,4744,464,99,16,11,2,0,0,0,1,3,1,4,4,Yes,Travel_Rarely,Single,2,3,2,2,Yes
+EMP_0021,Frank Gonzalez,22,Male,HR,Director,Master,4,2263,612,93,2,9,7,6,0,4,2,4,4,4,3,No,Travel_Rarely,Divorced,1,2,1,1,No
+EMP_0022,Lisa Thomas,30,Female,Product,Engineer,PhD,2,4774,864,70,2,34,11,0,2,1,2,3,1,3,3,No,Travel_Rarely,Single,2,3,2,3,No
+EMP_0023,Cynthia Harris,42,Female,Sales,Engineer,High School,2,1830,486,85,18,19,7,0,3,3,2,1,4,1,3,No,Travel_Rarely,Divorced,2,4,3,2,Yes
+EMP_0024,Kenneth Scott,39,Male,HR,Manager,Master,1,1759,201,72,14,10,2,1,0,1,1,3,3,3,3,No,Non-Travel,Single,0,4,3,7,Yes
+EMP_0025,Daniel Flores,25,Male,Marketing,Senior Engineer,Master,4,8801,528,82,6,20,2,0,3,4,3,1,1,1,3,No,Travel_Rarely,Divorced,1,2,1,2,No
+EMP_0026,Jeffrey Rodriguez,18,Male,Sales,Manager,High School,4,1581,538,23,8,30,9,0,0,3,3,4,3,1,4,No,Non-Travel,Divorced,0,2,0,1,No
+EMP_0027,Jason White,22,Male,Marketing,Engineer,Bachelor,3,1995,1045,62,5,3,5,8,2,4,1,4,2,4,3,No,Travel_Frequently,Single,0,4,0,5,Yes
+EMP_0028,Dennis Nguyen,28,Male,HR,Senior Engineer,High School,2,2626,432,85,2,11,9,6,0,2,2,3,2,1,3,Yes,Non-Travel,Married,2,2,2,1,Yes
+EMP_0029,Charles Rivera,23,Male,Sales,Designer,High School,4,3119,838,54,4,4,3,1,4,0,4,3,3,1,3,No,Travel_Rarely,Divorced,2,0,1,1,No
+EMP_0030,Joshua Mitchell,51,Male,Marketing,Engineer,Master,4,5772,359,68,6,3,9,4,1,9,3,2,2,2,3,No,Non-Travel,Divorced,2,3,0,3,Yes
+EMP_0031,Matthew Hernandez,22,Male,HR,Engineer,Master,3,4434,260,20,20,20,0,0,1,0,3,4,1,3,3,Yes,Non-Travel,Divorced,2,4,0,11,No
+EMP_0032,Kathleen Scott,49,Female,Product,Analyst,High School,2,5883,1039,55,18,33,3,1,1,4,4,3,2,3,3,No,Travel_Frequently,Single,3,4,1,7,No
+EMP_0033,Michael Martin,23,Male,HR,Designer,Bachelor,4,4385,1387,73,2,3,6,9,1,12,4,1,2,2,3,No,Travel_Rarely,Divorced,2,6,2,1,Yes
+EMP_0034,Dennis Anderson,29,Male,Product,Senior Engineer,Master,1,3453,526,27,23,8,2,6,1,0,3,1,2,2,3,Yes,Non-Travel,Single,0,2,0,13,No
+EMP_0035,William Garcia,56,Male,Marketing,Manager,PhD,1,1486,678,85,23,21,6,0,2,0,3,4,1,2,3,Yes,Travel_Rarely,Married,2,2,2,14,No
+EMP_0036,Richard Harris,51,Male,Sales,Senior Engineer,PhD,4,3209,361,20,23,23,6,0,1,3,2,3,2,4,4,No,Travel_Frequently,Single,2,4,1,6,No
+EMP_0037,Pamela Campbell,37,Female,Marketing,Engineer,Master,4,2069,382,97,13,3,1,1,0,2,1,2,1,3,3,No,Travel_Rarely,Single,2,1,1,2,No
+EMP_0038,Pamela Jones,26,Female,Engineering,Engineer,High School,2,2079,166,23,5,7,18,4,2,2,2,2,2,4,3,No,Travel_Frequently,Single,2,4,3,4,Yes
+EMP_0039,Timothy Scott,37,Male,Product,Designer,PhD,1,2584,250,75,20,0,5,0,5,10,3,3,2,1,3,No,Non-Travel,Divorced,6,4,0,13,No
+EMP_0040,Helen Brown,29,Female,HR,Director,PhD,2,8478,767,73,0,4,0,1,1,1,1,2,4,4,3,No,Travel_Rarely,Divorced,2,1,1,5,No
+EMP_0041,Mark Campbell,38,Male,Sales,Analyst,PhD,1,4924,1426,60,6,10,0,1,0,1,4,2,1,2,4,No,Travel_Rarely,Single,7,3,0,1,No
+EMP_0042,Carolyn Nguyen,41,Female,Marketing,Designer,High School,1,4993,370,59,7,7,23,4,2,4,4,2,4,3,3,No,Travel_Frequently,Single,4,5,2,2,No
+EMP_0043,Jacob Thompson,39,Male,Product,Director,Bachelor,2,1736,920,77,1,3,0,0,2,1,2,4,2,4,3,Yes,Non-Travel,Divorced,1,6,2,1,Yes
+EMP_0044,Carol Moore,32,Female,Product,Director,PhD,4,2980,1178,54,19,25,1,6,2,17,3,2,4,4,3,No,Travel_Frequently,Divorced,3,4,0,2,Yes
+EMP_0045,Debra Walker,18,Female,Marketing,Analyst,High School,2,2670,231,53,18,11,16,0,0,0,3,2,4,3,4,Yes,Travel_Rarely,Single,3,1,1,2,No
+EMP_0046,Joseph Lee,45,Male,HR,Designer,High School,2,3450,450,69,0,1,0,4,2,7,2,1,4,2,4,Yes,Non-Travel,Single,3,1,1,5,Yes
+EMP_0047,Lisa Garcia,30,Female,Sales,Engineer,Bachelor,2,4524,602,95,1,17,16,1,1,8,1,3,1,4,3,Yes,Travel_Frequently,Married,3,1,3,1,No
+EMP_0048,Amanda Sanchez,41,Female,Marketing,Manager,High School,2,2778,264,31,10,11,21,3,0,2,4,1,2,4,3,No,Non-Travel,Single,4,0,1,6,No
+EMP_0049,Donna Wilson,31,Female,Engineering,Senior Engineer,High School,4,3163,675,52,22,7,1,1,0,6,3,2,4,1,3,Yes,Travel_Rarely,Single,1,3,2,7,No
+EMP_0050,Michael Anderson,40,Male,Marketing,Senior Engineer,PhD,4,4158,1165,73,2,6,23,2,1,3,2,1,3,4,3,No,Travel_Rarely,Single,3,6,0,5,Yes

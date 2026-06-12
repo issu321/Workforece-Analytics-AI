@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block title %}History - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-history"></i> Activity History</h1>
+            <p>Track all your actions and uploads</p>
+        </div>
+    </div>
+    <div class="card glass">
+        <div class="card-body">
+            {% if entries %}
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr><th>Action</th><th>Dataset</th><th>Details</th><th>Timestamp</th></tr>
+                    </thead>
+                    <tbody>
+                        {% for entry in entries %}
+                        <tr>
+                            <td>
+                                <span class="badge badge-{{ entry.action }}">
+                                    <i class="fas fa-{% if entry.action == 'upload' %}upload{% elif entry.action == 'train' %}cogs{% elif entry.action == 'demo' %}database{% elif entry.action == 'predict' %}magic{% else %}circle{% endif %}"></i>
+                                    {{ entry.action.title() }}
+                                </span>
+                            </td>
+                            <td>{{ entry.dataset_name or 'N/A' }}</td>
+                            <td>{{ entry.details }}</td>
+                            <td>{{ entry.timestamp }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="empty-state-small">
+                <i class="fas fa-inbox"></i>
+                <p>No activity history yet.</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

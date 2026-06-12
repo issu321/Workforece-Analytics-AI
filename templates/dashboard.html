@@ -1,0 +1,184 @@
+{% extends "layout.html" %}
+{% block title %}Dashboard - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-chart-line"></i> Dashboard</h1>
+            <p>Workforce intelligence at a glance</p>
+        </div>
+        <div class="header-actions">
+            <form method="POST" action="{{ url_for('upload_csv') }}" enctype="multipart/form-data" class="upload-inline">
+                <label class="btn btn-outline btn-sm">
+                    <i class="fas fa-upload"></i> Upload CSV
+                    <input type="file" name="file" accept=".csv" onchange="this.form.submit()" hidden>
+                </label>
+            </form>
+            <a href="{{ url_for('upload_demo') }}" class="btn btn-secondary btn-sm">
+                <i class="fas fa-database"></i> Load Demo
+            </a>
+            <button class="btn btn-danger btn-sm" onclick="clearData()">
+                <i class="fas fa-trash"></i> Clear
+            </button>
+        </div>
+    </div>
+
+    {% if not has_data %}
+    <div class="empty-state glass">
+        <div class="empty-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <h2>No Data Loaded</h2>
+        <p>Upload your HR dataset or load our demo data to get started with workforce analytics.</p>
+        <div class="empty-actions">
+            <form method="POST" action="{{ url_for('upload_csv') }}" enctype="multipart/form-data">
+                <label class="btn btn-primary btn-lg btn-glow">
+                    <i class="fas fa-upload"></i> Upload CSV
+                    <input type="file" name="file" accept=".csv" onchange="this.form.submit()" hidden>
+                </label>
+            </form>
+            <a href="{{ url_for('upload_demo') }}" class="btn btn-secondary btn-lg">
+                <i class="fas fa-database"></i> Load Demo Data
+            </a>
+        </div>
+    </div>
+    {% else %}
+
+    <div class="dataset-badge glass">
+        <i class="fas fa-file-csv"></i>
+        <span><strong>{{ overview.total_employees }}</strong> employees loaded</span>
+        <span class="sep">|</span>
+        <span><strong>{{ overview.total_departments }}</strong> departments</span>
+        <span class="sep">|</span>
+        <span><strong>{{ overview.total_job_roles }}</strong> job roles</span>
+        <span class="sep">|</span>
+        <span>Attrition Rate: <strong class="{% if overview.attrition_rate > 15 %}text-danger{% else %}text-success{% endif %}">{{ overview.attrition_rate }}%</strong></span>
+    </div>
+
+    <div class="metrics-grid">
+        <div class="metric-card glass glow-purple">
+            <div class="metric-icon"><i class="fas fa-users"></i></div>
+            <div class="metric-info">
+                <div class="metric-value">{{ overview.total_employees }}</div>
+                <div class="metric-label">Total Employees</div>
+            </div>
+        </div>
+        <div class="metric-card glass glow-blue">
+            <div class="metric-icon"><i class="fas fa-building"></i></div>
+            <div class="metric-info">
+                <div class="metric-value">{{ overview.total_departments }}</div>
+                <div class="metric-label">Departments</div>
+            </div>
+        </div>
+        <div class="metric-card glass glow-green">
+            <div class="metric-icon"><i class="fas fa-dollar-sign"></i></div>
+            <div class="metric-info">
+                <div class="metric-value">${{ "{:,.0f}".format(overview.avg_income) if overview.avg_income else 'N/A' }}</div>
+                <div class="metric-label">Avg. Monthly Income</div>
+            </div>
+        </div>
+        <div class="metric-card glass glow-orange">
+            <div class="metric-icon"><i class="fas fa-birthday-cake"></i></div>
+            <div class="metric-info">
+                <div class="metric-value">{{ overview.avg_age }}</div>
+                <div class="metric-label">Avg. Age</div>
+            </div>
+        </div>
+        <div class="metric-card glass glow-red">
+            <div class="metric-icon"><i class="fas fa-calendar-alt"></i></div>
+            <div class="metric-info">
+                <div class="metric-value">{{ overview.avg_tenure }}</div>
+                <div class="metric-label">Avg. Tenure (Years)</div>
+            </div>
+        </div>
+        <div class="metric-card glass glow-pink">
+            <div class="metric-icon"><i class="fas fa-exclamation-triangle"></i></div>
+            <div class="metric-info">
+                <div class="metric-value">{{ overview.attrition_rate }}%</div>
+                <div class="metric-label">Attrition Rate</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-tachometer-alt"></i> Advanced Scores</h2>
+    </div>
+    <div class="scores-grid">
+        {% for key, value in scores.items() %}
+        <div class="score-card glass">
+            <div class="score-ring" data-score="{{ value }}">
+                <svg viewBox="0 0 100 100">
+                    <circle class="score-bg" cx="50" cy="50" r="42"/>
+                    <circle class="score-progress" cx="50" cy="50" r="42" 
+                            stroke-dasharray="264" 
+                            stroke-dashoffset="{{ 264 - (value / 100 * 264) }}"/>
+                </svg>
+                <div class="score-value">{{ value }}</div>
+            </div>
+            <div class="score-label">{{ key.replace('_', ' ').title() }}</div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-bolt"></i> Quick Actions</h2>
+    </div>
+    <div class="quick-actions">
+        <a href="{{ url_for('attrition') }}" class="action-card glass">
+            <i class="fas fa-brain"></i>
+            <span>Train Models</span>
+        </a>
+        <a href="{{ url_for('analytics') }}" class="action-card glass">
+            <i class="fas fa-chart-pie"></i>
+            <span>View Analytics</span>
+        </a>
+        <a href="{{ url_for('workforce') }}" class="action-card glass">
+            <i class="fas fa-lightbulb"></i>
+            <span>Get Insights</span>
+        </a>
+        <a href="{{ url_for('reports') }}" class="action-card glass">
+            <i class="fas fa-file-export"></i>
+            <span>Generate Report</span>
+        </a>
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-history"></i> Recent Activity</h2>
+    </div>
+    <div class="history-list glass">
+        {% if history %}
+        <table class="data-table">
+            <thead>
+                <tr><th>Action</th><th>Dataset</th><th>Details</th><th>Time</th></tr>
+            </thead>
+            <tbody>
+                {% for entry in history %}
+                <tr>
+                    <td>
+                        <span class="badge badge-{{ entry.action }}">
+                            <i class="fas fa-{% if entry.action == 'upload' %}upload{% elif entry.action == 'train' %}cogs{% elif entry.action == 'demo' %}database{% else %}circle{% endif %}"></i>
+                            {{ entry.action.title() }}
+                        </span>
+                    </td>
+                    <td>{{ entry.dataset_name }}</td>
+                    <td>{{ entry.details }}</td>
+                    <td>{{ entry.timestamp }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p class="text-muted">No recent activity.</p>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+<script>
+function clearData() {
+    if (confirm('Are you sure you want to clear all loaded data?')) {
+        fetch('/api/clear-data', {method: 'POST'})
+            .then(r => r.json())
+            .then(() => location.reload());
+    }
+}
+</script>
+{% endblock %}

@@ -1,0 +1,201 @@
+EmployeeID,Age,Gender,Department,JobRole,Education,EducationLevel,MonthlyIncome,DailyRate,HourlyRate,PercentSalaryHike,TotalWorkingYears,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,JobSatisfaction,EnvironmentSatisfaction,WorkLifeBalance,JobInvolvement,PerformanceRating,OverTime,BusinessTravel,MaritalStatus,NumCompaniesWorked,TrainingTimesLastYear,StockOptionLevel,DistanceFromHome,Attrition
+EMP_0001,39,Female,Finance,Specialist,PhD,3,3246,796,66,16,5,13,0,0,3,4,3,3,3,3,No,Travel_Frequently,Divorced,2,2,1,10,No
+EMP_0002,33,Female,IT,Engineer,Master,3,4526,371,90,20,20,0,0,0,0,1,3,4,4,3,Yes,Non-Travel,Single,3,1,1,1,Yes
+EMP_0003,41,Male,HR,Junior,Master,4,1909,1362,21,23,15,8,3,0,2,1,4,2,1,3,No,Non-Travel,Divorced,2,4,2,2,No
+EMP_0004,50,Female,Sales,Analyst,Master,2,932,476,43,19,8,2,5,2,0,1,3,3,2,4,No,Travel_Frequently,Divorced,1,5,0,25,Yes
+EMP_0005,32,Male,Sales,Engineer,High School,3,3262,365,25,4,13,10,0,1,1,4,2,4,1,4,No,Travel_Rarely,Divorced,2,3,1,10,No
+EMP_0006,32,Male,R&D,Analyst,Master,1,11178,1025,47,3,21,10,2,0,2,2,4,2,2,4,No,Non-Travel,Divorced,3,0,0,4,No
+EMP_0007,50,Male,HR,Junior,Master,4,2693,1020,20,11,5,8,5,4,3,3,2,4,1,3,Yes,Travel_Rarely,Single,1,2,0,3,No
+EMP_0008,42,Female,IT,Junior,PhD,1,3051,1482,93,19,3,7,3,4,9,3,3,4,2,3,No,Non-Travel,Single,3,4,2,1,No
+EMP_0009,30,Female,Finance,Analyst,Master,2,7266,439,46,23,11,1,2,4,2,4,3,1,2,3,No,Non-Travel,Single,1,5,2,3,No
+EMP_0010,40,Male,Finance,Manager,Master,2,4004,488,65,17,16,0,2,0,4,3,2,4,2,3,No,Non-Travel,Divorced,0,2,0,9,Yes
+EMP_0011,30,Male,IT,Senior,Bachelor,2,3322,676,89,16,14,2,2,1,2,1,1,4,2,3,Yes,Non-Travel,Divorced,3,3,1,5,Yes
+EMP_0012,30,Female,Operations,Director,PhD,4,3718,102,72,18,15,0,1,8,3,2,3,2,2,3,Yes,Travel_Rarely,Divorced,3,1,0,1,Yes
+EMP_0013,37,Male,Marketing,Manager,PhD,3,3378,1265,40,8,5,5,2,2,0,3,1,2,2,3,No,Non-Travel,Single,2,4,2,1,No
+EMP_0014,18,Female,R&D,Manager,PhD,4,1686,475,60,3,17,2,3,0,0,2,3,1,2,3,No,Travel_Frequently,Divorced,1,5,0,1,Yes
+EMP_0015,18,Male,Finance,Specialist,PhD,1,1524,423,43,20,1,18,6,0,1,1,1,4,2,4,No,Travel_Frequently,Married,3,2,0,1,Yes
+EMP_0016,29,Female,HR,Director,PhD,4,7657,245,18,1,7,5,3,1,1,3,1,1,2,3,Yes,Travel_Rarely,Divorced,5,4,1,1,No
+EMP_0017,24,Male,R&D,Director,PhD,1,3268,392,95,3,0,8,4,4,0,4,1,4,1,3,No,Non-Travel,Married,4,5,1,2,No
+EMP_0018,38,Female,HR,Manager,High School,4,3133,531,27,1,3,0,0,1,0,2,2,3,3,3,No,Travel_Frequently,Divorced,0,2,1,1,No
+EMP_0019,25,Male,Operations,Engineer,Master,3,2849,804,53,14,4,9,1,1,0,1,1,3,2,4,No,Travel_Rarely,Single,2,2,0,1,No
+EMP_0020,20,Female,Sales,Specialist,PhD,1,4405,1048,29,1,5,12,0,0,10,2,1,1,3,3,No,Non-Travel,Divorced,3,6,0,3,Yes
+EMP_0021,49,Female,R&D,Specialist,Master,2,10607,684,43,3,11,3,0,2,1,3,1,1,2,3,Yes,Travel_Frequently,Married,2,0,1,1,No
+EMP_0022,32,Male,Finance,Junior,Master,2,3873,498,43,5,4,4,3,3,1,3,3,1,2,3,No,Travel_Frequently,Married,4,3,0,1,No
+EMP_0023,35,Male,R&D,Director,High School,4,2221,916,89,6,5,7,14,0,0,4,1,2,1,3,Yes,Travel_Rarely,Divorced,4,3,2,1,No
+EMP_0024,20,Female,R&D,Manager,PhD,2,2788,1467,46,9,2,0,0,2,2,1,3,2,4,3,No,Non-Travel,Married,1,4,0,1,No
+EMP_0025,29,Male,R&D,Junior,Bachelor,1,5092,1063,16,18,4,3,1,6,0,1,1,2,4,3,No,Non-Travel,Married,4,6,1,3,Yes
+EMP_0026,36,Female,Marketing,Analyst,High School,2,2227,1263,61,18,2,2,4,0,0,4,1,1,1,3,No,Travel_Frequently,Single,0,5,1,1,Yes
+EMP_0027,23,Male,R&D,Senior,Bachelor,3,4564,286,92,21,0,0,0,1,2,4,2,4,3,3,No,Travel_Frequently,Divorced,1,4,0,6,Yes
+EMP_0028,38,Female,HR,Specialist,Master,3,934,160,98,11,9,2,2,0,0,1,3,3,4,3,Yes,Travel_Frequently,Divorced,2,3,1,11,Yes
+EMP_0029,28,Female,Sales,Analyst,Master,4,2657,1038,36,2,11,0,3,3,0,2,1,1,1,4,No,Non-Travel,Divorced,1,1,2,6,Yes
+EMP_0030,32,Female,Operations,Analyst,High School,1,4080,809,89,12,9,0,2,1,0,2,3,2,1,3,No,Travel_Rarely,Married,6,2,0,3,No
+EMP_0031,28,Female,IT,Engineer,High School,3,5625,906,41,17,6,0,0,2,0,4,3,2,4,3,Yes,Travel_Rarely,Divorced,4,4,3,9,No
+EMP_0032,53,Female,R&D,Senior,Bachelor,3,1979,1442,81,7,4,16,1,3,0,2,4,1,3,3,Yes,Non-Travel,Divorced,4,4,1,5,No
+EMP_0033,34,Female,Finance,Analyst,PhD,1,1406,1425,95,20,19,3,4,1,1,1,2,1,1,3,No,Travel_Rarely,Single,2,2,0,1,Yes
+EMP_0034,24,Male,R&D,Analyst,Bachelor,2,2616,1467,70,14,7,16,2,4,4,3,2,2,2,3,Yes,Travel_Frequently,Single,2,1,1,2,No
+EMP_0035,43,Male,Finance,Senior,High School,2,1698,110,35,0,6,2,0,1,2,3,2,4,3,3,No,Travel_Rarely,Single,2,2,0,9,No
+EMP_0036,22,Male,HR,Senior,Bachelor,4,2766,1185,61,2,0,1,4,0,2,2,4,2,3,3,No,Travel_Rarely,Married,5,2,2,2,No
+EMP_0037,37,Female,Finance,Analyst,High School,2,2971,325,94,7,4,3,0,2,1,4,4,2,4,3,No,Travel_Rarely,Divorced,2,1,2,1,No
+EMP_0038,18,Female,IT,Senior,Bachelor,1,1541,1276,73,3,4,2,4,3,8,4,2,1,4,3,Yes,Travel_Frequently,Single,3,3,2,6,Yes
+EMP_0039,21,Female,Sales,Analyst,High School,3,4456,663,98,15,5,0,0,0,1,4,4,4,2,3,No,Non-Travel,Single,3,1,3,8,No
+EMP_0040,36,Female,Finance,Analyst,High School,2,2755,871,20,22,8,5,9,3,0,4,4,2,1,4,No,Travel_Frequently,Single,0,1,2,1,No
+EMP_0041,42,Male,Finance,Engineer,High School,4,5116,1433,33,9,7,1,1,4,2,4,4,2,4,3,Yes,Non-Travel,Divorced,2,4,1,3,No
+EMP_0042,36,Male,Sales,Manager,PhD,2,1185,984,71,11,9,4,1,0,0,2,2,3,4,3,No,Non-Travel,Divorced,4,4,0,1,Yes
+EMP_0043,33,Female,IT,Analyst,Bachelor,1,1792,1366,83,13,14,5,0,8,1,3,2,1,3,3,No,Non-Travel,Divorced,2,3,1,6,Yes
+EMP_0044,31,Male,R&D,Junior,Bachelor,4,3859,1489,17,13,16,0,1,0,2,3,2,3,4,3,No,Travel_Rarely,Married,0,2,0,1,No
+EMP_0045,20,Male,Finance,Specialist,Bachelor,2,1999,1453,15,1,12,0,6,0,6,2,4,3,4,3,Yes,Travel_Rarely,Married,1,4,2,1,Yes
+EMP_0046,27,Female,Sales,Director,High School,4,2745,1230,72,22,31,7,16,0,2,4,2,2,4,3,No,Non-Travel,Single,1,4,1,9,No
+EMP_0047,30,Male,HR,Manager,Bachelor,1,2982,325,52,4,0,3,1,4,3,2,4,1,4,4,Yes,Non-Travel,Divorced,1,5,0,3,No
+EMP_0048,45,Female,Sales,Manager,Bachelor,3,3226,924,29,4,2,0,1,2,14,3,1,4,3,3,Yes,Travel_Rarely,Single,3,4,0,5,No
+EMP_0049,38,Male,HR,Manager,High School,1,2124,317,48,5,0,26,3,0,0,1,4,2,2,3,No,Travel_Frequently,Divorced,2,1,0,2,No
+EMP_0050,18,Female,IT,Engineer,Master,1,3211,1036,75,12,10,0,6,1,0,2,3,4,2,3,No,Non-Travel,Divorced,3,2,1,1,No
+EMP_0051,38,Female,R&D,Analyst,High School,1,2015,852,49,8,22,5,2,1,1,4,2,4,1,3,Yes,Travel_Frequently,Divorced,3,1,1,4,Yes
+EMP_0052,31,Female,Sales,Engineer,Bachelor,1,4176,605,78,21,2,20,1,0,1,3,2,1,4,3,Yes,Travel_Rarely,Married,2,1,1,1,Yes
+EMP_0053,28,Female,Operations,Analyst,High School,3,2814,358,39,14,26,1,1,4,1,3,3,3,3,3,Yes,Non-Travel,Married,1,4,1,2,Yes
+EMP_0054,41,Male,Operations,Engineer,Master,3,3221,153,38,13,0,0,3,3,7,3,4,1,1,3,Yes,Travel_Frequently,Divorced,1,2,1,1,Yes
+EMP_0055,45,Female,Marketing,Engineer,High School,4,10774,1170,26,23,27,0,0,1,3,3,1,4,1,3,Yes,Travel_Frequently,Single,5,2,0,5,No
+EMP_0056,44,Female,Finance,Specialist,Bachelor,2,1713,826,32,6,4,1,2,6,2,4,3,2,2,3,Yes,Travel_Frequently,Divorced,1,3,0,14,Yes
+EMP_0057,26,Female,IT,Junior,Master,3,5968,788,29,24,1,0,1,1,1,1,3,4,3,3,No,Travel_Rarely,Divorced,2,0,1,27,No
+EMP_0058,31,Male,Sales,Engineer,PhD,3,788,1222,94,19,6,5,4,8,5,3,4,2,3,3,No,Travel_Rarely,Single,2,2,1,2,Yes
+EMP_0059,38,Female,Operations,Specialist,Bachelor,2,1054,1143,41,1,2,0,0,2,9,2,2,2,3,4,No,Travel_Frequently,Divorced,0,1,0,1,Yes
+EMP_0060,44,Male,Finance,Senior,Master,3,1603,518,86,6,3,3,2,2,5,1,4,1,2,3,No,Travel_Frequently,Single,0,1,0,2,Yes
+EMP_0061,30,Female,Operations,Junior,Master,1,1654,789,74,5,3,28,1,0,0,3,3,4,2,4,Yes,Travel_Rarely,Married,3,6,0,9,No
+EMP_0062,33,Male,Sales,Engineer,PhD,1,3300,949,60,16,16,8,3,4,3,1,3,3,2,3,No,Travel_Frequently,Married,1,1,1,1,Yes
+EMP_0063,23,Male,HR,Director,High School,2,3445,161,31,24,7,4,0,1,0,2,2,4,2,3,No,Travel_Frequently,Single,4,2,0,15,No
+EMP_0064,23,Female,Sales,Manager,High School,4,2624,1268,67,24,3,1,2,0,0,3,2,4,2,3,No,Travel_Rarely,Married,4,5,1,2,No
+EMP_0065,43,Male,Marketing,Senior,Bachelor,4,2765,315,22,1,9,4,2,0,0,2,2,3,4,3,No,Travel_Frequently,Married,1,2,2,21,Yes
+EMP_0066,48,Female,Sales,Senior,PhD,2,3881,102,93,2,12,3,2,1,2,4,4,1,4,3,No,Travel_Frequently,Single,5,0,0,9,No
+EMP_0067,34,Female,Sales,Specialist,High School,2,4521,259,41,4,3,2,2,1,3,3,2,4,3,3,No,Travel_Frequently,Married,1,4,3,8,Yes
+EMP_0068,45,Female,Marketing,Senior,PhD,1,1535,880,60,4,5,0,3,2,0,3,3,4,1,3,Yes,Travel_Rarely,Divorced,0,5,1,1,No
+EMP_0069,38,Male,IT,Junior,High School,4,2487,1243,64,0,1,10,4,4,1,3,3,2,3,3,No,Travel_Frequently,Divorced,2,3,1,1,Yes
+EMP_0070,28,Male,Sales,Engineer,Master,3,2879,992,85,7,1,2,0,0,1,3,1,4,1,3,No,Travel_Rarely,Single,3,6,1,2,No
+EMP_0071,38,Female,Marketing,Engineer,High School,1,3799,1212,17,11,11,1,5,2,1,4,4,3,2,3,No,Travel_Rarely,Married,1,1,1,1,No
+EMP_0072,50,Female,Finance,Director,PhD,2,2025,428,78,23,2,2,2,0,0,3,1,2,1,4,No,Non-Travel,Divorced,1,1,1,1,No
+EMP_0073,34,Male,HR,Manager,Master,4,2850,679,58,3,7,2,0,3,1,1,3,1,3,3,Yes,Non-Travel,Divorced,1,2,1,3,No
+EMP_0074,50,Female,HR,Specialist,Master,3,3025,1480,67,12,12,8,0,3,4,3,1,2,3,3,No,Travel_Frequently,Married,3,2,0,2,No
+EMP_0075,18,Female,Sales,Manager,Master,3,2095,1390,38,22,1,6,1,1,0,4,3,3,1,3,No,Travel_Rarely,Married,2,4,0,5,No
+EMP_0076,43,Female,IT,Senior,PhD,1,2071,1051,74,14,8,7,4,2,0,3,1,3,4,3,No,Non-Travel,Divorced,2,0,0,4,No
+EMP_0077,35,Male,IT,Director,Bachelor,4,3131,1446,17,10,2,0,3,0,1,1,2,2,2,3,No,Travel_Frequently,Divorced,0,1,0,1,Yes
+EMP_0078,32,Male,Finance,Manager,Bachelor,4,2792,734,34,9,32,2,4,1,8,4,1,1,2,3,Yes,Non-Travel,Single,1,4,0,18,Yes
+EMP_0079,35,Male,Sales,Junior,Bachelor,2,3828,1087,60,2,6,3,2,3,3,4,2,2,3,3,No,Non-Travel,Single,1,1,0,1,No
+EMP_0080,18,Female,HR,Engineer,PhD,4,1760,1318,29,21,16,0,1,1,3,1,2,1,4,3,No,Travel_Rarely,Divorced,5,3,2,2,No
+EMP_0081,32,Female,IT,Senior,Master,4,2501,1020,39,13,7,1,0,0,1,1,4,2,1,3,No,Travel_Rarely,Single,4,4,2,3,No
+EMP_0082,38,Female,Sales,Director,Bachelor,1,2658,837,92,15,0,7,1,1,2,1,2,3,2,3,No,Non-Travel,Divorced,2,6,3,8,No
+EMP_0083,49,Male,Operations,Manager,PhD,4,4478,1455,85,9,10,0,1,3,0,1,2,4,4,4,No,Non-Travel,Divorced,2,2,1,1,Yes
+EMP_0084,29,Female,IT,Specialist,Bachelor,3,1862,269,31,9,30,3,0,0,3,1,1,4,2,3,No,Travel_Rarely,Single,0,2,2,2,Yes
+EMP_0085,26,Female,Marketing,Junior,High School,1,3352,620,98,11,9,1,0,0,7,4,3,1,4,3,Yes,Travel_Frequently,Single,0,3,2,4,No
+EMP_0086,29,Female,Operations,Junior,Bachelor,1,3382,139,23,8,17,0,2,2,2,4,4,1,4,3,No,Travel_Rarely,Married,1,4,1,1,No
+EMP_0087,44,Female,IT,Manager,Bachelor,2,6789,1384,52,0,21,1,3,3,6,3,2,1,3,3,No,Non-Travel,Married,2,3,0,4,No
+EMP_0088,38,Male,HR,Engineer,Master,4,1801,1054,62,4,2,18,19,0,3,3,4,3,2,4,No,Travel_Frequently,Married,3,3,3,12,No
+EMP_0089,29,Male,R&D,Manager,PhD,2,2146,1349,74,19,2,8,8,0,0,2,1,2,1,3,No,Non-Travel,Divorced,2,3,1,29,No
+EMP_0090,40,Female,Operations,Senior,Master,3,1865,1083,77,7,9,16,3,0,6,3,2,3,3,3,No,Travel_Frequently,Single,0,2,1,1,No
+EMP_0091,35,Male,Finance,Manager,Master,1,1293,1247,16,10,5,3,1,0,0,3,1,4,3,4,Yes,Non-Travel,Divorced,1,5,0,1,No
+EMP_0092,44,Male,Finance,Junior,Master,1,7203,1074,86,11,18,0,3,1,2,1,4,1,1,3,No,Travel_Frequently,Single,4,2,0,1,Yes
+EMP_0093,27,Female,HR,Director,Master,1,1602,137,25,0,23,3,4,2,0,1,1,2,3,3,Yes,Travel_Frequently,Divorced,1,1,2,2,Yes
+EMP_0094,31,Female,IT,Manager,Master,3,1981,427,78,24,4,3,0,2,0,3,4,4,4,3,No,Non-Travel,Married,3,3,1,1,No
+EMP_0095,31,Male,Sales,Engineer,Bachelor,3,5755,1374,91,21,2,9,1,1,1,2,1,4,4,3,Yes,Travel_Frequently,Married,0,4,0,1,Yes
+EMP_0096,20,Female,IT,Director,Master,2,1240,1299,95,19,15,0,5,0,1,1,4,4,2,3,No,Travel_Rarely,Married,1,2,0,15,Yes
+EMP_0097,37,Male,HR,Specialist,Master,2,4351,1013,86,24,3,3,1,3,1,3,3,3,2,4,No,Non-Travel,Divorced,3,2,1,12,No
+EMP_0098,37,Female,Finance,Analyst,PhD,2,1470,553,35,10,17,0,2,1,2,3,1,1,1,4,Yes,Travel_Rarely,Single,2,2,1,1,Yes
+EMP_0099,35,Male,IT,Manager,High School,4,5559,136,32,4,5,1,2,7,0,4,1,4,2,3,No,Non-Travel,Single,3,3,0,2,No
+EMP_0100,32,Female,Finance,Engineer,Bachelor,1,1007,1439,78,14,11,6,0,2,0,2,3,1,4,3,No,Travel_Frequently,Married,1,1,2,2,No
+EMP_0101,20,Male,Operations,Director,Bachelor,1,1240,1072,96,4,1,3,1,0,2,4,3,3,1,3,Yes,Travel_Frequently,Married,1,2,0,1,No
+EMP_0102,30,Male,Sales,Engineer,Bachelor,2,2270,895,52,11,9,2,1,2,1,2,1,4,1,4,No,Travel_Frequently,Married,2,0,0,4,No
+EMP_0103,31,Male,Operations,Specialist,Master,1,4846,1072,46,4,6,2,0,0,3,1,3,3,2,3,No,Non-Travel,Married,2,2,1,5,No
+EMP_0104,26,Female,Finance,Junior,Master,2,2935,692,25,16,8,3,0,2,3,2,2,3,4,3,No,Travel_Rarely,Single,2,2,0,9,No
+EMP_0105,33,Male,Finance,Engineer,Master,4,2520,1237,59,16,1,7,5,0,5,3,4,1,1,3,Yes,Travel_Rarely,Divorced,4,2,2,6,No
+EMP_0106,39,Male,R&D,Director,PhD,4,5843,1163,47,23,13,11,0,0,3,3,4,4,4,3,Yes,Non-Travel,Divorced,1,4,2,3,No
+EMP_0107,53,Female,R&D,Engineer,High School,3,8757,1424,55,11,19,15,2,3,1,2,4,3,4,3,Yes,Non-Travel,Divorced,2,2,2,5,Yes
+EMP_0108,36,Female,Operations,Engineer,Master,4,4171,323,22,23,2,7,1,0,3,2,2,4,4,3,Yes,Travel_Rarely,Divorced,2,3,0,1,Yes
+EMP_0109,37,Male,Marketing,Engineer,High School,2,2183,417,25,14,1,1,8,3,0,2,3,1,2,3,Yes,Travel_Rarely,Married,2,2,0,4,Yes
+EMP_0110,34,Male,Operations,Senior,PhD,4,2418,448,65,14,0,5,0,0,1,4,3,3,3,3,No,Travel_Rarely,Married,2,5,0,3,No
+EMP_0111,18,Female,R&D,Senior,Bachelor,3,1565,214,55,5,10,2,1,2,4,2,1,1,3,3,No,Travel_Rarely,Married,2,0,1,1,Yes
+EMP_0112,34,Female,Finance,Junior,Master,1,3135,797,31,11,9,1,6,2,1,1,3,4,1,3,No,Non-Travel,Divorced,2,4,2,1,No
+EMP_0113,35,Female,HR,Manager,High School,2,1319,1446,90,19,7,9,5,1,4,4,1,4,4,4,No,Non-Travel,Married,1,2,2,1,Yes
+EMP_0114,59,Female,Operations,Engineer,High School,1,3928,1163,60,17,2,0,0,0,5,4,2,1,2,3,Yes,Travel_Frequently,Married,1,6,2,12,No
+EMP_0115,33,Female,Finance,Specialist,Master,3,8125,139,46,13,4,11,4,0,5,2,4,2,4,3,Yes,Travel_Rarely,Single,3,2,3,1,Yes
+EMP_0116,38,Male,HR,Manager,Bachelor,3,4267,1412,93,1,9,3,1,0,7,1,4,3,4,3,No,Travel_Frequently,Single,1,2,2,1,Yes
+EMP_0117,34,Female,HR,Specialist,Bachelor,3,2357,1385,94,8,6,5,1,0,1,4,4,4,2,3,Yes,Non-Travel,Married,2,1,0,2,No
+EMP_0118,23,Male,R&D,Manager,Bachelor,1,3879,315,68,4,40,5,0,2,1,3,3,4,3,3,No,Non-Travel,Single,3,1,0,5,No
+EMP_0119,46,Male,Operations,Junior,PhD,1,6702,1270,34,19,1,11,0,5,2,4,1,3,4,4,No,Travel_Frequently,Single,3,2,1,1,No
+EMP_0120,42,Male,IT,Engineer,High School,1,6537,435,47,0,11,5,3,4,1,2,1,1,4,3,No,Travel_Rarely,Married,5,1,0,15,No
+EMP_0121,42,Female,Sales,Engineer,High School,1,1804,1291,88,22,5,4,2,2,2,1,2,1,3,3,No,Travel_Rarely,Married,1,5,0,10,Yes
+EMP_0122,25,Male,R&D,Analyst,High School,3,3847,191,54,2,5,0,1,3,3,2,3,1,2,3,No,Travel_Rarely,Married,3,3,1,4,No
+EMP_0123,49,Male,R&D,Specialist,PhD,3,2754,452,46,5,12,3,3,2,3,3,2,2,1,4,No,Travel_Rarely,Married,2,2,2,5,No
+EMP_0124,20,Female,IT,Manager,High School,2,4461,670,16,4,11,0,4,0,1,3,1,2,3,3,No,Travel_Frequently,Divorced,3,3,0,1,Yes
+EMP_0125,40,Male,Sales,Manager,PhD,2,3611,915,47,20,40,6,0,4,0,3,1,4,1,3,No,Travel_Frequently,Divorced,1,2,2,2,No
+EMP_0126,56,Male,Finance,Senior,Bachelor,1,911,880,91,4,1,3,2,2,1,2,4,1,1,3,No,Non-Travel,Married,1,2,2,7,Yes
+EMP_0127,25,Female,Marketing,Analyst,Master,4,2504,462,44,0,1,5,0,1,0,4,3,3,3,3,No,Travel_Rarely,Single,4,1,1,1,No
+EMP_0128,29,Male,Operations,Director,High School,4,3292,656,47,16,12,0,4,0,6,2,1,4,4,3,No,Travel_Rarely,Married,0,6,0,1,Yes
+EMP_0129,35,Male,Marketing,Director,High School,3,1455,1468,91,18,8,0,3,1,1,1,4,3,1,4,No,Travel_Rarely,Married,4,2,0,4,No
+EMP_0130,29,Male,Finance,Senior,Bachelor,3,3985,1293,40,13,3,6,9,1,0,4,3,4,1,3,No,Travel_Frequently,Single,2,4,2,1,No
+EMP_0131,19,Female,R&D,Senior,Master,3,1391,455,36,11,0,0,0,3,0,3,2,2,2,3,No,Travel_Rarely,Divorced,1,6,2,13,No
+EMP_0132,35,Female,Sales,Senior,PhD,2,1999,290,80,9,0,0,0,1,3,2,3,4,4,3,Yes,Travel_Frequently,Married,0,3,2,1,Yes
+EMP_0133,24,Female,R&D,Specialist,Master,2,5829,521,52,19,22,0,0,0,3,3,3,2,1,4,No,Travel_Rarely,Married,3,1,1,7,No
+EMP_0134,39,Male,HR,Specialist,Bachelor,3,1916,799,60,20,2,15,0,7,1,3,1,4,2,3,No,Travel_Rarely,Divorced,1,2,0,3,No
+EMP_0135,25,Male,R&D,Junior,Bachelor,3,3971,106,29,17,3,6,0,0,0,1,1,1,4,3,No,Non-Travel,Divorced,1,1,0,6,No
+EMP_0136,50,Female,R&D,Junior,Master,3,1240,232,58,23,2,2,7,1,1,4,3,3,3,3,Yes,Travel_Rarely,Single,2,0,2,1,No
+EMP_0137,27,Male,Finance,Senior,PhD,4,8439,656,63,10,4,1,0,0,1,1,1,1,3,3,No,Travel_Rarely,Divorced,0,1,0,3,Yes
+EMP_0138,31,Male,Finance,Analyst,PhD,2,2559,925,89,1,0,2,0,2,3,1,1,4,2,3,No,Non-Travel,Divorced,5,4,0,9,No
+EMP_0139,43,Female,Finance,Manager,High School,4,3126,860,75,24,7,7,4,5,2,1,1,4,3,3,No,Travel_Frequently,Divorced,3,4,1,3,Yes
+EMP_0140,22,Female,Marketing,Specialist,PhD,4,3260,1154,81,17,0,5,1,0,1,3,4,4,1,4,No,Travel_Frequently,Single,0,6,0,2,No
+EMP_0141,37,Male,HR,Analyst,Master,3,4039,634,20,24,16,1,4,3,0,1,4,2,4,3,No,Travel_Rarely,Divorced,3,1,0,3,No
+EMP_0142,48,Male,Finance,Engineer,Bachelor,3,1394,525,23,6,2,0,0,0,13,1,3,3,1,3,No,Travel_Frequently,Divorced,1,5,1,6,No
+EMP_0143,18,Male,Sales,Specialist,High School,1,2973,771,20,23,7,0,2,4,1,4,1,3,1,3,No,Travel_Rarely,Single,0,6,0,2,No
+EMP_0144,36,Female,Marketing,Specialist,High School,1,2144,462,87,14,21,5,0,2,3,4,4,4,3,3,Yes,Non-Travel,Divorced,1,2,0,13,No
+EMP_0145,37,Female,IT,Junior,Bachelor,4,1280,181,46,10,10,7,0,3,0,1,3,4,1,3,No,Non-Travel,Divorced,1,2,2,1,Yes
+EMP_0146,42,Female,Sales,Manager,PhD,2,4883,455,55,17,7,1,7,0,1,4,1,2,3,3,Yes,Travel_Rarely,Single,1,1,2,3,No
+EMP_0147,22,Female,Operations,Manager,Bachelor,3,2499,1381,90,22,3,0,0,6,0,4,2,1,4,3,No,Non-Travel,Married,0,3,0,7,No
+EMP_0148,21,Male,Operations,Director,PhD,3,3365,688,22,11,4,0,2,2,2,1,1,1,4,3,Yes,Non-Travel,Single,1,4,2,5,Yes
+EMP_0149,40,Female,Sales,Director,Bachelor,4,3261,394,86,5,11,17,1,0,9,3,1,3,1,3,Yes,Travel_Rarely,Divorced,2,3,0,9,No
+EMP_0150,37,Female,Finance,Director,Master,1,2521,1347,64,19,40,1,1,3,1,1,4,2,2,3,Yes,Travel_Rarely,Divorced,4,2,1,28,Yes
+EMP_0151,37,Female,IT,Director,PhD,2,8002,1169,76,22,10,7,6,0,0,4,3,4,3,3,Yes,Non-Travel,Divorced,3,2,2,2,No
+EMP_0152,38,Female,IT,Engineer,Master,1,2911,1236,98,12,8,4,0,4,0,3,3,3,3,3,No,Travel_Frequently,Single,1,2,2,1,No
+EMP_0153,28,Female,Marketing,Engineer,High School,1,1367,1356,76,19,13,2,3,0,1,2,4,2,1,3,No,Travel_Frequently,Divorced,3,4,2,1,No
+EMP_0154,37,Male,IT,Specialist,Bachelor,1,2440,116,21,15,6,1,9,2,0,3,1,1,3,3,No,Travel_Rarely,Divorced,1,6,0,6,No
+EMP_0155,37,Male,Operations,Senior,High School,1,3827,459,89,17,0,0,2,1,0,4,2,2,3,3,Yes,Travel_Rarely,Single,2,1,0,10,No
+EMP_0156,27,Female,HR,Junior,High School,3,3890,1346,98,9,8,4,8,0,4,3,1,1,2,3,Yes,Travel_Frequently,Married,2,5,2,1,No
+EMP_0157,53,Male,Finance,Junior,High School,3,1730,965,94,22,31,7,0,0,1,1,1,2,2,3,Yes,Non-Travel,Married,2,0,0,1,Yes
+EMP_0158,39,Female,IT,Director,High School,1,4744,799,18,7,1,5,1,0,1,2,2,3,1,3,Yes,Travel_Frequently,Divorced,1,4,0,1,Yes
+EMP_0159,23,Female,Marketing,Specialist,Bachelor,2,1234,547,20,17,11,3,0,1,6,2,4,1,2,3,No,Travel_Frequently,Single,0,4,2,8,No
+EMP_0160,41,Male,Operations,Analyst,High School,4,5282,955,72,20,2,0,3,0,0,2,3,3,1,4,Yes,Travel_Frequently,Divorced,3,5,2,1,Yes
+EMP_0161,25,Male,HR,Senior,Bachelor,2,1541,464,36,0,7,17,11,1,9,4,4,3,4,3,No,Travel_Frequently,Single,1,1,2,2,No
+EMP_0162,42,Female,R&D,Specialist,Bachelor,2,2662,774,40,22,1,8,0,0,1,4,4,1,1,3,Yes,Travel_Rarely,Single,0,5,0,3,Yes
+EMP_0163,46,Female,R&D,Senior,Master,2,5076,1107,17,7,5,1,3,0,6,2,1,1,4,3,Yes,Travel_Rarely,Married,2,2,2,9,Yes
+EMP_0164,26,Female,HR,Senior,PhD,1,3164,1449,55,5,14,19,0,2,2,3,3,4,1,3,No,Non-Travel,Married,0,2,0,5,Yes
+EMP_0165,44,Male,Operations,Senior,PhD,3,4484,566,74,4,4,4,2,0,5,2,3,4,3,3,No,Non-Travel,Single,1,6,0,4,No
+EMP_0166,39,Female,Marketing,Specialist,Bachelor,2,4061,513,28,14,10,4,1,4,12,3,4,4,2,3,Yes,Non-Travel,Divorced,2,1,1,1,No
+EMP_0167,43,Female,HR,Director,Master,1,5671,685,89,21,15,6,10,3,1,3,2,3,4,3,Yes,Non-Travel,Married,1,3,0,3,No
+EMP_0168,53,Female,Finance,Junior,Bachelor,2,5070,1356,96,14,26,8,2,2,9,4,4,3,1,3,No,Travel_Frequently,Divorced,5,5,0,6,No
+EMP_0169,32,Male,Finance,Junior,Bachelor,2,2375,1347,26,1,2,5,1,1,1,3,2,4,2,3,Yes,Travel_Rarely,Married,3,3,1,18,No
+EMP_0170,27,Female,R&D,Director,Bachelor,1,4090,1093,26,0,5,0,0,4,1,2,3,3,1,3,Yes,Travel_Rarely,Married,1,0,0,1,No
+EMP_0171,26,Female,IT,Senior,Master,3,1389,671,27,22,1,2,0,0,1,4,4,3,2,4,No,Non-Travel,Divorced,1,4,0,1,No
+EMP_0172,26,Male,Marketing,Analyst,PhD,3,2895,434,39,22,40,13,0,0,2,1,1,1,2,3,No,Non-Travel,Married,0,2,0,1,Yes
+EMP_0173,34,Female,R&D,Manager,Master,4,4488,1345,59,10,26,1,0,0,0,1,4,1,1,3,No,Travel_Frequently,Married,0,1,1,2,No
+EMP_0174,38,Female,IT,Specialist,High School,1,3187,136,33,9,7,2,5,3,2,4,3,3,4,3,No,Travel_Frequently,Divorced,2,6,1,8,No
+EMP_0175,37,Male,IT,Manager,Master,4,3726,1088,69,17,18,2,2,0,2,2,1,4,4,4,No,Non-Travel,Married,2,5,2,1,Yes
+EMP_0176,43,Female,Finance,Director,Master,4,2679,377,59,17,7,2,2,1,4,1,1,2,3,3,No,Travel_Rarely,Married,4,4,2,3,No
+EMP_0177,35,Male,Operations,Analyst,Master,4,5242,1319,22,16,9,4,0,10,5,1,2,4,2,3,No,Travel_Rarely,Married,0,1,1,1,No
+EMP_0178,49,Male,Sales,Specialist,Master,3,2863,1015,67,7,0,14,5,3,1,3,1,2,3,3,No,Travel_Rarely,Divorced,1,2,2,1,No
+EMP_0179,32,Female,Operations,Director,PhD,1,2362,583,69,14,14,1,3,1,1,3,1,4,3,3,Yes,Non-Travel,Single,1,2,0,2,No
+EMP_0180,62,Female,Sales,Senior,High School,4,4643,1365,46,7,1,0,0,0,0,2,4,1,1,3,No,Travel_Rarely,Divorced,1,2,0,1,No
+EMP_0181,41,Female,HR,Junior,PhD,1,1476,1447,65,16,17,1,3,3,0,4,3,3,1,3,No,Travel_Frequently,Single,2,2,2,2,Yes
+EMP_0182,26,Female,Finance,Manager,PhD,1,3829,830,58,11,15,10,2,1,0,2,2,3,1,3,No,Travel_Frequently,Married,0,0,0,6,Yes
+EMP_0183,24,Male,IT,Engineer,Master,3,1770,291,96,7,12,5,0,0,1,4,4,1,2,3,No,Non-Travel,Single,1,6,3,3,No
+EMP_0184,39,Female,Marketing,Engineer,Bachelor,4,5647,1140,84,24,0,1,1,0,0,1,1,2,1,3,No,Travel_Frequently,Divorced,0,4,1,1,No
+EMP_0185,32,Male,Sales,Analyst,Bachelor,4,2616,623,32,13,3,8,1,4,10,3,1,2,1,3,Yes,Non-Travel,Divorced,3,2,2,16,No
+EMP_0186,42,Female,Operations,Senior,PhD,1,3189,1017,97,3,3,9,0,2,2,2,2,2,2,3,No,Travel_Rarely,Married,2,3,1,5,No
+EMP_0187,39,Female,IT,Manager,PhD,2,3663,500,36,0,4,9,8,3,1,2,3,1,2,3,Yes,Travel_Rarely,Single,1,4,1,7,Yes
+EMP_0188,34,Female,Sales,Senior,Master,3,1135,985,51,0,0,12,5,4,2,4,2,2,4,3,No,Travel_Rarely,Married,1,3,0,1,No
+EMP_0189,26,Male,Sales,Manager,PhD,3,2153,804,70,18,27,1,3,1,0,4,4,1,1,4,Yes,Travel_Frequently,Married,2,5,2,1,Yes
+EMP_0190,19,Female,Sales,Analyst,Master,3,5022,121,73,15,8,7,1,1,1,2,2,4,1,3,No,Non-Travel,Divorced,1,6,1,1,No
+EMP_0191,30,Female,Marketing,Analyst,Bachelor,3,4600,573,17,13,3,3,1,1,2,4,1,4,1,3,Yes,Travel_Rarely,Single,0,6,3,1,No
+EMP_0192,43,Female,Finance,Engineer,Bachelor,4,3434,1243,42,20,5,9,3,0,2,2,4,1,4,3,No,Non-Travel,Single,5,4,0,2,No
+EMP_0193,37,Female,Marketing,Senior,High School,4,1518,309,88,15,5,6,2,1,1,2,1,3,1,4,No,Travel_Rarely,Single,4,5,0,13,Yes
+EMP_0194,22,Male,R&D,Specialist,Bachelor,2,3994,405,49,4,9,7,0,2,15,2,3,4,4,3,Yes,Travel_Frequently,Single,2,3,0,3,Yes
+EMP_0195,36,Female,IT,Engineer,PhD,3,4258,1393,75,8,7,5,2,1,6,1,1,2,3,3,No,Travel_Frequently,Married,0,2,1,1,No
+EMP_0196,38,Male,Finance,Senior,Bachelor,3,3051,803,68,1,25,0,4,4,2,4,1,1,4,3,No,Non-Travel,Married,3,1,2,4,No
+EMP_0197,26,Male,Finance,Engineer,Master,1,5494,786,77,17,6,3,1,1,2,3,2,2,3,3,Yes,Travel_Frequently,Divorced,2,3,0,1,Yes
+EMP_0198,36,Male,Finance,Specialist,Bachelor,4,2118,384,93,5,40,20,0,1,2,3,1,2,1,3,No,Travel_Frequently,Married,6,2,1,4,No
+EMP_0199,35,Male,Operations,Junior,High School,3,2310,815,21,8,19,13,4,1,0,4,4,3,3,3,Yes,Non-Travel,Married,3,3,0,4,No
+EMP_0200,23,Male,Finance,Junior,Bachelor,2,860,862,90,0,2,0,0,1,1,2,4,2,4,3,No,Travel_Rarely,Divorced,1,3,1,7,No

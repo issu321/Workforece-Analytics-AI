@@ -1,0 +1,188 @@
+{% extends "layout.html" %}
+{% block title %}Home - WorkforceAI{% endblock %}
+{% block content %}
+<section class="hero">
+    <div class="hero-bg"></div>
+    <canvas class="hero-particles" id="heroCanvas"></canvas>
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="fas fa-robot"></i> AI-Powered Workforce Intelligence
+        </div>
+        <h1 class="hero-title">
+            Predict Attrition.<br>
+            <span class="gradient-text">Retain Talent.</span><br>
+            Drive Growth.
+        </h1>
+        <p class="hero-subtitle">
+            Enterprise-grade workforce analytics platform powered by machine learning.
+            Predict employee attrition, analyze workforce trends, and generate actionable
+            retention strategies — all in one intelligent dashboard.
+        </p>
+        <div class="hero-cta">
+            {% if user %}
+            <a href="{{ url_for('dashboard') }}" class="btn btn-glow btn-lg">
+                <i class="fas fa-rocket"></i> Go to Dashboard
+            </a>
+            {% else %}
+            <a href="{{ url_for('register') }}" class="btn btn-glow btn-lg">
+                <i class="fas fa-rocket"></i> Get Started Free
+            </a>
+            <a href="{{ url_for('login') }}" class="btn btn-outline btn-lg">
+                <i class="fas fa-sign-in-alt"></i> Sign In
+            </a>
+            {% endif %}
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">6+</div>
+                <div class="stat-label">ML Models</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Local AI</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Real-Time</div>
+                <div class="stat-label">Predictions</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Report Formats</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>AI Analytics <span class="gradient-text">Features</span></h2>
+            <p>Comprehensive workforce intelligence powered by cutting-edge machine learning</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                <h3>Attrition Prediction</h3>
+                <p>Predict employee turnover with 6 ML models including XGBoost, LightGBM, and CatBoost. Get risk scores and confidence levels.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fas fa-chart-pie"></i></div>
+                <h3>Workforce Analytics</h3>
+                <p>Deep dive into department performance, salary equity, satisfaction trends, and demographic distributions.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>AI Insights</h3>
+                <p>Automatically generated insights identifying attrition drivers, satisfaction factors, and workforce risks.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Retention Strategies</h3>
+                <p>Data-driven recommendations with prioritized action plans to reduce turnover and improve engagement.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Workforce Forecasting</h3>
+                <p>Predict future attrition trends, staffing requirements, and hiring needs with time-series projections.</p>
+            </div>
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fas fa-file-export"></i></div>
+                <h3>Report Generation</h3>
+                <p>Export comprehensive reports in PDF, HTML, JSON, and TXT formats with charts and recommendations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pipeline-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Prediction <span class="gradient-text">Pipeline</span></h2>
+            <p>From raw data to actionable intelligence in 4 steps</p>
+        </div>
+        <div class="pipeline-steps">
+            <div class="pipeline-step glass">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-upload"></i> Upload Data</h3>
+                    <p>Upload your HR CSV dataset or use our synthetic demo data with 1000+ employee records.</p>
+                </div>
+            </div>
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            <div class="pipeline-step glass">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-cogs"></i> Preprocess</h3>
+                    <p>Automatic data validation, missing value handling, encoding, and feature engineering.</p>
+                </div>
+            </div>
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            <div class="pipeline-step glass">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-robot"></i> Train Models</h3>
+                    <p>Train and compare 6 ML models. Auto-select the best performer based on F1 score.</p>
+                </div>
+            </div>
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            <div class="pipeline-step glass">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-chart-bar"></i> Get Insights</h3>
+                    <p>Interactive dashboards, risk predictions, retention strategies, and downloadable reports.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="benefits-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Why <span class="gradient-text">WorkforceAI?</span></h2>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <i class="fas fa-lock"></i>
+                <h4>100% Local AI</h4>
+                <p>No external APIs. All ML runs locally on your machine. Your data never leaves your server.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-bolt"></i>
+                <h4>Real-Time Predictions</h4>
+                <p>Get instant attrition predictions and risk assessments as soon as models are trained.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-chart-area"></i>
+                <h4>Interactive Visualizations</h4>
+                <p>Plotly-powered charts with zoom, pan, and export capabilities built into every dashboard.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fas fa-code-branch"></i>
+                <h4>Model Comparison</h4>
+                <p>Compare Logistic Regression, Random Forest, XGBoost, LightGBM, and CatBoost side by side.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-card glass">
+            <h2>Ready to Transform Your Workforce Analytics?</h2>
+            <p>Start predicting attrition and optimizing your workforce today.</p>
+            <div class="cta-buttons">
+                {% if user %}
+                <a href="{{ url_for('dashboard') }}" class="btn btn-glow btn-lg">
+                    <i class="fas fa-rocket"></i> Launch Dashboard
+                </a>
+                {% else %}
+                <a href="{{ url_for('register') }}" class="btn btn-glow btn-lg">
+                    <i class="fas fa-user-plus"></i> Create Free Account
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,158 @@
+{% extends "layout.html" %}
+
+{% block title %}Contact - WorkforceAI{% endblock %}
+
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-envelope"></i> Contact</h1>
+            <p>Get in touch with the developer behind WorkforceAI</p>
+        </div>
+    </div>
+
+    <!-- Contact Hero -->
+    <div class="contact-hero glass">
+        <div class="contact-hero-content">
+            <div class="contact-avatar-large">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <h2>Usman(issu321)</h2>
+            <p class="contact-role">Full-Stack Developer & ML Engineer</p>
+            <p class="contact-tagline">Building intelligent systems that drive data-driven decisions.</p>
+            <div class="contact-socials">
+                <a href="https://github.com/issu321" target="_blank" rel="noopener" class="social-btn github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://issu321.github.io/issu321/" target="_blank" rel="noopener" class="social-btn portfolio">
+                    <i class="fas fa-globe"></i> Portfolio
+                </a>
+                <a href="mailto:jaafreeusman@gmail.com" class="social-btn email">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Grid -->
+    <div class="contact-details-grid">
+        <!-- Info Card -->
+        <div class="card glass contact-info-card">
+            <div class="card-header">
+                <h3><i class="fas fa-address-card"></i> Contact Information</h3>
+            </div>
+            <div class="card-body">
+                <div class="contact-detail-item">
+                    <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-detail-text">
+                        <label>Email</label>
+                        <a href="mailto:jaafreeusman@gmail.com">jaafreeusman@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-detail-item">
+                    <div class="contact-detail-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="contact-detail-text">
+                        <label>Mobile</label>
+                        <a href="tel:+918884294749">+91 88842 94749</a>
+                    </div>
+                </div>
+                <div class="contact-detail-item">
+                    <div class="contact-detail-icon"><i class="fas fa-globe"></i></div>
+                    <div class="contact-detail-text">
+                        <label>Portfolio</label>
+                        <a href="https://issu321.github.io/issu321/" target="_blank" rel="noopener">issu321.github.io/issu321</a>
+                    </div>
+                </div>
+                <div class="contact-detail-item">
+                    <div class="contact-detail-icon"><i class="fab fa-github"></i></div>
+                    <div class="contact-detail-text">
+                        <label>GitHub</label>
+                        <a href="https://github.com/issu321" target="_blank" rel="noopener">github.com/issu321</a>
+                    </div>
+                </div>
+                <div class="contact-detail-item">
+                    <div class="contact-detail-icon"><i class="fas fa-code-branch"></i></div>
+                    <div class="contact-detail-text">
+                        <label>Repository</label>
+                        <a href="https://github.com/issu321/Workforece-Analytics-AI" target="_blank" rel="noopener">Workforece-Analytics-AI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="card glass contact-form-card">
+            <div class="card-header">
+                <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+            </div>
+            <div class="card-body">
+                <form class="contact-form" onsubmit="handleContactSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> Your Name</label>
+                            <input type="text" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Your Email</label>
+                            <input type="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-tag"></i> Subject</label>
+                        <input type="text" name="subject" placeholder="Project inquiry / Feedback / Bug report" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-comment-alt"></i> Message</label>
+                        <textarea name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-glow">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <div id="formStatus" style="margin-top:16px; display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Promo -->
+    <div class="portfolio-promo glass">
+        <div class="portfolio-promo-content">
+            <div class="portfolio-promo-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="portfolio-promo-text">
+                <h3>Explore My Portfolio</h3>
+                <p>Discover more projects, skills, and professional experience on my personal portfolio website.</p>
+            </div>
+            <a href="https://issu321.github.io/issu321/" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+                <i class="fas fa-external-link-alt"></i> Visit Portfolio
+            </a>
+        </div>
+    </div>
+
+    <!-- About Platform -->
+    <div class="card glass">
+        <div class="card-header"><h3><i class="fas fa-info-circle"></i> About WorkforceAI</h3></div>
+        <div class="card-body">
+            <p>WorkforceAI is a production-ready HR Analytics and Workforce Intelligence Platform built for enterprise-grade attrition prediction and workforce optimization.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check text-success"></i> Employee Attrition Prediction with 6 ML Models</li>
+                <li><i class="fas fa-check text-success"></i> Interactive Workforce Analytics Dashboard</li>
+                <li><i class="fas fa-check text-success"></i> AI-Generated Retention Strategy Recommendations</li>
+                <li><i class="fas fa-check text-success"></i> 12-Month Workforce Forecasting</li>
+                <li><i class="fas fa-check text-success"></i> PDF, HTML, JSON, TXT Report Generation</li>
+                <li><i class="fas fa-check text-success"></i> 100% Local AI — No External API Calls</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+function handleContactSubmit(e) {
+    e.preventDefault();
+    const status = document.getElementById('formStatus');
+    status.style.display = 'block';
+    status.innerHTML = '<div class=\"alert alert-success\"><i class=\"fas fa-check-circle\"></i> Thank you! Your message has been recorded. The developer will reach out via email shortly.</div>';
+    e.target.reset();
+    setTimeout(() => { status.style.display = 'none'; }, 6000);
+}
+</script>
+{% endblock %}

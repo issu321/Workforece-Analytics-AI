@@ -1,0 +1,14 @@
+flask
+werkzeug
+scikit-learn
+xgboost
+lightgbm
+catboost
+pandas
+numpy
+scipy
+statsmodels
+plotly
+matplotlib
+seaborn
+reportlab

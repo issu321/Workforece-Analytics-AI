@@ -1,0 +1,162 @@
+{% extends "layout.html" %}
+{% block title %}Attrition Prediction - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-brain"></i> Attrition Prediction Engine</h1>
+            <p>Train ML models and predict employee attrition risk</p>
+        </div>
+        <div class="header-actions">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-outline btn-sm"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+
+    {% if not has_data %}
+    <div class="empty-state glass">
+        <div class="empty-icon"><i class="fas fa-database"></i></div>
+        <h2>No Data Loaded</h2>
+        <p>Please upload a dataset or load demo data first.</p>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Go to Dashboard</a>
+    </div>
+    {% else %}
+
+    <div class="card glass">
+        <div class="card-header">
+            <h3><i class="fas fa-cogs"></i> Model Training</h3>
+            <p>Train 6 ML models and automatically select the best performer</p>
+        </div>
+        <div class="card-body">
+            <form method="POST" action="{{ url_for('train_models') }}">
+                <button type="submit" class="btn btn-primary btn-lg btn-glow" id="trainBtn">
+                    <i class="fas fa-play"></i> Train All Models
+                </button>
+            </form>
+            <div class="model-list">
+                <span class="model-badge"><i class="fas fa-chart-line"></i> Logistic Regression</span>
+                <span class="model-badge"><i class="fas fa-sitemap"></i> Decision Tree</span>
+                <span class="model-badge"><i class="fas fa-tree"></i> Random Forest</span>
+                <span class="model-badge"><i class="fas fa-rocket"></i> XGBoost</span>
+                <span class="model-badge"><i class="fas fa-bolt"></i> LightGBM</span>
+                <span class="model-badge"><i class="fas fa-cat"></i> CatBoost</span>
+            </div>
+        </div>
+    </div>
+
+    {% if is_trained %}
+    <div class="best-model-banner glass">
+        <i class="fas fa-trophy"></i>
+        <div>
+            <strong>Best Model:</strong> {{ best_model }}
+            <span class="badge badge-success">Auto-Selected</span>
+        </div>
+    </div>
+
+    <div class="card glass">
+        <div class="card-header"><h3><i class="fas fa-chart-bar"></i> Model Performance Comparison</h3></div>
+        <div class="card-body"><div id="modelComparisonChart" style="height:500px;"></div></div>
+    </div>
+
+    <div class="card glass">
+        <div class="card-header"><h3><i class="fas fa-table"></i> Detailed Results</h3></div>
+        <div class="card-body">
+            <table class="data-table">
+                <thead>
+                    <tr><th>Model</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>F1 Score</th><th>ROC-AUC</th><th>CV Mean</th><th>Status</th></tr>
+                </thead>
+                <tbody>
+                    {% for name, metrics in results.items() %}
+                    <tr class="{% if name == best_model %}best-row{% endif %}">
+                        <td><strong>{{ name }}</strong> {% if name == best_model %}<i class="fas fa-star text-warning"></i>{% endif %}</td>
+                        <td>{{ "{:.3f}".format(metrics.accuracy) if metrics.accuracy else 'N/A' }}</td>
+                        <td>{{ "{:.3f}".format(metrics.precision) if metrics.precision else 'N/A' }}</td>
+                        <td>{{ "{:.3f}".format(metrics.recall) if metrics.recall else 'N/A' }}</td>
+                        <td>{{ "{:.3f}".format(metrics.f1_score) if metrics.f1_score else 'N/A' }}</td>
+                        <td>{{ "{:.3f}".format(metrics.roc_auc) if metrics.roc_auc else 'N/A' }}</td>
+                        <td>{{ "{:.3f}".format(metrics.cv_mean) if metrics.cv_mean else 'N/A' }}</td>
+                        <td>{% if 'error' in metrics %}<span class="badge badge-danger">Error</span>{% else %}<span class="badge badge-success">Trained</span>{% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="card glass">
+        <div class="card-header"><h3><i class="fas fa-list-ol"></i> Feature Importance</h3></div>
+        <div class="card-body"><div id="featureImportanceChart" style="height:500px;"></div></div>
+    </div>
+
+    <div class="card glass">
+        <div class="card-header"><h3><i class="fas fa-project-diagram"></i> ROC Curves</h3></div>
+        <div class="card-body"><div id="rocCurveChart" style="height:500px;"></div></div>
+    </div>
+
+    <div class="card glass">
+        <div class="card-header">
+            <h3><i class="fas fa-magic"></i> Run Predictions</h3>
+            <p>Generate attrition risk predictions for all employees</p>
+        </div>
+        <div class="card-body">
+            <button class="btn btn-primary btn-lg btn-glow" onclick="runPredictions()" id="predictBtn">
+                <i class="fas fa-play"></i> Run Predictions
+            </button>
+            <div id="predictionResults" style="margin-top:20px;"></div>
+        </div>
+    </div>
+    {% endif %}
+    {% endif %}
+</div>
+
+<script>
+{% if is_trained %}
+fetch('/api/charts/model_comparison')
+    .then(r => r.json())
+    .then(data => { if(data.chart) Plotly.newPlot('modelComparisonChart', data.chart.data, data.chart.layout); });
+fetch('/api/charts/feature_importance')
+    .then(r => r.json())
+    .then(data => { if(data.chart) Plotly.newPlot('featureImportanceChart', data.chart.data, data.chart.layout); });
+fetch('/api/charts/roc_curve')
+    .then(r => r.json())
+    .then(data => { if(data.chart) Plotly.newPlot('rocCurveChart', data.chart.data, data.chart.layout); });
+
+function runPredictions() {
+    const btn = document.getElementById('predictBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Predicting...';
+    fetch('/predict-attrition', {method: 'POST'})
+        .then(r => r.json())
+        .then(data => {
+            if(data.error) {
+                document.getElementById('predictionResults').innerHTML = '<div class="alert alert-danger">' + data.error + '</div>';
+                return;
+            }
+            let html = '<div class="prediction-summary">';
+            html += '<div class="risk-cards">';
+            html += '<div class="risk-card risk-high"><div class="risk-count">' + data.high_risk_count + '</div><div class="risk-label">High Risk</div></div>';
+            html += '<div class="risk-card risk-medium"><div class="risk-count">' + data.medium_risk_count + '</div><div class="risk-label">Medium Risk</div></div>';
+            html += '<div class="risk-card risk-low"><div class="risk-count">' + data.low_risk_count + '</div><div class="risk-label">Low Risk</div></div>';
+            html += '</div>';
+            html += '<p class="text-muted">Total employees analyzed: ' + data.total + '</p>';
+            html += '</div>';
+            html += '<div class="table-responsive"><table class="data-table">';
+            html += '<thead><tr><th>Employee</th><th>Risk Level</th><th>Risk Score</th><th>Probability</th><th>Confidence</th></tr></thead><tbody>';
+            data.predictions.forEach(p => {
+                const riskClass = p.risk_level === 'High Risk' ? 'text-danger' : p.risk_level === 'Medium Risk' ? 'text-warning' : 'text-success';
+                html += '<tr><td>' + p.employee_id + '</td><td class="' + riskClass + '"><strong>' + p.risk_level + '</strong></td>';
+                html += '<td>' + p.risk_score + '%</td><td>' + (p.attrition_probability * 100).toFixed(1) + '%</td><td>' + (p.confidence * 100).toFixed(1) + '%</td></tr>';
+            });
+            html += '</tbody></table></div>';
+            document.getElementById('predictionResults').innerHTML = html;
+        })
+        .catch(e => {
+            document.getElementById('predictionResults').innerHTML = '<div class="alert alert-danger">Error: ' + e.message + '</div>';
+        })
+        .finally(() => {
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-play"></i> Run Predictions';
+        });
+}
+{% endif %}
+</script>
+{% endblock %}

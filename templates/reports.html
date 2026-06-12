@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block title %}Reports - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-file-alt"></i> Reports Center</h1>
+            <p>Generate and download comprehensive workforce reports</p>
+        </div>
+        <div class="header-actions">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-outline btn-sm"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+
+    <div class="reports-grid">
+        <div class="report-card glass">
+            <div class="report-icon"><i class="fas fa-file-code"></i></div>
+            <h3>JSON Report</h3>
+            <p>Machine-readable report with all analytics data, scores, and predictions.</p>
+            <form method="POST" action="{{ url_for('generate_report', format_type='json') }}">
+                <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-download"></i> Download JSON</button>
+            </form>
+        </div>
+        <div class="report-card glass">
+            <div class="report-icon"><i class="fas fa-file-alt"></i></div>
+            <h3>Text Report</h3>
+            <p>Plain text report with formatted tables and summaries.</p>
+            <form method="POST" action="{{ url_for('generate_report', format_type='txt') }}">
+                <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-download"></i> Download TXT</button>
+            </form>
+        </div>
+        <div class="report-card glass">
+            <div class="report-icon"><i class="fab fa-html5"></i></div>
+            <h3>HTML Report</h3>
+            <p>Rich HTML report with styled tables and metrics.</p>
+            <form method="POST" action="{{ url_for('generate_report', format_type='html') }}">
+                <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-download"></i> Download HTML</button>
+            </form>
+        </div>
+        <div class="report-card glass">
+            <div class="report-icon"><i class="fas fa-file-pdf"></i></div>
+            <h3>PDF Report</h3>
+            <p>Professional PDF report suitable for presentations and sharing.</p>
+            <form method="POST" action="{{ url_for('generate_report', format_type='pdf') }}">
+                <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-download"></i> Download PDF</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="section-header">
+        <h2><i class="fas fa-history"></i> Generated Reports</h2>
+    </div>
+    <div class="card glass">
+        <div class="card-body">
+            {% if reports %}
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead><tr><th>Format</th><th>Type</th><th>Filename</th><th>Created</th></tr></thead>
+                    <tbody>
+                        {% for report in reports %}
+                        <tr>
+                            <td><span class="badge badge-{{ report.format }}">{{ report.format.upper() }}</span></td>
+                            <td>{{ report.type.title() }}</td>
+                            <td>{{ report.filename }}</td>
+                            <td>{{ report.created_at }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <p class="text-muted">No reports generated yet.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

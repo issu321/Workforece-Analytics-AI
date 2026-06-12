@@ -1,0 +1,1001 @@
+Age,Gender,Department,JobRole,Education,EducationLevel,MonthlyIncome,DailyRate,HourlyRate,PercentSalaryHike,TotalWorkingYears,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,JobSatisfaction,EnvironmentSatisfaction,WorkLifeBalance,JobInvolvement,PerformanceRating,OverTime,BusinessTravel,MaritalStatus,NumCompaniesWorked,TrainingTimesLastYear,StockOptionLevel,DistanceFromHome,Attrition
+39,Male,HR,Director,Bachelor,4,2375,533,46,9,18,3,0,4,1,3,3,2,4,4,Yes,Travel_Frequently,Married,2,6,0,1,No
+33,Female,Sales,Manager,High School,3,3532,1330,78,10,6,3,1,0,0,1,3,4,3,3,No,Travel_Rarely,Married,1,2,0,1,No
+41,Male,Finance,Director,High School,3,1243,1151,16,6,4,7,2,0,3,4,4,4,3,3,Yes,Travel_Rarely,Married,1,6,3,1,No
+50,Female,HR,Manager,Master,4,8026,781,38,8,6,2,2,3,1,4,4,4,4,4,No,Travel_Frequently,Divorced,2,2,1,2,No
+32,Male,HR,Specialist,PhD,3,4134,1459,80,5,8,7,4,0,11,3,4,1,1,3,No,Travel_Rarely,Married,1,3,2,21,No
+32,Male,Sales,Analyst,Bachelor,2,4598,687,52,18,2,4,4,1,1,2,4,4,1,4,Yes,Non-Travel,Divorced,1,2,1,1,Yes
+50,Male,Finance,Engineer,Bachelor,2,1742,1192,45,15,23,0,2,1,7,4,1,1,1,3,No,Non-Travel,Single,3,4,0,3,No
+42,Male,IT,Specialist,High School,3,5660,965,40,14,11,0,4,0,8,1,1,4,2,4,Yes,Travel_Frequently,Married,3,6,1,6,Yes
+30,Female,Finance,Junior,High School,4,2368,845,43,6,10,2,0,4,0,1,3,2,2,3,No,Travel_Rarely,Single,1,2,0,1,Yes
+40,Male,R&D,Senior,PhD,1,1851,1290,81,15,1,2,0,1,4,1,1,2,3,3,No,Travel_Rarely,Married,3,2,1,11,Yes
+30,Female,Operations,Analyst,PhD,3,2923,963,92,4,9,6,6,1,1,1,3,4,4,3,No,Travel_Frequently,Single,3,6,1,2,Yes
+30,Male,Marketing,Junior,PhD,3,2889,467,39,15,1,4,0,11,7,3,3,4,4,4,Yes,Non-Travel,Divorced,2,2,1,10,No
+37,Male,IT,Engineer,Master,1,1738,350,62,0,0,2,0,1,1,4,3,1,3,3,No,Non-Travel,Married,1,1,0,1,No
+18,Male,HR,Director,High School,3,1905,958,79,18,7,0,3,0,4,3,3,3,1,3,No,Travel_Frequently,Divorced,3,6,0,1,No
+18,Female,IT,Manager,Master,1,1832,955,67,4,5,1,1,1,1,1,2,1,2,3,No,Travel_Rarely,Divorced,2,4,2,1,Yes
+29,Male,Operations,Engineer,High School,4,1841,1293,81,6,8,4,6,3,0,1,3,2,4,3,No,Non-Travel,Single,2,4,2,2,Yes
+24,Female,HR,Specialist,High School,2,2455,1213,32,18,0,2,1,2,0,1,1,4,3,3,Yes,Travel_Rarely,Married,2,2,0,9,No
+38,Female,Operations,Senior,Bachelor,4,1488,660,23,21,5,3,0,3,1,3,1,2,1,4,No,Non-Travel,Divorced,3,1,0,1,No
+25,Female,HR,Specialist,High School,2,2109,393,52,4,1,0,1,2,4,1,1,3,1,3,No,Travel_Rarely,Single,1,4,2,5,No
+20,Female,IT,Analyst,High School,1,5026,1018,35,16,40,5,2,0,2,4,1,1,2,3,Yes,Non-Travel,Single,3,5,2,1,No
+49,Female,HR,Analyst,Master,2,4499,1273,79,21,8,9,1,3,3,1,2,2,2,3,No,Travel_Rarely,Single,1,5,3,8,No
+32,Female,HR,Senior,High School,4,1763,1255,35,7,11,1,2,4,0,4,4,1,3,3,No,Travel_Frequently,Married,5,2,0,7,No
+35,Female,R&D,Junior,Master,2,4813,532,41,0,3,3,6,0,1,4,4,4,3,3,No,Non-Travel,Married,2,2,1,3,No
+20,Female,Finance,Junior,PhD,1,1115,158,84,1,0,18,7,0,0,1,3,2,1,3,Yes,Travel_Frequently,Single,1,3,0,1,Yes
+29,Female,Finance,Analyst,High School,2,10042,1068,58,14,37,2,0,7,5,3,3,3,1,3,Yes,Non-Travel,Married,2,6,1,5,No
+36,Male,Marketing,Analyst,High School,3,5711,935,42,19,3,4,1,4,13,2,1,1,4,3,No,Non-Travel,Single,2,3,0,1,Yes
+23,Male,Marketing,Director,Master,4,2253,298,59,17,5,0,2,4,1,2,1,1,1,3,No,Non-Travel,Married,1,5,0,1,Yes
+38,Male,R&D,Manager,PhD,3,3609,314,31,10,10,4,8,4,0,4,4,3,3,3,Yes,Travel_Rarely,Married,0,4,0,4,No
+28,Male,Marketing,Director,Bachelor,1,1479,997,54,24,0,0,19,1,0,3,4,2,2,3,No,Non-Travel,Single,2,2,1,23,No
+32,Male,Operations,Director,PhD,2,3072,571,17,9,16,15,0,2,3,2,1,2,3,3,Yes,Travel_Frequently,Single,3,0,1,11,Yes
+28,Female,IT,Junior,Master,3,2719,346,90,23,7,6,3,1,2,1,3,1,4,3,No,Travel_Rarely,Married,1,4,1,4,No
+53,Female,Sales,Senior,PhD,3,1963,481,90,23,3,7,1,0,4,1,2,3,4,3,No,Travel_Rarely,Single,2,0,2,3,Yes
+34,Female,Operations,Junior,Master,2,2358,1090,80,3,0,6,0,2,0,4,2,1,2,3,No,Non-Travel,Single,4,1,2,30,No
+24,Female,Sales,Manager,Master,2,2245,1362,60,4,1,4,0,1,4,3,4,1,3,4,No,Travel_Rarely,Single,2,1,1,3,No
+43,Female,Sales,Specialist,Bachelor,4,1692,1026,44,3,22,2,1,2,3,3,4,4,4,3,No,Non-Travel,Single,2,6,3,2,No
+22,Female,R&D,Analyst,High School,3,1940,1490,83,12,11,9,2,1,1,2,4,2,3,3,No,Travel_Frequently,Married,2,2,1,12,Yes
+37,Female,Operations,Analyst,Master,3,1449,1291,23,24,2,15,0,1,2,2,2,2,4,3,No,Travel_Rarely,Divorced,2,6,0,1,Yes
+18,Male,R&D,Manager,Master,1,4576,659,99,12,0,3,3,0,0,1,2,4,2,3,No,Travel_Rarely,Married,3,4,3,1,No
+21,Male,HR,Director,Bachelor,4,1870,1174,25,17,11,13,1,0,1,4,1,2,4,3,Yes,Travel_Frequently,Single,2,6,0,5,No
+36,Male,Sales,Senior,Master,1,1618,788,83,23,8,4,2,0,6,3,3,2,3,3,No,Travel_Frequently,Single,1,5,1,1,Yes
+42,Male,IT,Analyst,High School,3,4540,479,80,1,5,3,1,0,1,2,4,2,3,3,Yes,Non-Travel,Married,2,1,0,2,No
+36,Female,Marketing,Engineer,Bachelor,1,3586,573,45,15,4,3,0,7,5,2,1,3,4,3,No,Travel_Rarely,Single,2,4,1,2,Yes
+33,Female,IT,Director,High School,3,4457,1203,47,0,2,1,1,0,2,4,2,4,1,3,Yes,Travel_Frequently,Married,1,3,1,3,No
+31,Female,Marketing,Analyst,High School,3,4712,796,53,18,11,0,0,0,0,4,1,1,2,3,No,Travel_Rarely,Divorced,2,5,0,23,No
+20,Male,Sales,Engineer,Bachelor,1,7853,1490,60,8,35,1,2,1,2,1,2,3,2,3,Yes,Travel_Frequently,Single,0,1,1,1,No
+27,Female,Sales,Manager,Master,1,2757,1010,51,2,1,3,0,1,2,4,3,1,4,3,No,Travel_Rarely,Divorced,4,3,2,2,Yes
+30,Female,Sales,Manager,High School,2,1438,1059,74,24,9,2,2,0,1,1,2,4,4,3,No,Travel_Frequently,Divorced,3,5,0,1,Yes
+45,Female,R&D,Director,High School,2,3413,577,45,6,5,2,0,3,0,1,1,4,1,3,No,Travel_Rarely,Single,2,3,0,4,Yes
+38,Male,Operations,Analyst,High School,2,2133,1103,25,9,5,19,3,3,1,4,3,4,2,3,No,Non-Travel,Single,5,0,0,6,Yes
+18,Female,Marketing,Junior,High School,3,1846,1025,16,0,2,2,4,0,0,4,2,2,1,3,No,Travel_Rarely,Married,4,2,2,3,No
+38,Male,Operations,Engineer,Bachelor,1,3133,806,41,9,17,3,0,0,0,4,4,3,2,3,No,Non-Travel,Married,2,2,2,1,No
+31,Male,R&D,Senior,Bachelor,4,4595,1337,16,20,6,0,1,5,1,4,2,4,4,3,No,Non-Travel,Single,1,3,2,4,No
+28,Male,R&D,Analyst,PhD,3,1962,1492,35,8,7,0,0,3,1,4,3,1,2,3,No,Non-Travel,Married,0,4,0,3,No
+41,Male,Finance,Senior,PhD,4,5637,953,72,14,3,7,2,2,7,1,1,2,2,3,Yes,Travel_Rarely,Divorced,0,4,0,1,Yes
+45,Female,IT,Analyst,High School,1,1817,1237,19,14,2,4,0,0,1,2,3,2,2,3,No,Travel_Rarely,Divorced,2,3,0,2,Yes
+44,Male,IT,Junior,Master,3,2638,1116,66,2,0,7,2,1,4,3,1,3,1,4,No,Non-Travel,Single,0,0,0,2,No
+26,Male,HR,Junior,High School,4,3616,853,59,24,12,0,2,1,2,3,2,3,1,3,No,Travel_Frequently,Married,4,2,1,20,Yes
+31,Female,R&D,Director,Master,4,2455,602,99,4,2,4,7,0,3,1,2,3,2,4,No,Travel_Rarely,Single,1,2,3,9,No
+38,Female,Marketing,Director,High School,2,1226,916,34,8,11,1,2,1,0,1,3,2,3,3,No,Travel_Rarely,Divorced,2,6,0,6,Yes
+44,Male,Finance,Junior,PhD,2,4739,687,75,21,4,1,2,1,8,2,4,4,1,3,Yes,Travel_Rarely,Single,3,3,3,10,Yes
+30,Female,Finance,Specialist,PhD,2,2182,1434,52,8,5,0,1,0,2,4,2,1,4,3,No,Travel_Rarely,Single,2,5,0,6,No
+33,Male,Operations,Junior,Master,3,4326,807,34,22,6,0,8,3,5,1,4,4,4,3,No,Non-Travel,Single,5,3,3,11,Yes
+23,Male,IT,Manager,High School,1,1584,1167,39,6,4,1,4,3,1,3,4,1,2,3,No,Travel_Frequently,Single,1,4,0,1,Yes
+23,Male,R&D,Manager,Master,1,1725,1369,16,23,1,0,1,0,0,4,3,4,4,3,No,Travel_Frequently,Divorced,0,2,3,3,Yes
+43,Male,HR,Specialist,PhD,2,4588,1207,46,22,3,21,5,3,3,1,2,3,1,3,Yes,Travel_Frequently,Single,3,0,0,6,Yes
+48,Female,R&D,Engineer,High School,2,3534,306,40,11,10,1,1,0,0,4,4,1,3,3,No,Travel_Frequently,Single,2,1,3,4,No
+34,Male,Operations,Senior,High School,2,2393,250,84,24,10,0,5,3,1,3,2,2,3,3,Yes,Non-Travel,Married,3,0,0,1,No
+45,Female,Sales,Analyst,Master,4,3559,767,55,8,3,1,5,0,0,4,1,1,3,4,No,Travel_Rarely,Single,2,2,0,2,No
+38,Female,R&D,Analyst,Bachelor,2,1850,627,81,5,6,4,0,0,2,1,4,2,4,4,No,Travel_Rarely,Married,0,5,1,1,Yes
+28,Female,Operations,Specialist,Master,4,3149,264,15,22,2,0,3,2,11,1,3,4,2,3,No,Non-Travel,Single,2,3,0,1,No
+38,Female,Sales,Manager,PhD,1,3178,1016,65,1,2,9,1,1,1,3,3,3,4,4,No,Travel_Rarely,Married,1,3,1,2,No
+50,Male,Sales,Director,PhD,3,2472,1268,19,8,0,16,1,4,5,2,4,1,2,4,No,Non-Travel,Single,3,2,3,3,No
+34,Female,HR,Analyst,PhD,3,1963,1109,27,16,22,1,1,0,2,2,2,2,3,3,Yes,Travel_Frequently,Married,3,1,1,9,Yes
+50,Male,Marketing,Manager,PhD,3,3087,136,33,0,2,2,3,0,2,4,1,4,1,3,No,Non-Travel,Single,1,3,2,6,No
+18,Female,IT,Engineer,PhD,3,2900,432,26,18,2,0,0,1,7,1,1,3,4,3,Yes,Travel_Rarely,Single,0,2,0,9,No
+43,Female,R&D,Senior,Bachelor,4,2361,502,62,5,3,5,0,1,6,1,3,3,1,3,No,Travel_Rarely,Married,3,2,1,10,No
+35,Male,Sales,Engineer,High School,4,1777,513,39,4,1,2,3,0,4,3,3,3,3,3,Yes,Travel_Rarely,Single,1,3,1,2,Yes
+32,Male,R&D,Specialist,Master,2,2999,144,71,1,10,1,0,2,1,3,2,4,2,3,No,Travel_Frequently,Single,6,1,2,2,No
+35,Male,Marketing,Junior,Master,4,2364,305,49,8,0,1,0,2,2,1,3,4,1,3,Yes,Non-Travel,Single,2,0,0,1,No
+18,Female,IT,Junior,PhD,2,1776,161,90,13,1,5,0,3,0,3,2,4,4,3,No,Non-Travel,Single,1,3,1,13,No
+32,Female,Marketing,Junior,Master,2,3046,519,19,3,10,2,1,7,1,2,4,3,1,3,No,Travel_Rarely,Divorced,2,3,0,1,Yes
+38,Male,IT,Engineer,PhD,3,6661,967,36,3,4,0,1,0,1,2,1,1,1,3,No,Non-Travel,Single,2,5,0,6,No
+49,Male,Finance,Analyst,Bachelor,4,2481,919,91,20,12,5,0,2,5,4,4,2,4,3,No,Travel_Rarely,Divorced,0,2,0,2,No
+29,Male,IT,Senior,Bachelor,4,6303,118,71,14,8,4,10,1,6,3,3,4,2,4,No,Non-Travel,Divorced,3,3,0,14,No
+26,Male,HR,Junior,High School,2,8579,464,61,7,2,9,3,2,1,4,1,1,4,3,No,Travel_Frequently,Single,1,3,0,2,No
+29,Female,Marketing,Specialist,Bachelor,2,1850,1423,68,3,10,0,1,1,0,3,1,2,3,3,No,Travel_Frequently,Married,2,2,0,8,No
+44,Male,Sales,Specialist,Bachelor,1,2994,1130,17,15,1,7,1,10,5,3,4,3,2,4,No,Non-Travel,Married,2,6,2,1,No
+38,Male,Finance,Junior,High School,1,8534,527,67,20,7,5,1,2,0,2,2,1,1,4,No,Travel_Frequently,Single,3,5,0,1,No
+29,Male,HR,Junior,Master,2,2805,1240,98,3,5,0,2,6,2,1,1,3,4,3,Yes,Travel_Frequently,Divorced,1,3,2,4,No
+40,Male,R&D,Senior,PhD,1,3036,679,45,15,3,5,0,3,0,3,2,2,3,3,No,Travel_Frequently,Married,1,1,0,30,No
+35,Female,Marketing,Junior,PhD,1,1293,645,83,21,9,2,0,4,1,3,4,4,4,4,No,Travel_Rarely,Single,2,3,0,3,No
+44,Male,Operations,Senior,Master,2,2285,424,47,11,20,14,5,3,12,3,4,3,2,3,Yes,Non-Travel,Single,1,4,1,13,No
+27,Female,Operations,Specialist,High School,2,3935,154,86,15,40,0,0,1,0,1,2,1,3,3,No,Non-Travel,Divorced,3,2,1,7,No
+31,Male,Sales,Junior,Master,4,10043,877,64,18,9,5,1,0,1,4,4,4,1,3,No,Travel_Rarely,Married,1,2,1,7,No
+31,Male,IT,Engineer,Bachelor,2,2702,1091,98,7,5,2,6,0,1,4,1,1,2,3,Yes,Travel_Rarely,Single,4,3,1,2,Yes
+20,Female,Sales,Director,High School,2,1298,141,30,5,2,15,3,0,7,3,4,2,3,3,No,Travel_Frequently,Married,0,2,0,2,No
+37,Male,Operations,Engineer,High School,3,1476,1420,90,9,2,2,1,1,6,3,4,2,2,3,No,Non-Travel,Single,2,1,1,1,Yes
+37,Female,R&D,Specialist,High School,4,2928,330,91,4,6,16,3,1,0,4,1,4,1,4,Yes,Travel_Rarely,Single,5,1,1,16,No
+35,Female,Finance,Senior,PhD,4,5370,552,53,17,4,11,0,1,0,4,2,1,3,3,No,Travel_Frequently,Single,3,3,0,16,Yes
+32,Male,Finance,Engineer,Master,4,4099,493,60,9,24,1,3,7,2,2,4,1,4,3,No,Non-Travel,Divorced,3,3,2,6,No
+20,Female,Marketing,Senior,High School,3,3752,1481,61,9,4,8,2,4,1,3,2,1,4,3,Yes,Travel_Frequently,Divorced,2,3,2,1,No
+30,Female,Finance,Engineer,High School,2,5736,1251,58,6,4,27,5,0,3,4,1,1,1,4,No,Non-Travel,Divorced,4,0,0,1,Yes
+31,Female,Marketing,Engineer,High School,4,2079,790,23,17,4,1,9,0,0,2,2,2,3,3,No,Travel_Frequently,Married,3,4,2,22,No
+26,Female,Marketing,Senior,Master,4,3009,491,64,0,18,2,7,1,0,1,2,1,1,3,No,Non-Travel,Divorced,0,3,3,1,No
+33,Female,Marketing,Analyst,PhD,1,2298,1316,91,6,10,3,7,0,3,3,3,2,1,4,No,Non-Travel,Divorced,1,5,1,9,No
+39,Female,Operations,Engineer,Bachelor,4,2602,703,74,20,9,1,2,3,0,4,3,1,2,3,No,Non-Travel,Married,6,6,0,2,Yes
+53,Female,Operations,Junior,PhD,2,1802,980,29,0,4,0,1,1,5,3,4,1,4,3,No,Non-Travel,Married,4,3,3,2,No
+36,Female,IT,Director,High School,2,2509,1201,50,14,17,1,1,1,0,2,3,3,1,4,Yes,Travel_Frequently,Married,5,2,0,8,Yes
+37,Male,HR,Specialist,PhD,1,2939,184,77,3,0,1,3,3,0,4,3,3,2,4,No,Travel_Rarely,Married,3,5,0,1,No
+34,Male,Marketing,Analyst,PhD,4,2475,1153,83,19,20,2,6,3,17,1,3,1,1,3,No,Non-Travel,Divorced,3,3,0,2,No
+18,Female,Marketing,Senior,Bachelor,4,2750,148,94,9,7,0,0,0,1,1,2,2,1,4,Yes,Non-Travel,Divorced,0,0,2,15,Yes
+34,Male,HR,Analyst,Master,4,3650,1268,55,22,5,10,7,2,3,2,2,1,1,3,No,Non-Travel,Married,2,4,3,6,No
+35,Female,Sales,Manager,Master,3,5537,168,88,8,6,6,5,1,0,1,3,3,4,3,Yes,Non-Travel,Divorced,2,1,1,7,No
+59,Female,Marketing,Manager,PhD,4,5742,1181,38,1,11,0,11,0,2,1,1,1,3,4,No,Travel_Frequently,Single,3,1,3,7,Yes
+33,Male,IT,Engineer,PhD,2,4362,796,96,13,0,5,6,0,3,1,3,3,4,4,No,Travel_Rarely,Divorced,1,2,0,1,No
+38,Female,Finance,Engineer,Master,2,1587,578,63,15,20,5,0,1,1,1,1,1,2,3,No,Travel_Rarely,Single,5,1,0,1,Yes
+34,Female,Finance,Junior,Master,3,2489,919,32,0,5,15,0,0,5,1,2,4,3,3,Yes,Travel_Rarely,Married,7,3,1,3,Yes
+23,Female,R&D,Director,Bachelor,3,2598,1419,21,1,4,0,0,0,2,1,1,1,2,3,No,Travel_Frequently,Married,3,5,3,2,No
+46,Female,R&D,Specialist,High School,4,2146,1294,18,6,1,1,1,2,1,1,2,2,1,3,Yes,Travel_Rarely,Divorced,2,4,1,2,Yes
+42,Male,Finance,Analyst,PhD,1,3537,246,83,9,5,13,2,2,2,4,1,3,3,3,No,Travel_Frequently,Married,4,3,0,7,Yes
+42,Female,Finance,Manager,Master,3,1343,1429,74,21,6,13,4,0,2,1,2,4,2,3,No,Travel_Frequently,Divorced,1,3,0,1,Yes
+25,Female,Operations,Engineer,PhD,3,6951,1115,69,19,5,6,6,0,0,4,2,3,1,3,No,Non-Travel,Divorced,0,4,0,5,No
+49,Female,IT,Specialist,PhD,4,5418,708,30,0,11,7,2,3,1,3,3,3,2,3,No,Travel_Frequently,Divorced,2,3,0,1,No
+20,Male,HR,Analyst,Master,4,3786,545,96,12,5,0,0,0,1,2,4,2,2,3,No,Travel_Rarely,Divorced,2,3,0,1,No
+40,Female,R&D,Engineer,Bachelor,3,2889,320,43,0,32,3,0,5,1,1,4,1,4,3,Yes,Travel_Rarely,Single,0,2,3,2,Yes
+56,Male,Operations,Engineer,PhD,1,5510,1389,37,4,9,1,0,1,4,2,2,2,1,3,No,Travel_Rarely,Single,2,3,1,9,No
+25,Male,Operations,Manager,Bachelor,3,4207,194,28,15,16,0,1,0,1,1,3,1,4,3,No,Non-Travel,Married,0,4,1,1,No
+29,Female,HR,Manager,Master,4,5183,361,93,14,1,8,2,0,8,4,4,4,3,4,No,Non-Travel,Single,1,2,0,4,No
+35,Female,Operations,Engineer,High School,4,2894,996,63,16,5,0,0,0,1,1,4,2,1,3,Yes,Non-Travel,Married,0,6,0,5,Yes
+29,Male,IT,Senior,High School,3,7292,1194,47,22,4,3,1,0,1,3,3,2,4,3,No,Travel_Frequently,Married,2,2,1,1,No
+19,Female,Finance,Engineer,PhD,1,5342,318,39,15,8,13,0,0,4,2,3,3,4,3,No,Travel_Rarely,Divorced,1,1,2,3,No
+35,Male,Marketing,Specialist,Master,3,3845,191,35,12,19,1,3,1,2,2,4,2,3,3,No,Travel_Frequently,Divorced,1,6,1,12,No
+24,Male,HR,Engineer,Bachelor,3,5585,226,31,10,0,19,1,0,2,3,4,1,2,3,No,Travel_Frequently,Divorced,0,2,2,3,Yes
+39,Female,Finance,Junior,PhD,4,2417,179,37,16,0,25,2,1,0,4,1,2,2,3,No,Travel_Rarely,Divorced,0,3,2,1,No
+25,Female,Finance,Director,Master,1,1662,1361,71,16,18,4,1,1,1,4,1,2,2,3,Yes,Non-Travel,Divorced,1,1,0,4,Yes
+50,Male,Sales,Junior,Master,2,3500,1082,95,1,2,0,9,0,0,3,2,4,3,3,Yes,Travel_Rarely,Divorced,0,3,0,4,No
+27,Male,HR,Junior,Bachelor,1,2897,1495,72,12,11,1,0,0,17,2,4,1,4,3,No,Travel_Frequently,Single,7,6,1,1,No
+31,Male,Operations,Senior,PhD,3,2700,1015,28,13,7,2,2,0,1,1,3,3,1,3,No,Travel_Frequently,Married,1,3,1,1,No
+43,Male,Marketing,Senior,Master,3,5476,585,34,10,17,1,3,0,6,4,3,1,3,4,No,Non-Travel,Married,4,2,0,1,Yes
+22,Female,HR,Engineer,Master,3,3240,793,44,9,1,1,2,2,3,1,4,4,2,3,No,Travel_Frequently,Divorced,2,2,1,1,No
+37,Female,Operations,Junior,Master,1,3400,124,33,2,1,17,7,0,1,2,2,1,2,3,No,Travel_Frequently,Single,4,2,1,1,Yes
+48,Female,Finance,Senior,Bachelor,4,2531,255,67,16,8,0,1,3,2,1,3,1,1,3,No,Travel_Rarely,Divorced,2,4,3,3,Yes
+18,Female,Marketing,Manager,PhD,3,4631,731,70,14,29,6,1,1,5,3,4,2,3,3,No,Non-Travel,Single,2,3,0,2,No
+36,Female,Operations,Engineer,PhD,3,4234,1180,91,8,5,0,0,1,6,4,4,2,2,4,No,Travel_Rarely,Single,2,1,0,11,No
+37,Male,IT,Specialist,PhD,1,4613,118,96,9,3,4,2,1,0,4,2,1,3,3,No,Travel_Rarely,Married,4,5,1,4,No
+42,Female,Operations,Director,PhD,2,2324,1316,37,7,9,12,1,2,1,3,4,1,4,4,No,Travel_Rarely,Married,1,2,1,10,Yes
+22,Female,Sales,Analyst,High School,2,5721,336,76,20,26,1,0,0,1,3,3,3,3,3,Yes,Travel_Frequently,Single,2,3,1,3,No
+21,Female,Finance,Engineer,High School,4,7475,376,47,12,18,1,2,0,0,4,1,4,4,4,Yes,Travel_Frequently,Married,3,3,3,1,No
+40,Female,Operations,Analyst,PhD,4,4541,1350,32,17,40,5,2,1,2,4,2,2,1,3,No,Non-Travel,Single,5,5,2,3,Yes
+37,Female,R&D,Junior,Bachelor,3,1988,844,87,4,0,6,0,0,5,4,4,2,4,3,No,Travel_Frequently,Single,1,4,1,8,No
+37,Male,R&D,Director,High School,1,1995,651,47,5,1,5,3,1,1,2,2,2,4,3,No,Non-Travel,Single,2,6,0,1,Yes
+38,Male,Sales,Analyst,Master,3,2470,1446,46,16,9,1,2,2,4,2,4,2,1,3,No,Travel_Rarely,Married,0,4,1,1,No
+28,Male,IT,Junior,High School,4,2248,1276,75,10,17,1,0,1,2,2,1,1,2,3,Yes,Travel_Rarely,Divorced,3,1,1,1,No
+37,Female,Finance,Manager,Master,1,2876,738,68,19,3,15,1,1,1,1,2,1,1,3,Yes,Travel_Frequently,Married,3,4,2,2,Yes
+37,Male,HR,Analyst,PhD,1,4089,336,31,15,2,12,3,1,0,2,4,3,3,3,No,Travel_Frequently,Divorced,0,2,3,1,No
+27,Male,Sales,Director,High School,4,3446,1097,33,8,15,3,2,2,3,4,1,2,1,4,No,Non-Travel,Married,1,2,1,1,No
+53,Female,IT,Engineer,Bachelor,2,3298,154,84,1,0,9,1,2,5,2,3,2,3,3,No,Travel_Frequently,Married,0,5,1,1,No
+39,Female,HR,Junior,High School,2,2642,783,48,4,4,3,1,1,3,4,4,1,2,3,Yes,Travel_Frequently,Divorced,0,2,0,5,No
+23,Female,R&D,Engineer,High School,1,2872,208,98,0,7,2,2,2,0,3,1,3,3,4,No,Travel_Frequently,Single,1,2,0,2,No
+41,Male,R&D,Director,High School,3,4439,1307,39,3,8,0,8,4,0,1,1,1,1,4,No,Travel_Rarely,Divorced,3,1,0,5,No
+25,Male,HR,Senior,PhD,2,1090,1491,82,3,13,2,3,1,0,1,2,2,1,3,No,Travel_Frequently,Single,2,4,0,3,Yes
+42,Female,Sales,Junior,Bachelor,3,2964,1321,88,21,4,3,0,1,2,3,4,2,2,3,No,Travel_Frequently,Single,5,2,1,3,No
+46,Female,R&D,Analyst,High School,2,3442,1494,88,24,9,0,1,2,4,4,3,4,1,3,Yes,Travel_Rarely,Married,2,4,0,1,No
+26,Male,Finance,Junior,Bachelor,2,4410,472,99,2,8,2,6,1,0,1,4,4,2,3,No,Travel_Rarely,Married,2,0,1,3,No
+44,Male,Marketing,Engineer,PhD,3,1798,1072,25,8,7,7,0,0,5,2,1,4,2,3,No,Travel_Rarely,Married,2,3,1,1,No
+39,Female,Operations,Manager,Master,4,1752,300,30,21,10,5,13,4,2,4,3,3,1,3,No,Travel_Rarely,Married,1,6,1,2,Yes
+43,Female,HR,Junior,High School,2,3991,948,75,22,3,5,8,0,3,1,1,1,4,3,No,Travel_Frequently,Married,2,3,1,4,Yes
+53,Male,HR,Analyst,Bachelor,2,1150,608,94,11,0,12,0,2,10,3,2,2,3,3,Yes,Travel_Frequently,Divorced,1,1,0,1,Yes
+32,Female,R&D,Senior,Bachelor,3,5802,1445,21,9,1,0,8,2,0,4,4,2,4,4,No,Travel_Frequently,Divorced,0,4,3,1,No
+27,Male,Sales,Specialist,PhD,4,3338,374,30,1,2,4,1,6,6,1,1,3,2,3,No,Non-Travel,Divorced,4,0,0,1,Yes
+26,Male,Finance,Manager,High School,2,6498,310,30,10,6,7,5,0,0,3,1,2,3,3,Yes,Travel_Rarely,Divorced,1,2,3,1,No
+26,Male,Sales,Senior,Master,2,1731,603,54,9,18,3,1,1,1,4,4,2,4,3,Yes,Travel_Frequently,Married,3,4,0,2,No
+34,Male,IT,Junior,Bachelor,4,2396,1241,26,21,12,1,1,1,5,2,3,1,1,3,No,Travel_Frequently,Divorced,1,1,1,19,No
+38,Female,IT,Engineer,High School,2,894,802,49,5,15,0,3,0,7,4,1,4,4,3,Yes,Travel_Frequently,Divorced,2,3,0,2,Yes
+37,Female,Marketing,Director,Master,4,2002,141,35,17,4,10,4,0,2,2,4,4,3,3,No,Travel_Rarely,Single,2,5,0,3,Yes
+43,Male,R&D,Engineer,Bachelor,4,2719,414,64,1,5,3,0,1,2,4,2,3,3,4,No,Travel_Rarely,Married,1,2,1,5,No
+35,Male,R&D,Analyst,Bachelor,3,1117,887,57,1,5,10,2,1,3,3,2,4,3,3,No,Travel_Rarely,Divorced,2,1,2,5,No
+49,Male,R&D,Engineer,Master,1,2447,428,31,9,2,4,0,0,5,2,4,4,3,3,No,Travel_Frequently,Divorced,0,5,0,14,No
+32,Male,Marketing,Manager,Master,4,1103,1140,46,15,0,5,1,1,0,2,1,3,4,3,Yes,Travel_Rarely,Divorced,2,1,1,9,Yes
+62,Male,IT,Engineer,PhD,3,2620,382,55,11,8,8,1,2,4,4,4,3,1,3,Yes,Travel_Frequently,Married,1,2,0,7,No
+41,Female,Sales,Analyst,High School,1,5289,1042,20,0,40,5,1,2,1,1,4,4,1,3,No,Non-Travel,Divorced,1,2,0,15,No
+26,Female,Marketing,Specialist,High School,2,2929,357,41,20,1,2,1,4,1,2,1,1,3,3,No,Travel_Rarely,Single,0,2,3,1,No
+24,Female,Marketing,Junior,PhD,1,6830,674,34,7,0,3,0,1,1,4,3,3,1,3,No,Travel_Rarely,Married,3,2,2,4,No
+39,Female,Sales,Director,Bachelor,4,4416,673,39,15,15,8,0,6,2,3,3,2,4,3,No,Travel_Frequently,Single,1,1,1,10,No
+32,Male,R&D,Junior,Master,4,5849,711,80,17,2,2,0,4,8,4,2,3,1,3,Yes,Travel_Rarely,Married,2,2,0,4,No
+42,Male,Finance,Engineer,Master,4,2033,1142,23,12,17,2,1,0,2,4,3,2,2,3,Yes,Travel_Rarely,Divorced,1,3,0,18,No
+39,Male,Sales,Senior,Master,4,2009,936,67,14,12,0,9,0,9,2,4,3,1,3,No,Travel_Frequently,Married,5,3,3,1,No
+34,Male,IT,Junior,Bachelor,4,3543,522,75,20,29,12,0,1,0,1,1,3,3,3,No,Travel_Frequently,Married,1,0,0,2,No
+26,Male,HR,Specialist,Master,3,1354,1496,52,11,5,0,8,1,3,3,2,4,1,3,No,Travel_Frequently,Married,4,5,2,18,No
+19,Female,HR,Engineer,Master,4,3772,857,17,7,10,5,3,1,5,2,3,4,1,3,Yes,Non-Travel,Single,1,6,0,2,Yes
+30,Male,Operations,Director,PhD,3,2535,862,98,9,6,2,3,1,3,2,4,4,1,4,Yes,Travel_Frequently,Married,0,3,3,6,Yes
+43,Female,Operations,Analyst,Bachelor,2,5796,1204,84,13,9,2,3,2,2,2,2,1,1,3,No,Travel_Rarely,Divorced,3,1,0,1,Yes
+37,Female,Marketing,Specialist,High School,4,4187,523,69,4,5,5,5,1,2,3,1,4,2,3,No,Non-Travel,Married,3,3,0,5,No
+22,Female,HR,Engineer,PhD,4,5158,528,15,17,2,0,0,0,5,1,3,4,4,3,No,Travel_Frequently,Married,2,1,1,13,No
+36,Female,Finance,Specialist,PhD,1,2044,303,84,18,7,4,2,3,5,3,4,3,3,3,No,Non-Travel,Divorced,3,3,3,2,No
+38,Male,R&D,Junior,High School,2,5034,295,59,14,7,7,3,0,0,3,1,3,3,3,No,Non-Travel,Divorced,2,3,3,1,No
+26,Female,IT,Director,PhD,4,6138,827,61,5,16,8,2,7,5,1,4,1,1,3,No,Travel_Rarely,Single,2,1,2,1,No
+36,Female,Operations,Analyst,Bachelor,4,2923,384,93,10,13,0,5,0,1,3,4,2,4,3,No,Non-Travel,Divorced,1,5,2,11,No
+35,Female,Finance,Engineer,Master,2,2059,295,40,20,10,11,0,6,0,4,4,3,1,3,Yes,Travel_Frequently,Divorced,2,4,1,6,Yes
+23,Male,IT,Manager,Bachelor,3,2077,406,28,10,1,5,3,0,6,3,1,3,2,3,No,Non-Travel,Divorced,3,0,2,1,No
+38,Male,IT,Analyst,High School,4,5538,113,68,19,12,10,2,0,1,2,2,2,4,3,Yes,Non-Travel,Married,1,3,2,1,No
+40,Male,R&D,Manager,High School,1,11409,1269,85,19,6,3,1,0,4,3,4,1,4,3,Yes,Travel_Rarely,Single,2,1,1,8,Yes
+45,Female,Marketing,Specialist,PhD,4,1824,1180,60,20,22,3,1,2,0,2,2,3,4,3,Yes,Travel_Rarely,Divorced,2,6,1,8,Yes
+45,Female,HR,Senior,Bachelor,1,1755,822,45,17,25,12,2,3,0,3,2,4,4,4,No,Travel_Frequently,Divorced,2,0,1,1,No
+21,Male,R&D,Analyst,Bachelor,1,4725,879,73,24,0,11,6,1,2,2,3,1,1,4,No,Travel_Rarely,Divorced,2,4,1,1,No
+25,Female,Finance,Specialist,High School,4,2044,1333,43,17,17,2,2,5,0,2,3,2,2,3,Yes,Travel_Frequently,Married,1,3,2,7,Yes
+40,Male,Marketing,Manager,Bachelor,4,4960,628,31,9,0,1,5,1,4,2,2,2,4,3,No,Travel_Frequently,Married,2,3,0,3,Yes
+40,Male,Finance,Junior,High School,1,3761,897,28,1,4,2,1,1,0,1,3,4,3,3,No,Travel_Rarely,Single,0,0,0,15,No
+40,Female,Marketing,Junior,Bachelor,2,2945,443,50,8,7,2,0,3,1,3,3,4,3,4,No,Non-Travel,Single,3,1,1,3,No
+65,Female,Operations,Senior,Bachelor,2,3716,1402,72,13,1,1,0,0,0,3,2,4,2,3,No,Travel_Rarely,Married,3,4,0,5,No
+40,Female,Finance,Analyst,Bachelor,4,3605,308,38,18,13,1,0,0,1,4,1,1,3,4,Yes,Non-Travel,Divorced,1,6,1,3,No
+46,Female,R&D,Analyst,High School,3,2724,740,77,9,0,9,1,4,4,4,3,2,1,3,Yes,Non-Travel,Divorced,3,1,3,14,No
+44,Male,Marketing,Analyst,PhD,2,1238,1458,39,22,1,0,1,4,0,4,3,4,1,3,No,Travel_Frequently,Single,6,0,1,2,No
+41,Male,Marketing,Specialist,Bachelor,4,3259,1411,73,3,8,5,3,7,3,3,1,4,2,4,No,Travel_Frequently,Divorced,4,2,2,1,No
+31,Male,IT,Director,High School,2,6545,351,46,5,12,0,4,4,7,1,1,2,4,3,No,Travel_Rarely,Married,1,4,0,1,Yes
+42,Male,IT,Director,High School,3,1333,1388,96,13,24,2,0,0,3,2,1,3,3,3,No,Non-Travel,Single,1,2,3,9,Yes
+27,Male,Sales,Senior,Bachelor,4,1839,370,32,3,12,0,0,3,4,3,2,1,3,3,No,Travel_Rarely,Married,0,3,1,3,No
+32,Female,Finance,Analyst,Bachelor,3,3690,1019,51,14,11,1,0,1,0,1,1,3,2,3,No,Travel_Frequently,Married,0,3,0,2,No
+30,Male,IT,Specialist,PhD,4,3039,518,40,15,5,7,2,9,0,1,2,4,2,3,No,Non-Travel,Divorced,2,1,1,3,Yes
+35,Male,Sales,Junior,High School,3,3661,894,23,6,0,10,0,1,6,3,4,1,3,3,Yes,Travel_Rarely,Married,1,3,3,1,No
+58,Male,Operations,Manager,High School,2,2101,1334,78,16,1,1,0,1,3,2,4,3,4,3,No,Travel_Rarely,Married,2,2,0,1,No
+18,Female,Operations,Specialist,Master,2,5330,1488,86,18,7,3,8,1,3,1,1,2,2,3,Yes,Travel_Frequently,Divorced,5,4,1,1,Yes
+41,Female,IT,Director,High School,3,3051,1199,34,18,11,3,4,0,3,3,1,4,1,3,Yes,Travel_Frequently,Married,5,4,3,4,No
+18,Female,Finance,Director,PhD,3,4223,1444,68,16,5,10,0,0,1,2,4,1,3,4,Yes,Travel_Frequently,Divorced,2,2,0,6,No
+30,Female,Marketing,Junior,Master,3,3498,824,97,5,13,7,1,4,0,4,2,1,2,3,No,Travel_Frequently,Married,3,1,1,8,No
+45,Male,HR,Junior,Master,4,3254,532,44,10,7,3,1,3,4,1,2,1,2,3,Yes,Travel_Rarely,Divorced,2,3,1,13,Yes
+35,Male,Finance,Manager,Master,2,4078,208,67,15,0,5,4,0,3,1,1,1,2,3,Yes,Travel_Frequently,Divorced,2,2,0,2,Yes
+24,Female,R&D,Junior,Bachelor,4,3272,740,77,24,2,9,2,2,1,3,1,4,3,3,No,Travel_Frequently,Single,0,5,1,6,No
+27,Female,Operations,Senior,Bachelor,2,1644,1170,25,7,18,0,0,1,6,3,1,4,1,4,No,Travel_Rarely,Married,2,3,0,1,No
+41,Male,IT,Manager,High School,1,5134,478,45,10,12,2,4,1,1,2,4,2,1,3,No,Travel_Rarely,Married,1,3,2,1,No
+27,Male,IT,Junior,Master,4,4487,1219,63,6,22,11,1,0,1,4,3,2,3,3,No,Non-Travel,Single,4,6,0,1,No
+37,Female,Marketing,Engineer,PhD,2,1039,1057,33,23,1,6,0,3,6,4,1,2,2,3,Yes,Travel_Rarely,Divorced,0,4,0,2,Yes
+35,Female,R&D,Specialist,Bachelor,2,2149,202,26,21,40,3,1,2,4,3,2,3,3,3,Yes,Non-Travel,Divorced,4,2,1,1,No
+28,Female,Marketing,Junior,PhD,4,5019,991,29,24,2,3,2,1,2,3,3,2,3,4,Yes,Travel_Frequently,Single,6,4,0,1,No
+56,Female,R&D,Senior,PhD,4,1195,953,45,18,0,2,1,1,0,2,2,4,2,4,No,Non-Travel,Single,3,3,0,5,Yes
+41,Male,HR,Analyst,Bachelor,2,4778,1269,57,9,40,3,0,0,0,3,3,3,3,3,No,Non-Travel,Divorced,2,3,2,2,No
+18,Male,Operations,Junior,Bachelor,4,2777,1150,51,8,3,5,1,1,3,2,4,4,4,4,Yes,Travel_Frequently,Divorced,2,6,3,4,No
+36,Male,IT,Director,Bachelor,3,5826,629,93,3,11,2,0,0,1,2,3,3,1,3,No,Travel_Frequently,Single,1,2,2,2,No
+28,Female,IT,Director,Bachelor,4,2979,778,43,22,1,6,4,0,5,4,2,2,4,3,No,Travel_Frequently,Married,2,0,1,1,No
+43,Female,HR,Director,Master,4,2077,1088,40,14,8,9,0,2,8,2,3,2,4,3,No,Non-Travel,Divorced,2,3,2,1,No
+27,Male,Sales,Analyst,Master,4,3477,1205,16,12,23,0,0,4,4,4,4,2,4,3,No,Travel_Rarely,Single,2,3,3,1,No
+33,Male,Operations,Director,Master,2,2936,527,98,24,3,3,3,1,1,4,2,3,3,3,Yes,Travel_Rarely,Married,2,1,1,1,No
+40,Male,Marketing,Engineer,Master,3,1987,921,29,1,11,2,4,0,4,4,1,4,2,4,Yes,Travel_Rarely,Married,3,3,0,4,Yes
+43,Male,HR,Junior,High School,1,9037,1285,18,1,2,5,5,2,1,3,3,1,3,3,No,Travel_Frequently,Married,2,0,0,7,No
+22,Female,Marketing,Director,Master,1,1834,1031,64,15,9,1,2,4,0,4,2,4,1,3,No,Travel_Frequently,Married,1,2,1,2,No
+31,Male,Finance,Manager,Bachelor,3,971,1161,52,8,4,5,0,2,0,2,3,2,3,3,No,Travel_Rarely,Single,2,4,3,2,Yes
+30,Male,IT,Analyst,PhD,3,6573,610,37,12,2,10,4,4,1,3,4,3,3,3,No,Travel_Frequently,Divorced,2,6,1,8,No
+28,Male,Marketing,Engineer,Master,3,2226,492,73,2,3,2,3,1,7,2,2,3,3,3,No,Non-Travel,Married,3,3,1,1,No
+52,Male,R&D,Manager,High School,2,2569,812,89,8,1,12,0,2,0,3,1,2,3,3,No,Non-Travel,Married,2,3,0,1,No
+39,Male,Marketing,Manager,Bachelor,1,2492,593,42,12,23,24,7,0,0,2,1,3,4,3,Yes,Travel_Frequently,Single,3,0,0,3,Yes
+22,Male,Finance,Manager,PhD,3,2242,1323,80,20,5,0,0,0,10,1,3,2,2,3,No,Travel_Rarely,Married,1,6,1,5,No
+44,Male,Operations,Manager,PhD,2,2032,1378,22,21,2,1,12,0,0,1,4,4,1,3,No,Travel_Rarely,Single,3,3,3,4,No
+56,Female,IT,Junior,Master,1,1810,1302,43,1,5,15,5,1,4,1,4,3,1,4,No,Non-Travel,Single,3,4,0,6,No
+45,Female,HR,Director,PhD,4,3079,646,25,7,3,15,3,5,1,2,3,1,1,3,No,Travel_Frequently,Divorced,4,5,2,1,No
+19,Female,Finance,Specialist,Master,2,2438,693,32,8,13,0,8,4,0,3,2,3,3,3,No,Travel_Rarely,Married,3,2,0,2,No
+30,Female,IT,Junior,Master,1,4294,488,69,15,35,0,3,0,7,4,2,2,1,3,No,Travel_Rarely,Divorced,2,0,1,1,Yes
+47,Male,Marketing,Junior,Bachelor,2,3794,257,64,1,5,0,0,0,0,4,3,1,4,3,No,Travel_Frequently,Single,1,1,1,7,No
+27,Female,Operations,Engineer,Bachelor,1,1874,1127,28,5,19,27,1,0,2,2,2,2,2,4,No,Travel_Frequently,Married,5,1,2,10,Yes
+39,Female,Sales,Engineer,High School,1,3147,266,88,21,8,0,0,0,0,2,2,3,3,3,No,Travel_Rarely,Single,0,2,0,1,No
+42,Male,Operations,Director,Bachelor,4,2418,1059,23,7,1,3,1,1,0,2,2,1,3,3,No,Travel_Frequently,Single,0,2,0,1,No
+25,Male,Sales,Specialist,Bachelor,2,1815,508,25,4,11,9,4,4,0,2,3,1,4,4,No,Travel_Frequently,Single,3,3,0,1,Yes
+34,Female,R&D,Engineer,Master,3,4207,1327,77,8,7,0,1,6,0,4,1,3,1,3,No,Travel_Frequently,Married,4,2,3,1,No
+18,Female,Operations,Director,Bachelor,4,2805,293,90,0,10,4,1,2,0,3,4,1,3,3,No,Travel_Rarely,Single,2,3,0,1,No
+24,Male,IT,Director,Master,4,2431,334,81,8,22,1,2,3,4,4,1,4,3,3,No,Non-Travel,Single,5,3,0,3,No
+32,Female,Sales,Senior,Master,1,1943,817,67,9,5,9,6,1,1,2,2,1,4,3,No,Travel_Frequently,Married,1,6,1,18,No
+22,Male,HR,Specialist,Bachelor,3,1782,1273,53,22,23,1,0,0,1,1,3,1,4,3,No,Travel_Rarely,Divorced,0,4,1,2,Yes
+51,Male,IT,Engineer,High School,2,8057,1282,92,3,13,5,1,1,1,4,4,4,1,3,Yes,Non-Travel,Single,3,4,2,1,Yes
+20,Male,HR,Specialist,High School,3,3522,1402,70,2,6,5,0,1,7,1,2,2,2,4,No,Travel_Rarely,Divorced,2,1,3,1,No
+30,Male,Operations,Junior,PhD,3,1727,915,42,9,9,1,3,2,7,1,4,2,2,3,No,Travel_Rarely,Divorced,2,0,1,1,Yes
+36,Female,HR,Junior,PhD,3,3442,503,89,14,3,0,0,0,3,2,4,4,1,3,No,Travel_Rarely,Divorced,1,4,3,1,No
+49,Male,Sales,Specialist,Bachelor,3,5069,992,53,10,40,2,3,0,6,4,1,1,2,3,No,Non-Travel,Divorced,2,2,2,7,No
+20,Male,IT,Senior,High School,3,3241,777,39,13,11,1,1,0,1,3,2,3,4,3,No,Travel_Rarely,Divorced,2,6,0,1,No
+46,Female,Marketing,Senior,Master,1,5925,1434,35,5,0,8,0,6,1,4,4,4,4,3,Yes,Non-Travel,Divorced,5,3,3,29,No
+35,Male,Finance,Specialist,PhD,1,1378,167,24,11,3,8,8,1,2,3,1,3,4,3,No,Travel_Frequently,Married,3,1,1,3,Yes
+25,Female,Sales,Engineer,Master,4,1101,187,57,12,9,3,0,2,2,3,3,2,2,3,Yes,Non-Travel,Married,0,1,1,3,No
+39,Female,Sales,Analyst,PhD,1,3395,316,29,16,0,4,1,2,1,2,4,4,2,3,No,Travel_Rarely,Divorced,4,4,1,2,No
+36,Female,Marketing,Senior,Bachelor,4,3422,100,97,15,0,4,0,0,1,3,2,3,3,3,No,Non-Travel,Married,1,3,1,5,No
+28,Male,IT,Manager,High School,4,561,1258,62,2,5,8,1,1,12,4,3,1,3,3,No,Travel_Rarely,Married,5,4,0,3,No
+35,Female,IT,Junior,PhD,2,2182,1474,35,1,4,2,2,4,5,4,4,4,3,3,No,Travel_Frequently,Divorced,1,3,2,1,No
+31,Female,Operations,Specialist,High School,3,1800,239,74,10,5,1,1,1,1,1,4,3,2,3,No,Non-Travel,Divorced,5,2,2,1,No
+36,Male,HR,Manager,Master,1,1486,717,64,8,3,1,0,5,3,3,2,4,3,3,Yes,Travel_Frequently,Single,1,0,2,12,No
+41,Female,Operations,Specialist,Bachelor,2,1798,232,37,2,1,3,1,0,0,2,4,4,4,3,Yes,Non-Travel,Married,1,1,0,1,Yes
+50,Female,Marketing,Director,High School,1,4015,277,27,17,11,2,3,0,0,2,2,2,2,3,No,Travel_Rarely,Divorced,3,3,3,2,No
+22,Female,Operations,Junior,Bachelor,4,1792,909,83,19,7,2,4,4,1,4,2,2,1,4,No,Non-Travel,Married,1,3,0,2,No
+56,Female,Marketing,Junior,High School,1,1823,1481,18,14,2,0,2,3,1,3,2,1,2,3,No,Travel_Frequently,Married,1,3,0,1,No
+18,Female,IT,Senior,Master,3,1326,479,92,13,3,6,2,9,0,2,2,2,3,3,Yes,Non-Travel,Married,2,1,0,1,Yes
+33,Male,HR,Senior,Master,4,5622,1007,86,1,8,1,0,2,5,3,4,2,2,3,Yes,Travel_Frequently,Single,3,6,0,1,No
+40,Female,Operations,Manager,Bachelor,4,3704,757,23,16,0,1,1,5,1,3,3,2,3,3,Yes,Travel_Frequently,Divorced,1,2,1,5,No
+37,Female,Sales,Director,Master,2,857,549,49,21,1,2,0,3,2,1,3,3,3,3,Yes,Travel_Rarely,Married,4,2,1,2,Yes
+28,Male,R&D,Specialist,PhD,3,1824,685,35,7,0,1,0,3,0,2,1,4,1,3,No,Non-Travel,Divorced,0,5,2,7,Yes
+32,Male,Finance,Director,High School,4,3882,562,72,9,16,4,0,1,0,1,2,2,1,3,Yes,Travel_Frequently,Married,2,4,3,6,No
+30,Male,Sales,Junior,Master,3,5657,1089,32,17,13,2,2,0,6,2,4,3,4,3,No,Travel_Rarely,Divorced,1,4,2,1,No
+29,Female,IT,Manager,PhD,1,4538,1231,86,24,13,2,2,5,2,3,4,4,3,3,Yes,Travel_Rarely,Divorced,2,2,1,4,Yes
+43,Male,Finance,Analyst,Bachelor,3,2495,221,95,18,12,3,8,1,9,2,1,2,2,3,No,Travel_Rarely,Divorced,2,6,2,6,No
+38,Female,R&D,Manager,PhD,4,1134,116,57,7,11,1,0,1,17,4,3,2,1,3,No,Travel_Frequently,Married,2,5,2,5,No
+28,Female,R&D,Engineer,Bachelor,2,4606,1319,20,7,6,0,3,1,1,3,4,4,1,3,Yes,Non-Travel,Single,3,5,1,4,No
+43,Male,HR,Manager,Bachelor,4,2569,426,92,2,10,10,5,1,1,2,1,3,3,4,No,Travel_Frequently,Divorced,3,6,2,6,Yes
+38,Male,Finance,Director,High School,3,3085,417,81,2,0,2,2,1,5,1,3,3,2,3,No,Travel_Rarely,Single,3,2,1,1,No
+43,Female,HR,Engineer,High School,3,2727,908,26,11,9,2,0,0,17,1,4,1,1,3,Yes,Travel_Frequently,Divorced,2,2,0,6,Yes
+41,Male,Sales,Engineer,PhD,4,1513,1375,26,21,15,0,0,4,2,3,2,4,1,3,No,Travel_Frequently,Single,4,3,1,1,No
+26,Female,Marketing,Engineer,High School,3,3576,602,80,16,6,3,0,1,4,1,1,1,2,3,No,Travel_Rarely,Divorced,3,6,1,4,Yes
+29,Male,Marketing,Analyst,High School,1,3338,218,16,3,4,4,1,1,4,3,4,3,1,3,No,Non-Travel,Single,6,2,2,1,No
+42,Male,Marketing,Manager,High School,4,2409,809,29,16,3,4,4,0,1,3,1,2,2,3,No,Travel_Rarely,Divorced,3,6,0,9,No
+41,Male,Finance,Director,PhD,2,3772,144,37,13,10,6,0,0,2,3,1,1,3,3,No,Travel_Rarely,Divorced,1,6,1,3,No
+34,Female,Marketing,Manager,Master,4,1499,413,43,18,11,0,0,0,5,2,1,3,1,3,Yes,Travel_Frequently,Single,2,4,3,5,No
+36,Male,Sales,Analyst,High School,1,2605,1302,95,8,20,1,3,2,3,3,2,3,3,3,No,Travel_Rarely,Divorced,7,5,3,7,No
+47,Female,HR,Junior,High School,1,3020,517,21,20,4,8,4,0,0,1,3,2,2,3,Yes,Travel_Frequently,Married,2,4,0,11,Yes
+29,Female,Finance,Senior,PhD,1,1252,655,42,11,14,14,1,4,1,4,3,4,3,3,No,Travel_Rarely,Divorced,1,2,0,6,No
+40,Female,HR,Director,Master,1,2897,1201,28,4,8,0,3,0,0,2,4,3,3,4,No,Travel_Rarely,Divorced,5,2,1,1,No
+32,Female,Finance,Director,High School,1,4301,425,58,10,21,3,1,0,0,1,2,1,3,3,Yes,Non-Travel,Married,3,6,1,9,Yes
+32,Male,HR,Manager,Bachelor,2,2561,1480,44,19,7,1,0,0,7,3,3,2,4,3,No,Travel_Rarely,Married,5,5,0,4,No
+45,Female,R&D,Senior,PhD,3,2930,614,95,2,7,0,1,0,0,3,4,4,2,3,No,Non-Travel,Married,2,2,0,4,Yes
+43,Female,HR,Specialist,High School,1,3948,313,46,20,8,1,2,2,0,4,4,4,2,3,No,Travel_Rarely,Single,0,2,2,12,No
+43,Male,Marketing,Specialist,High School,1,2455,173,84,14,13,0,8,4,1,1,1,4,2,3,No,Travel_Rarely,Married,0,4,2,1,No
+48,Female,R&D,Analyst,Bachelor,4,2568,608,20,13,33,6,0,1,2,2,2,3,2,3,No,Travel_Rarely,Single,1,3,1,1,No
+35,Male,HR,Specialist,Bachelor,2,1655,431,41,10,0,3,2,0,2,1,3,4,2,3,No,Non-Travel,Married,2,3,1,3,Yes
+41,Female,Finance,Director,PhD,2,2958,1216,96,19,0,0,1,0,0,3,2,3,1,4,No,Travel_Frequently,Single,3,6,1,6,No
+31,Male,Finance,Specialist,PhD,3,2521,787,38,7,27,0,2,1,0,2,2,2,1,3,No,Non-Travel,Married,2,3,0,2,No
+38,Female,Finance,Junior,Bachelor,2,3825,756,48,3,7,8,0,6,0,3,3,2,1,3,Yes,Travel_Rarely,Married,2,4,1,5,Yes
+33,Male,IT,Junior,PhD,4,3951,1392,54,11,9,0,1,0,2,3,3,4,3,3,Yes,Travel_Frequently,Divorced,3,4,0,3,No
+35,Female,Sales,Junior,Bachelor,4,4427,1499,61,7,6,4,5,2,0,1,2,2,3,3,No,Travel_Rarely,Married,1,4,1,4,No
+40,Female,Finance,Specialist,High School,3,2312,1127,93,5,0,2,2,1,8,4,4,1,2,3,No,Non-Travel,Divorced,7,4,0,8,Yes
+26,Male,R&D,Analyst,Bachelor,4,1003,1261,89,14,14,4,1,0,1,3,2,1,4,3,No,Non-Travel,Married,2,5,1,1,No
+55,Male,Finance,Engineer,Bachelor,1,4319,1354,38,11,13,1,1,1,0,1,3,3,2,3,No,Travel_Frequently,Married,6,0,1,5,No
+24,Male,IT,Engineer,Master,1,3698,699,79,15,3,0,1,0,3,2,2,4,1,3,Yes,Non-Travel,Divorced,1,3,0,7,Yes
+22,Male,Marketing,Senior,Bachelor,4,2169,1175,32,15,3,1,1,3,1,4,3,3,2,4,Yes,Travel_Rarely,Divorced,0,1,0,2,Yes
+46,Female,R&D,Engineer,Bachelor,3,3934,424,58,20,18,1,5,0,3,3,4,2,3,3,No,Travel_Frequently,Single,1,3,0,1,No
+42,Female,IT,Engineer,Master,2,1444,1091,90,19,0,2,10,2,0,3,2,4,2,3,Yes,Travel_Rarely,Divorced,6,6,1,1,No
+41,Male,Marketing,Junior,PhD,3,4989,816,71,19,21,5,1,0,2,2,4,3,1,3,No,Travel_Frequently,Single,2,3,0,7,No
+41,Female,Operations,Junior,Master,2,2522,822,42,3,2,1,1,6,4,1,2,4,2,3,No,Travel_Frequently,Married,2,3,0,1,No
+34,Male,Operations,Specialist,High School,4,1969,376,85,10,8,0,5,0,7,3,2,4,3,3,Yes,Travel_Rarely,Divorced,1,2,1,2,Yes
+26,Male,R&D,Senior,Master,4,2184,635,37,12,27,3,1,4,0,2,3,3,4,3,Yes,Non-Travel,Divorced,1,2,2,2,No
+35,Female,HR,Manager,High School,1,2655,251,99,8,11,4,2,3,1,3,1,4,1,3,No,Travel_Rarely,Married,1,1,0,3,No
+28,Female,Sales,Director,PhD,2,2963,1054,48,3,5,16,0,6,1,1,3,2,2,3,No,Non-Travel,Married,1,4,1,6,Yes
+44,Female,Sales,Senior,Master,3,3053,358,25,11,11,4,4,1,7,4,2,1,3,3,No,Non-Travel,Married,2,4,3,7,No
+33,Female,IT,Senior,Master,4,2404,423,49,8,4,3,2,2,6,1,1,1,1,3,No,Travel_Rarely,Married,2,5,3,2,Yes
+26,Female,Marketing,Analyst,PhD,3,3294,1116,56,12,3,4,4,0,0,1,1,4,1,3,No,Travel_Frequently,Divorced,2,6,0,5,No
+31,Female,Sales,Specialist,High School,1,2993,968,42,15,40,13,4,0,0,1,4,1,3,4,Yes,Travel_Rarely,Married,0,2,2,6,Yes
+39,Female,Marketing,Analyst,Master,2,2156,1291,96,5,13,8,0,1,2,2,2,4,2,3,Yes,Travel_Frequently,Married,1,2,1,1,Yes
+29,Male,Marketing,Senior,High School,2,2000,787,92,9,10,1,3,0,0,3,3,3,2,3,No,Non-Travel,Divorced,4,2,3,1,Yes
+26,Male,IT,Senior,Master,4,4040,409,96,12,4,1,4,8,1,4,1,2,2,3,Yes,Travel_Frequently,Single,5,2,1,11,No
+37,Male,IT,Senior,Bachelor,2,3874,902,38,6,0,1,1,0,0,2,1,1,1,4,Yes,Travel_Rarely,Divorced,2,1,2,5,Yes
+37,Male,IT,Engineer,Master,4,3067,1179,22,18,0,3,0,1,3,1,3,3,4,3,No,Travel_Frequently,Single,4,2,2,5,No
+29,Male,Sales,Director,PhD,1,4731,719,67,23,8,6,0,1,8,4,3,2,1,3,No,Non-Travel,Married,0,4,1,1,No
+30,Female,Operations,Director,PhD,2,1118,572,86,18,14,3,1,1,17,1,1,1,2,3,Yes,Non-Travel,Divorced,3,4,2,8,Yes
+37,Male,IT,Analyst,High School,4,2248,1419,18,16,7,0,1,2,1,1,3,1,1,3,No,Travel_Frequently,Married,6,3,0,4,No
+20,Male,Sales,Senior,Master,3,1672,560,19,12,18,6,2,0,2,1,4,2,4,3,No,Non-Travel,Divorced,0,2,0,9,Yes
+20,Male,IT,Director,High School,4,9210,1447,63,12,0,8,0,1,5,4,1,3,1,3,Yes,Non-Travel,Single,6,2,1,18,Yes
+27,Male,Finance,Junior,High School,2,4258,913,44,20,4,1,5,0,0,3,4,3,3,3,No,Travel_Frequently,Divorced,2,2,3,15,No
+32,Male,Marketing,Director,Bachelor,1,2865,945,86,1,2,5,0,5,3,1,2,1,2,3,Yes,Non-Travel,Married,3,1,1,9,Yes
+38,Male,IT,Specialist,Bachelor,2,4413,1264,77,9,5,2,0,2,1,3,4,2,2,3,No,Travel_Frequently,Divorced,3,2,1,1,No
+49,Male,R&D,Specialist,PhD,2,5208,766,61,21,0,10,1,7,0,4,3,3,2,3,Yes,Travel_Frequently,Married,0,3,1,10,No
+43,Female,Marketing,Director,High School,4,5181,361,40,12,30,9,2,0,1,4,1,2,1,3,No,Non-Travel,Divorced,1,2,0,1,No
+33,Female,Marketing,Junior,PhD,3,4726,1364,71,8,2,3,0,0,0,1,4,2,1,4,Yes,Travel_Frequently,Single,1,3,0,9,No
+34,Male,IT,Specialist,Master,2,2614,454,51,0,25,5,0,0,3,3,3,1,1,4,No,Non-Travel,Divorced,1,5,2,1,Yes
+24,Female,Operations,Engineer,High School,3,2319,869,21,13,5,10,0,0,0,3,3,2,2,3,No,Non-Travel,Divorced,2,5,3,4,No
+34,Female,HR,Director,High School,4,1842,279,54,15,40,3,3,0,1,1,4,2,1,3,No,Non-Travel,Divorced,6,1,0,1,Yes
+32,Female,Operations,Engineer,Master,3,3832,165,53,19,8,1,4,2,0,2,1,4,2,3,No,Travel_Rarely,Divorced,2,3,1,7,No
+38,Female,IT,Director,Master,4,2753,919,76,14,26,7,1,0,5,2,4,2,1,3,Yes,Non-Travel,Single,3,6,0,1,Yes
+26,Male,Marketing,Manager,PhD,1,2418,1471,92,0,0,1,3,1,2,4,2,3,2,3,No,Travel_Frequently,Married,2,3,0,2,No
+40,Female,R&D,Manager,PhD,3,2355,270,67,16,13,2,3,4,2,4,4,1,3,3,Yes,Travel_Frequently,Divorced,7,3,0,8,No
+50,Female,Marketing,Manager,Master,3,6155,573,18,23,23,10,0,2,2,2,4,1,1,4,No,Travel_Frequently,Divorced,3,1,1,5,Yes
+33,Female,Operations,Specialist,PhD,1,4799,633,96,12,1,6,10,1,1,2,1,2,2,4,Yes,Travel_Rarely,Divorced,1,2,0,1,Yes
+39,Male,R&D,Engineer,Master,3,7444,1490,39,14,1,2,5,0,0,2,4,2,3,3,No,Travel_Rarely,Single,2,0,0,2,No
+41,Male,Sales,Engineer,High School,1,3883,1230,21,15,5,1,0,1,4,1,3,3,3,3,No,Travel_Frequently,Married,2,2,2,1,Yes
+30,Male,Finance,Engineer,High School,2,3067,538,42,15,27,2,0,0,0,1,1,4,4,4,No,Travel_Frequently,Married,2,4,3,5,No
+37,Male,Marketing,Junior,Bachelor,4,2943,934,83,1,7,1,0,2,0,1,3,1,1,4,Yes,Travel_Rarely,Divorced,1,5,0,17,Yes
+35,Male,IT,Engineer,High School,1,1789,326,81,16,7,0,0,0,3,1,1,4,2,4,No,Travel_Frequently,Divorced,1,6,1,5,Yes
+35,Male,Sales,Junior,Master,3,1586,541,34,10,1,6,4,3,0,1,2,3,4,3,No,Non-Travel,Married,1,6,0,1,Yes
+27,Male,Finance,Manager,PhD,1,3841,495,97,7,0,1,1,2,1,1,2,1,1,3,No,Non-Travel,Divorced,1,6,3,2,No
+35,Female,IT,Manager,Bachelor,3,1868,827,25,19,16,3,4,1,1,4,2,3,3,3,No,Travel_Frequently,Divorced,2,3,1,18,No
+39,Female,HR,Specialist,PhD,2,3313,183,81,2,0,2,4,0,1,3,4,2,1,3,No,Non-Travel,Divorced,2,3,2,1,Yes
+49,Female,IT,Director,Master,1,5206,1136,21,11,10,20,2,0,3,4,2,3,2,3,No,Travel_Frequently,Single,2,5,0,4,No
+44,Male,R&D,Manager,High School,2,2137,792,37,19,24,2,3,2,2,3,1,2,3,3,Yes,Travel_Rarely,Single,0,2,1,2,No
+56,Male,R&D,Director,Bachelor,4,8145,592,75,15,2,0,0,1,3,4,2,4,4,4,No,Travel_Frequently,Married,2,4,1,7,No
+27,Male,HR,Director,Master,3,1816,1391,85,13,10,0,1,0,3,4,1,1,1,4,No,Travel_Rarely,Single,5,4,0,10,Yes
+43,Male,Sales,Specialist,Bachelor,3,4890,1243,48,15,0,4,3,0,1,1,3,1,1,3,No,Non-Travel,Single,2,4,0,2,No
+36,Male,Finance,Senior,Bachelor,2,3686,1069,33,20,9,4,0,0,1,1,4,4,4,4,No,Non-Travel,Married,2,5,1,5,No
+56,Female,IT,Senior,High School,4,5415,452,72,16,1,2,0,3,1,3,3,2,1,3,No,Non-Travel,Single,2,4,2,3,No
+26,Female,R&D,Analyst,Master,1,1705,1180,23,10,13,2,5,0,1,3,3,1,1,3,No,Travel_Frequently,Married,2,6,0,1,No
+26,Male,Sales,Specialist,PhD,1,9447,139,62,16,3,0,3,1,12,1,2,3,1,3,No,Travel_Rarely,Divorced,2,3,1,1,No
+29,Male,HR,Analyst,Bachelor,3,2726,1459,96,18,6,3,0,1,5,4,2,2,3,3,No,Travel_Rarely,Married,4,0,0,3,No
+18,Male,Operations,Analyst,Bachelor,2,4181,739,55,21,9,3,3,1,0,3,2,1,3,3,No,Non-Travel,Married,4,2,0,1,No
+29,Male,Marketing,Senior,PhD,2,6137,272,62,0,1,0,4,4,0,2,3,3,2,3,No,Non-Travel,Married,3,5,1,8,Yes
+27,Female,Operations,Specialist,Master,1,2203,358,59,11,13,0,1,4,0,2,4,3,1,3,Yes,Travel_Rarely,Divorced,2,1,0,1,Yes
+36,Male,Operations,Senior,Bachelor,4,4504,616,39,14,3,0,0,1,0,2,4,1,2,3,Yes,Travel_Frequently,Divorced,1,2,1,1,No
+38,Male,R&D,Analyst,Bachelor,4,2026,829,92,17,10,0,8,0,0,3,3,4,3,4,Yes,Non-Travel,Divorced,1,6,0,2,No
+53,Male,HR,Specialist,Bachelor,1,5993,622,39,22,1,4,1,1,2,1,4,4,1,3,No,Travel_Frequently,Married,2,2,1,1,Yes
+44,Male,IT,Analyst,Master,1,2038,938,33,13,11,1,0,1,5,1,3,1,2,3,No,Non-Travel,Married,3,5,1,3,No
+29,Female,Operations,Engineer,Master,2,3038,216,53,0,1,1,2,1,4,1,3,3,1,3,No,Non-Travel,Married,2,4,3,2,Yes
+26,Male,Operations,Director,PhD,4,3473,283,93,12,5,0,4,2,0,3,4,4,1,3,No,Travel_Frequently,Married,2,2,0,6,No
+39,Male,Finance,Specialist,Master,1,4412,1239,94,14,2,15,0,0,1,3,1,4,4,3,No,Travel_Frequently,Married,2,2,2,15,No
+21,Female,R&D,Specialist,Master,1,7976,261,41,6,13,9,0,2,2,2,1,4,2,3,No,Travel_Frequently,Married,4,1,0,7,No
+53,Female,R&D,Director,High School,3,2378,642,88,14,3,1,0,0,4,3,2,2,3,3,No,Travel_Frequently,Married,4,0,1,1,Yes
+46,Female,IT,Analyst,PhD,1,5267,1360,77,19,21,1,14,2,5,2,4,4,2,3,Yes,Travel_Rarely,Single,4,2,1,13,No
+30,Male,Marketing,Engineer,Bachelor,1,7983,938,82,9,22,1,0,0,7,2,2,1,2,3,Yes,Travel_Rarely,Divorced,4,3,0,2,Yes
+18,Male,Sales,Junior,Master,4,3238,1189,33,13,2,3,2,2,2,1,3,1,2,3,Yes,Non-Travel,Single,1,3,1,3,Yes
+48,Female,Finance,Director,Bachelor,2,2264,1193,42,5,9,0,7,0,3,3,1,2,4,3,Yes,Non-Travel,Divorced,1,2,0,2,No
+33,Female,R&D,Senior,Bachelor,4,1255,546,99,13,0,5,0,1,0,1,4,2,1,4,Yes,Non-Travel,Married,0,3,0,1,Yes
+47,Female,Finance,Analyst,High School,2,7643,515,92,23,4,3,10,2,2,1,4,1,3,3,No,Travel_Rarely,Single,1,2,0,11,No
+19,Female,R&D,Director,Master,3,2638,631,47,24,12,11,8,0,0,3,4,2,4,3,Yes,Travel_Frequently,Married,2,5,2,2,Yes
+29,Female,Finance,Director,PhD,1,1806,540,24,21,10,0,6,3,1,3,1,4,3,4,Yes,Non-Travel,Single,4,2,2,4,Yes
+35,Female,HR,Specialist,Master,3,1511,837,97,11,9,8,0,1,3,4,2,3,4,3,Yes,Travel_Rarely,Single,2,3,0,1,No
+35,Male,Operations,Senior,Bachelor,2,1805,563,44,10,3,7,3,1,0,2,1,3,1,3,No,Non-Travel,Married,2,1,1,7,Yes
+30,Male,R&D,Senior,PhD,4,4721,495,36,24,4,0,4,0,0,4,2,3,3,4,No,Travel_Rarely,Single,4,4,0,7,No
+41,Male,Finance,Senior,Master,4,5059,810,17,19,1,2,12,1,0,2,3,1,2,3,No,Travel_Frequently,Single,1,0,0,1,No
+24,Female,Sales,Director,Bachelor,3,4130,494,96,21,12,0,0,1,0,2,3,2,4,3,Yes,Travel_Rarely,Divorced,1,1,2,5,Yes
+33,Female,HR,Junior,Bachelor,2,3184,425,89,23,7,1,4,1,0,2,2,3,3,4,No,Travel_Frequently,Married,3,6,1,6,No
+36,Female,HR,Manager,High School,3,1599,1214,62,24,12,1,1,2,0,1,3,4,1,4,Yes,Non-Travel,Married,1,3,0,4,Yes
+40,Female,Sales,Analyst,High School,3,2069,849,16,18,2,4,0,1,0,1,3,4,3,3,Yes,Travel_Frequently,Single,2,4,0,4,Yes
+42,Female,Finance,Manager,High School,1,1714,1193,90,1,3,2,1,0,0,3,4,4,4,3,No,Travel_Rarely,Married,1,5,2,4,No
+23,Female,IT,Director,Bachelor,3,3969,1289,68,21,4,14,4,0,12,2,4,2,1,3,No,Non-Travel,Divorced,0,6,0,1,No
+19,Male,Sales,Manager,Master,1,1751,741,20,19,0,0,1,0,1,2,1,3,2,3,No,Non-Travel,Divorced,4,6,0,5,No
+47,Male,Finance,Director,High School,1,2085,313,54,0,4,18,2,0,0,2,1,4,4,3,No,Travel_Rarely,Married,1,3,1,3,Yes
+38,Female,Sales,Manager,Master,4,2719,1458,16,7,16,1,15,2,2,1,1,2,4,3,No,Travel_Frequently,Married,2,3,1,2,Yes
+27,Male,Sales,Senior,High School,1,1293,468,87,24,22,7,1,3,5,3,4,4,1,3,Yes,Travel_Rarely,Divorced,0,1,1,9,No
+50,Female,R&D,Engineer,PhD,1,3051,148,16,13,7,2,2,0,3,1,1,3,4,4,No,Travel_Frequently,Married,1,6,2,1,No
+36,Male,Finance,Senior,PhD,4,2825,1175,88,8,6,0,1,6,1,4,1,3,3,4,Yes,Travel_Frequently,Single,1,6,0,1,No
+46,Female,IT,Senior,High School,3,5388,1412,69,1,0,9,1,1,2,4,4,3,2,4,No,Non-Travel,Married,0,1,2,1,No
+35,Female,Operations,Specialist,Bachelor,2,1978,1362,86,24,21,1,3,4,3,4,2,3,3,4,Yes,Travel_Frequently,Single,0,5,0,1,No
+55,Male,R&D,Specialist,High School,2,1556,232,74,22,0,5,8,2,3,3,4,3,1,3,No,Non-Travel,Divorced,4,3,1,1,No
+52,Male,Sales,Manager,High School,2,2472,1098,20,4,28,4,2,2,3,4,2,4,4,3,No,Travel_Rarely,Married,1,5,2,22,No
+32,Female,Operations,Director,Bachelor,3,1721,885,33,22,6,3,4,0,6,3,4,3,2,3,No,Travel_Rarely,Divorced,0,2,1,1,No
+44,Female,Marketing,Senior,PhD,1,3039,1289,41,24,4,3,0,0,6,1,1,4,1,3,Yes,Non-Travel,Married,0,3,2,5,No
+41,Male,Operations,Manager,Master,2,1176,1497,15,7,25,6,0,0,2,1,3,3,3,3,No,Non-Travel,Single,4,4,2,1,Yes
+48,Male,Sales,Specialist,High School,3,2202,472,47,15,0,0,2,2,1,3,3,4,4,3,No,Travel_Frequently,Married,4,6,0,4,No
+25,Female,Sales,Engineer,Bachelor,1,1873,578,54,21,8,5,0,0,3,1,2,3,4,4,No,Non-Travel,Divorced,2,1,2,20,Yes
+41,Male,Finance,Analyst,High School,4,3959,931,46,15,7,11,0,3,5,1,2,4,1,3,No,Travel_Rarely,Single,2,6,3,1,Yes
+45,Female,Finance,Manager,Bachelor,2,1987,749,83,12,2,0,2,0,0,3,2,3,3,3,No,Non-Travel,Married,1,3,1,9,Yes
+18,Female,R&D,Engineer,Master,1,1251,781,31,19,5,0,0,3,14,4,3,2,4,3,Yes,Non-Travel,Divorced,1,4,0,30,Yes
+23,Female,IT,Analyst,Master,2,2694,787,22,14,10,6,0,0,0,3,2,4,3,3,No,Non-Travel,Divorced,1,6,0,4,No
+18,Female,R&D,Junior,PhD,2,3497,1423,71,0,12,2,2,0,1,2,4,2,2,3,Yes,Travel_Frequently,Married,5,2,0,1,No
+32,Male,HR,Manager,Bachelor,2,2602,181,56,21,0,2,2,0,6,1,4,4,4,3,Yes,Non-Travel,Divorced,0,0,0,5,No
+42,Male,Sales,Manager,Bachelor,1,2195,186,23,2,27,0,7,1,0,3,3,4,2,3,No,Travel_Frequently,Single,5,1,1,9,No
+50,Male,Operations,Junior,PhD,3,2130,324,49,5,1,3,3,0,1,1,4,4,4,3,No,Travel_Frequently,Married,1,4,0,1,No
+35,Male,Marketing,Junior,PhD,1,3154,115,85,21,2,0,1,2,0,4,2,1,1,3,Yes,Non-Travel,Single,1,3,0,3,Yes
+51,Male,Sales,Manager,Bachelor,2,1910,921,93,13,3,3,7,0,1,1,3,3,4,3,Yes,Travel_Frequently,Divorced,0,3,1,1,Yes
+21,Male,Sales,Junior,PhD,1,2529,1481,67,3,0,7,4,0,0,3,2,2,4,4,No,Non-Travel,Divorced,1,4,1,1,No
+18,Male,R&D,Senior,Master,4,4338,262,68,17,1,1,0,3,1,4,4,2,3,3,Yes,Travel_Rarely,Divorced,2,5,1,9,No
+34,Female,Marketing,Analyst,High School,3,1555,613,98,14,40,3,0,0,1,4,2,4,3,4,No,Travel_Rarely,Single,2,1,2,2,No
+38,Male,Marketing,Analyst,Master,1,2916,449,39,8,3,24,3,5,14,4,3,2,2,3,No,Travel_Frequently,Divorced,0,6,0,2,No
+34,Male,Marketing,Analyst,PhD,4,1218,780,81,17,1,5,2,8,15,2,2,2,2,3,No,Travel_Rarely,Married,3,6,0,4,Yes
+18,Female,R&D,Senior,Bachelor,3,3340,1498,76,2,1,9,4,0,0,3,4,2,2,3,Yes,Non-Travel,Married,3,2,0,1,Yes
+34,Male,Sales,Director,Bachelor,4,1827,1215,69,9,12,2,4,0,3,3,1,2,4,3,Yes,Travel_Frequently,Divorced,3,3,1,1,No
+21,Male,R&D,Junior,Master,3,4963,280,60,16,19,7,2,0,0,4,3,1,4,3,No,Non-Travel,Married,1,4,0,3,Yes
+41,Female,Finance,Engineer,Bachelor,1,1424,842,38,6,2,0,12,2,0,1,2,4,2,3,No,Travel_Frequently,Single,1,1,2,2,Yes
+38,Male,Finance,Junior,PhD,4,3718,1424,60,14,0,0,2,1,0,4,3,2,1,4,Yes,Travel_Frequently,Single,2,4,0,1,No
+25,Male,R&D,Manager,Master,2,5489,759,36,0,2,1,0,2,10,2,2,1,1,3,Yes,Travel_Frequently,Divorced,0,6,3,1,Yes
+29,Male,Marketing,Specialist,Bachelor,4,1780,1312,25,24,0,2,5,2,8,4,1,1,4,3,Yes,Travel_Frequently,Married,2,1,1,3,No
+24,Female,Sales,Analyst,High School,3,1937,1437,62,10,1,9,0,0,0,3,4,4,1,3,No,Travel_Rarely,Married,2,3,1,8,Yes
+34,Male,R&D,Junior,High School,1,1859,592,22,16,5,2,4,3,0,4,2,3,1,3,No,Travel_Rarely,Divorced,1,1,2,9,No
+44,Male,R&D,Engineer,PhD,3,2338,1022,53,4,2,5,9,2,0,1,2,3,2,3,No,Travel_Rarely,Single,0,4,2,1,Yes
+25,Female,R&D,Manager,Bachelor,4,3861,227,49,6,7,6,3,1,2,3,1,3,1,3,No,Travel_Frequently,Divorced,3,4,1,4,No
+40,Male,HR,Senior,PhD,4,2244,664,63,18,2,4,2,4,2,1,3,2,1,3,No,Travel_Rarely,Married,2,2,3,9,No
+29,Female,Finance,Director,Master,2,1701,1310,60,24,28,2,1,2,0,4,4,4,4,3,No,Travel_Frequently,Married,1,6,1,2,No
+27,Female,Operations,Senior,High School,1,1086,649,52,23,23,4,1,0,4,3,2,3,4,3,Yes,Travel_Rarely,Divorced,1,3,2,13,No
+33,Male,Marketing,Engineer,Master,1,6640,552,22,14,8,2,1,1,1,2,2,2,4,3,Yes,Travel_Frequently,Single,1,4,0,11,Yes
+24,Female,IT,Manager,Bachelor,4,6906,570,68,2,4,0,3,1,7,3,4,4,1,3,Yes,Travel_Rarely,Single,0,2,2,1,No
+29,Female,Operations,Analyst,PhD,1,3944,1087,51,14,4,24,4,0,3,1,1,2,2,3,No,Travel_Rarely,Divorced,3,5,0,1,Yes
+23,Male,Marketing,Junior,PhD,2,1987,837,54,4,5,0,3,6,1,3,3,3,3,3,No,Travel_Rarely,Married,3,3,0,1,No
+54,Female,IT,Manager,PhD,3,4332,323,48,22,13,0,0,0,4,2,4,3,4,3,No,Travel_Frequently,Single,2,4,1,1,No
+35,Female,HR,Director,Master,1,4790,253,93,11,6,10,2,2,5,2,3,1,4,3,Yes,Travel_Frequently,Divorced,2,3,0,11,Yes
+28,Male,R&D,Senior,High School,4,2625,659,31,19,19,1,4,1,1,2,1,1,4,3,Yes,Travel_Rarely,Married,1,3,0,13,No
+37,Male,HR,Director,Master,3,3043,450,47,4,28,5,1,0,1,2,1,4,2,3,Yes,Travel_Frequently,Single,6,6,0,1,No
+33,Male,HR,Director,Master,3,5518,1270,61,2,4,1,2,5,8,1,4,2,3,3,No,Non-Travel,Single,1,1,1,4,No
+32,Female,Operations,Engineer,Bachelor,2,1312,448,66,8,8,2,4,3,0,3,2,2,3,3,Yes,Travel_Rarely,Divorced,3,4,2,4,No
+41,Male,Sales,Engineer,Bachelor,4,4910,281,94,8,0,1,3,1,0,4,1,3,4,3,Yes,Travel_Rarely,Married,1,1,1,2,No
+42,Female,Operations,Junior,Bachelor,1,2554,736,23,6,2,2,1,0,1,2,1,3,1,3,No,Non-Travel,Single,2,1,2,4,No
+29,Female,Finance,Engineer,High School,4,1709,1117,47,1,5,2,6,0,4,4,4,4,4,3,Yes,Travel_Frequently,Divorced,1,4,1,14,No
+29,Female,IT,Engineer,High School,3,1780,278,74,22,2,6,0,0,4,4,4,1,4,3,No,Travel_Frequently,Single,0,3,0,1,No
+32,Female,R&D,Manager,Bachelor,4,1934,1162,91,22,20,3,16,0,7,3,4,3,1,3,Yes,Travel_Frequently,Married,2,1,0,1,No
+18,Female,Operations,Analyst,Bachelor,1,1627,871,35,20,1,14,0,1,2,4,1,2,1,3,No,Travel_Rarely,Single,1,2,1,1,Yes
+19,Female,IT,Junior,High School,1,7227,993,72,15,6,0,0,6,0,4,3,3,4,3,No,Travel_Rarely,Married,2,2,0,2,Yes
+48,Female,Marketing,Manager,PhD,2,3810,1126,99,8,9,3,6,1,2,1,1,1,2,3,No,Travel_Rarely,Single,1,2,0,2,Yes
+51,Male,IT,Analyst,High School,1,5075,1115,83,12,11,4,0,4,4,4,4,2,2,3,No,Travel_Rarely,Single,3,3,1,2,No
+32,Male,Marketing,Director,High School,1,3948,163,24,18,4,12,3,2,0,3,2,1,1,3,No,Travel_Rarely,Divorced,1,4,1,3,Yes
+40,Female,Operations,Manager,High School,4,3073,128,20,19,20,0,4,1,0,4,2,4,4,3,No,Travel_Frequently,Single,2,6,0,7,Yes
+38,Female,Finance,Specialist,Bachelor,4,3094,471,27,16,8,4,5,3,0,3,4,4,2,3,No,Non-Travel,Married,3,2,2,2,No
+65,Male,Operations,Manager,PhD,3,2443,196,79,5,5,9,14,1,2,2,2,1,4,3,No,Travel_Frequently,Divorced,6,6,2,2,No
+46,Female,Marketing,Engineer,High School,2,2545,1326,34,3,0,1,1,4,6,4,1,2,4,3,No,Travel_Frequently,Married,4,0,2,8,No
+33,Male,IT,Analyst,Bachelor,4,1474,1092,71,0,6,10,3,0,3,4,3,1,4,3,No,Travel_Rarely,Married,2,3,3,9,No
+25,Male,IT,Junior,Master,1,5120,120,60,17,17,0,0,0,12,4,1,3,2,3,Yes,Non-Travel,Divorced,2,6,0,1,No
+18,Male,Marketing,Junior,Master,3,1203,834,22,18,9,6,1,3,0,2,4,3,3,3,No,Non-Travel,Married,0,2,1,1,Yes
+37,Female,HR,Analyst,High School,4,1755,1225,24,8,17,13,5,1,6,1,1,1,4,3,No,Travel_Frequently,Single,2,1,2,8,Yes
+27,Female,Finance,Engineer,Master,2,8151,1169,87,12,6,5,1,4,5,4,2,3,2,4,No,Non-Travel,Divorced,4,2,1,1,No
+20,Male,Sales,Senior,PhD,2,3190,165,81,7,1,2,2,5,1,3,1,1,3,3,Yes,Travel_Frequently,Single,1,6,2,1,No
+28,Male,R&D,Manager,Master,3,3257,702,25,22,0,0,2,0,10,1,3,3,1,3,No,Travel_Frequently,Single,2,3,1,2,Yes
+24,Male,IT,Engineer,Master,3,4099,1287,26,12,3,12,3,1,1,1,2,1,2,3,Yes,Travel_Frequently,Married,1,2,1,1,Yes
+51,Male,R&D,Specialist,PhD,3,1379,1234,24,14,11,3,10,0,6,1,3,3,3,3,No,Travel_Frequently,Married,3,6,0,1,Yes
+43,Male,Sales,Director,High School,3,1484,437,39,10,15,0,0,1,6,4,3,2,2,3,Yes,Travel_Rarely,Single,4,3,3,2,No
+34,Female,Operations,Analyst,High School,3,2386,222,63,11,3,5,2,3,4,2,3,2,3,3,No,Non-Travel,Divorced,1,1,2,7,Yes
+49,Male,R&D,Manager,PhD,1,1897,546,63,13,6,3,5,0,2,2,1,3,3,3,Yes,Travel_Rarely,Single,1,3,2,9,No
+35,Female,Sales,Junior,PhD,1,2871,710,25,3,5,0,1,1,0,4,1,1,2,4,Yes,Travel_Rarely,Single,2,4,1,19,No
+26,Male,Marketing,Director,PhD,4,3800,1414,76,0,5,1,0,2,2,3,1,3,1,3,No,Travel_Rarely,Married,3,5,0,1,No
+50,Female,HR,Senior,Master,2,5970,770,50,23,2,0,2,0,1,3,1,4,4,3,No,Travel_Frequently,Married,1,5,0,1,No
+40,Female,IT,Specialist,PhD,1,4471,714,53,3,1,4,1,3,4,3,2,4,3,3,Yes,Travel_Frequently,Single,3,1,2,7,No
+24,Female,Sales,Junior,Bachelor,1,1813,996,67,18,2,4,0,1,4,4,1,1,4,3,No,Travel_Rarely,Single,5,2,0,3,No
+33,Female,R&D,Analyst,Master,1,2471,380,92,8,0,3,5,5,7,2,2,3,1,3,Yes,Travel_Rarely,Married,4,6,0,1,Yes
+26,Female,IT,Manager,High School,4,2157,1166,70,9,2,8,2,0,0,4,3,3,4,3,No,Non-Travel,Single,1,3,1,1,No
+21,Female,HR,Analyst,High School,3,1793,695,15,3,0,9,8,0,4,2,2,2,4,3,No,Travel_Rarely,Married,2,3,1,1,Yes
+44,Male,Marketing,Director,High School,4,1600,802,70,19,9,4,4,1,8,1,4,1,2,3,Yes,Travel_Frequently,Single,1,2,1,2,Yes
+54,Female,Operations,Manager,Master,2,6851,1174,18,8,3,0,3,0,4,4,1,4,2,3,No,Travel_Rarely,Divorced,2,2,1,1,No
+21,Male,IT,Engineer,Bachelor,2,2996,309,44,12,36,5,0,6,0,2,4,4,1,3,Yes,Non-Travel,Divorced,1,2,1,16,Yes
+40,Female,Operations,Senior,PhD,2,2664,225,26,11,2,2,1,0,0,1,2,1,2,3,No,Non-Travel,Single,1,4,2,1,No
+28,Female,Sales,Engineer,PhD,2,3797,591,49,10,4,4,0,2,0,1,1,4,3,3,No,Travel_Rarely,Married,5,6,0,21,No
+30,Male,HR,Engineer,High School,1,3892,1059,91,11,4,5,7,1,2,4,4,1,1,3,No,Non-Travel,Single,1,6,0,9,No
+29,Female,R&D,Analyst,High School,1,5215,1069,66,17,0,2,0,0,2,2,1,4,2,3,No,Non-Travel,Single,3,3,1,2,No
+26,Male,HR,Director,Master,4,2055,680,45,11,18,12,1,0,13,1,2,4,2,3,No,Travel_Frequently,Married,3,3,3,6,No
+35,Male,HR,Senior,Bachelor,3,3645,876,82,15,0,0,2,1,1,4,4,1,1,3,Yes,Non-Travel,Single,4,2,0,5,No
+26,Male,Finance,Manager,PhD,2,1890,357,66,4,28,5,0,1,1,1,2,1,3,3,No,Non-Travel,Married,7,2,0,1,No
+37,Male,HR,Manager,Master,4,2710,1311,94,19,22,0,0,0,2,3,4,4,1,3,No,Travel_Rarely,Single,2,6,1,2,No
+34,Female,HR,Specialist,PhD,1,3066,329,21,24,7,12,2,4,5,4,3,4,2,3,No,Travel_Frequently,Married,4,1,1,3,No
+32,Female,IT,Junior,High School,1,3220,288,36,11,7,0,0,0,8,1,3,2,2,3,No,Non-Travel,Single,2,4,3,5,No
+25,Male,R&D,Specialist,PhD,3,3150,109,89,20,10,0,0,1,4,4,3,3,1,3,Yes,Travel_Rarely,Divorced,2,6,2,3,No
+29,Female,IT,Specialist,Bachelor,3,4451,1237,70,24,4,2,1,1,1,4,3,1,3,4,Yes,Travel_Rarely,Married,2,2,1,3,No
+42,Female,IT,Manager,Bachelor,3,2211,1199,72,10,10,2,3,0,3,2,3,1,3,3,Yes,Travel_Rarely,Divorced,1,3,1,2,Yes
+40,Male,Sales,Analyst,High School,4,3264,775,78,8,0,1,2,5,5,2,2,3,4,3,Yes,Travel_Rarely,Married,1,1,0,3,Yes
+25,Female,IT,Engineer,Bachelor,1,2039,601,26,17,0,4,1,0,2,1,3,2,3,3,Yes,Travel_Rarely,Married,6,5,1,2,Yes
+35,Male,Finance,Director,Bachelor,1,12840,184,21,24,6,2,2,0,0,4,2,4,1,3,No,Travel_Rarely,Married,2,1,2,3,No
+42,Male,Finance,Engineer,Master,3,1888,148,69,2,7,0,1,0,0,4,3,4,3,3,No,Non-Travel,Married,1,3,0,10,No
+18,Female,Operations,Engineer,PhD,2,2099,937,76,19,21,1,8,1,0,3,1,2,3,3,Yes,Travel_Frequently,Single,1,3,0,5,No
+40,Female,Sales,Senior,High School,3,4634,1107,87,16,1,8,0,1,3,4,3,2,4,3,No,Travel_Frequently,Single,6,4,3,6,No
+28,Female,Operations,Manager,High School,4,2404,788,91,13,17,5,3,2,0,2,1,3,3,4,Yes,Travel_Rarely,Married,4,2,1,4,Yes
+40,Male,Operations,Director,High School,3,4635,486,69,0,2,6,6,0,0,4,2,3,4,3,No,Travel_Rarely,Single,2,2,1,5,No
+27,Male,Marketing,Analyst,High School,3,3217,1069,50,16,5,5,4,0,1,2,3,4,4,3,No,Travel_Frequently,Married,1,4,0,4,No
+18,Female,R&D,Senior,High School,4,2436,1105,38,24,3,1,0,3,2,3,4,2,3,4,No,Non-Travel,Married,2,0,1,1,Yes
+18,Female,R&D,Junior,Bachelor,3,2045,317,58,7,5,0,1,0,1,1,2,2,2,4,No,Travel_Rarely,Divorced,0,3,2,30,No
+35,Female,IT,Analyst,Master,1,2009,1104,31,4,1,1,3,3,3,2,3,4,1,3,Yes,Travel_Frequently,Married,0,3,0,1,Yes
+37,Female,IT,Specialist,High School,2,2449,1469,16,4,7,8,0,0,0,1,2,4,1,3,No,Travel_Frequently,Married,5,6,1,2,No
+25,Male,Marketing,Analyst,Master,3,2732,1353,27,8,16,19,5,3,0,1,4,4,3,3,No,Travel_Rarely,Single,0,3,0,1,Yes
+41,Female,IT,Analyst,Master,4,1966,354,45,2,5,3,3,0,2,1,3,4,1,3,No,Travel_Frequently,Married,0,2,1,1,No
+18,Male,R&D,Engineer,Bachelor,2,2822,335,42,18,6,0,3,1,1,1,4,4,1,3,Yes,Non-Travel,Married,4,2,3,7,Yes
+34,Male,Operations,Analyst,High School,4,1724,1149,74,22,18,0,0,0,1,2,3,3,4,3,No,Travel_Frequently,Divorced,1,1,1,2,No
+22,Female,HR,Specialist,Bachelor,2,4350,1384,41,8,12,1,3,0,0,3,1,4,2,3,No,Travel_Rarely,Single,2,1,3,8,No
+28,Female,Finance,Specialist,High School,2,4787,370,29,21,6,4,3,0,6,4,2,2,1,3,No,Travel_Rarely,Single,3,3,3,1,No
+35,Female,HR,Manager,Bachelor,3,2096,222,93,17,2,0,5,0,3,2,4,1,2,3,Yes,Travel_Frequently,Divorced,3,2,3,1,No
+26,Male,HR,Analyst,Master,1,2038,755,47,15,21,14,0,0,0,3,2,3,1,3,Yes,Travel_Frequently,Married,2,3,2,1,No
+31,Female,R&D,Engineer,High School,3,3258,1380,34,0,8,2,0,1,0,4,4,2,2,3,No,Travel_Rarely,Divorced,5,6,0,4,No
+45,Female,HR,Analyst,PhD,4,5612,358,56,1,2,12,1,1,11,1,2,1,2,3,Yes,Non-Travel,Single,3,2,3,8,Yes
+29,Male,Marketing,Junior,Master,4,6268,1047,26,13,3,7,0,3,3,4,2,3,1,3,Yes,Travel_Frequently,Divorced,0,3,0,3,Yes
+43,Female,Sales,Junior,PhD,2,1478,146,87,13,16,7,2,2,1,4,2,4,4,3,Yes,Non-Travel,Single,5,2,0,2,No
+23,Male,IT,Engineer,Master,2,4930,962,37,0,0,4,7,1,3,3,1,3,2,3,Yes,Non-Travel,Divorced,2,3,0,18,No
+40,Female,Sales,Manager,Bachelor,1,2890,624,86,24,40,4,1,1,4,4,3,4,2,3,Yes,Travel_Rarely,Married,3,1,0,1,No
+49,Male,Operations,Manager,High School,3,2918,987,28,15,1,5,5,1,4,1,1,4,1,3,No,Travel_Rarely,Married,1,1,1,3,Yes
+18,Female,Finance,Specialist,Master,4,3836,307,39,14,15,4,0,1,1,2,2,4,2,3,Yes,Travel_Rarely,Single,2,1,1,2,No
+27,Female,IT,Specialist,Bachelor,2,2343,1434,91,14,5,4,0,3,1,2,4,1,2,3,Yes,Non-Travel,Divorced,0,1,0,1,Yes
+40,Male,HR,Senior,High School,1,5158,846,99,11,6,21,0,0,0,3,2,3,4,3,Yes,Travel_Rarely,Single,2,3,1,1,Yes
+32,Male,Finance,Engineer,High School,4,6075,248,45,15,21,6,1,0,7,1,3,4,2,3,No,Travel_Rarely,Married,1,6,1,1,No
+38,Female,IT,Analyst,Master,2,6189,537,68,13,5,7,7,2,2,1,1,2,4,3,No,Non-Travel,Single,2,5,2,10,Yes
+28,Male,Marketing,Director,High School,4,1185,254,19,23,7,10,0,0,0,4,3,3,2,3,No,Non-Travel,Married,3,3,0,4,No
+35,Male,Marketing,Engineer,Master,1,2657,1213,27,14,0,1,2,4,7,3,4,2,2,3,Yes,Non-Travel,Single,2,3,0,8,No
+33,Male,Marketing,Senior,High School,1,1132,457,42,22,0,0,1,3,7,1,3,1,4,3,No,Non-Travel,Divorced,2,4,0,3,No
+46,Male,Marketing,Specialist,PhD,4,2033,1297,57,14,2,3,8,0,13,1,1,1,4,3,No,Travel_Frequently,Married,1,2,0,4,Yes
+37,Female,HR,Engineer,Bachelor,3,898,1340,61,18,11,3,0,0,6,1,4,3,3,3,Yes,Travel_Rarely,Single,2,3,1,6,Yes
+38,Female,Sales,Engineer,PhD,4,3733,555,85,7,1,8,0,1,17,2,3,1,2,3,No,Travel_Frequently,Married,2,5,1,11,No
+30,Male,IT,Specialist,Master,2,3326,875,52,1,1,2,0,1,0,2,1,1,4,3,No,Non-Travel,Divorced,4,6,0,1,No
+30,Male,HR,Senior,PhD,3,2401,728,81,1,5,4,1,0,5,2,1,3,2,3,No,Non-Travel,Married,1,1,0,2,No
+30,Male,Marketing,Specialist,Master,2,2007,1322,76,9,10,3,0,2,5,4,2,2,2,3,No,Non-Travel,Divorced,3,4,0,6,No
+38,Male,Operations,Manager,High School,4,3487,931,53,2,12,0,6,1,0,4,3,4,2,4,No,Non-Travel,Married,1,3,3,15,No
+30,Female,Sales,Analyst,High School,3,1797,585,51,22,1,4,2,0,0,4,4,3,1,4,Yes,Non-Travel,Divorced,2,4,0,19,No
+37,Female,Operations,Specialist,Master,2,1737,632,22,16,0,8,2,0,11,1,2,3,3,3,No,Travel_Rarely,Married,2,2,2,5,Yes
+55,Male,Finance,Senior,PhD,4,1634,299,95,7,28,0,2,2,1,2,3,4,1,3,Yes,Travel_Frequently,Divorced,0,5,2,1,No
+43,Male,Operations,Junior,High School,4,2692,470,66,22,3,4,0,0,6,1,3,2,3,3,No,Travel_Frequently,Single,1,1,0,1,Yes
+31,Male,Finance,Manager,Bachelor,3,2227,1113,47,3,19,4,1,3,0,1,4,4,2,4,Yes,Travel_Rarely,Single,3,4,3,14,Yes
+47,Female,Finance,Junior,High School,4,2459,952,95,13,19,0,20,1,0,3,2,4,2,3,No,Travel_Rarely,Married,3,5,2,2,Yes
+30,Male,Marketing,Director,Bachelor,1,3869,347,56,20,14,0,5,1,1,1,2,2,4,3,No,Travel_Rarely,Divorced,2,1,1,1,Yes
+18,Female,Finance,Specialist,PhD,2,4825,887,90,9,1,19,6,4,0,4,4,2,3,3,No,Travel_Frequently,Single,1,1,1,13,No
+24,Male,R&D,Manager,Bachelor,2,6156,363,41,0,17,2,5,3,3,2,2,4,3,3,Yes,Travel_Frequently,Married,1,4,1,1,Yes
+18,Female,IT,Analyst,Bachelor,4,3071,1181,22,3,14,1,0,0,2,2,1,4,1,3,No,Non-Travel,Single,0,1,0,6,No
+31,Male,IT,Specialist,Bachelor,4,3546,1425,37,0,9,0,0,0,0,1,4,3,3,3,No,Travel_Frequently,Divorced,1,4,0,4,No
+35,Female,Marketing,Analyst,Bachelor,1,3276,130,78,16,4,5,0,2,0,4,3,2,2,3,Yes,Travel_Frequently,Married,2,3,2,1,No
+51,Male,R&D,Engineer,High School,3,1290,1372,34,16,3,4,1,1,1,4,4,1,4,3,No,Travel_Rarely,Divorced,0,4,2,2,No
+38,Male,Operations,Junior,Bachelor,4,2477,704,30,6,1,5,0,0,0,4,1,2,1,4,Yes,Travel_Frequently,Divorced,3,5,0,1,No
+32,Male,HR,Manager,High School,4,2483,1394,31,22,7,0,1,4,4,2,4,4,4,3,No,Non-Travel,Divorced,2,4,2,4,No
+43,Female,Operations,Analyst,Bachelor,4,2309,601,94,19,8,11,3,0,1,4,3,4,3,3,Yes,Travel_Frequently,Single,4,3,2,3,No
+18,Male,HR,Senior,Master,4,2920,1207,33,14,4,2,6,0,0,4,3,4,3,3,Yes,Travel_Rarely,Married,1,5,0,1,Yes
+37,Female,Finance,Analyst,PhD,2,2671,1488,22,12,6,1,4,0,1,1,4,4,1,3,No,Travel_Rarely,Divorced,4,6,1,18,No
+42,Female,Sales,Senior,Bachelor,4,1820,985,52,1,4,3,8,1,0,3,4,1,3,3,No,Non-Travel,Single,2,4,1,2,No
+20,Male,HR,Specialist,Master,2,2764,648,52,18,10,2,0,2,0,4,1,2,4,3,Yes,Non-Travel,Divorced,1,2,2,1,No
+46,Male,Sales,Manager,Bachelor,4,2165,1465,67,23,23,9,0,0,0,1,1,1,2,3,No,Travel_Frequently,Single,5,1,2,1,No
+38,Male,IT,Analyst,Bachelor,3,804,938,45,12,1,13,3,0,5,1,3,1,1,3,Yes,Non-Travel,Married,5,1,0,1,Yes
+30,Female,Sales,Director,Bachelor,1,1482,1216,58,23,4,1,1,0,7,4,2,4,3,3,Yes,Non-Travel,Married,2,1,1,30,No
+41,Male,IT,Analyst,Master,3,3116,947,74,10,1,9,0,2,5,3,2,1,4,4,No,Travel_Rarely,Married,2,2,2,1,No
+57,Female,R&D,Director,PhD,4,5145,713,90,21,9,7,1,0,1,2,2,4,2,3,Yes,Travel_Rarely,Married,3,2,2,2,Yes
+36,Female,R&D,Manager,Master,4,885,511,31,14,13,13,0,5,0,3,2,4,3,3,No,Travel_Frequently,Divorced,3,3,0,10,No
+37,Male,Marketing,Analyst,PhD,4,1929,531,93,9,26,1,2,0,2,4,3,4,1,3,No,Travel_Frequently,Single,2,5,1,5,No
+30,Male,Marketing,Senior,Bachelor,3,3698,777,87,8,3,4,1,15,3,3,2,1,3,3,No,Travel_Frequently,Married,3,4,2,2,No
+26,Male,Finance,Analyst,High School,4,4624,258,53,8,29,1,2,0,15,1,2,4,3,3,No,Travel_Frequently,Divorced,2,2,0,11,No
+43,Male,HR,Junior,Bachelor,3,2416,113,56,19,0,8,3,2,0,1,4,1,3,3,Yes,Travel_Rarely,Married,0,4,1,6,Yes
+26,Male,Finance,Specialist,PhD,2,2118,472,62,0,9,0,1,0,0,3,2,2,2,3,No,Travel_Frequently,Married,2,3,2,1,No
+35,Male,IT,Engineer,Master,1,5485,324,26,16,0,4,0,0,3,2,4,4,2,3,No,Travel_Frequently,Married,4,1,0,5,No
+30,Female,Finance,Senior,Bachelor,1,4438,1196,32,11,22,2,0,4,5,3,3,3,3,3,Yes,Non-Travel,Single,0,2,2,12,No
+39,Female,Sales,Junior,Master,3,4579,1372,93,9,7,1,1,3,5,4,4,3,3,3,No,Travel_Frequently,Single,4,1,0,3,No
+38,Female,IT,Director,Master,2,2358,610,20,4,11,5,4,1,3,2,1,3,1,4,No,Non-Travel,Single,0,3,0,6,No
+45,Male,Marketing,Specialist,Master,3,5202,702,57,17,17,9,4,2,9,3,4,3,3,3,No,Travel_Rarely,Married,2,4,0,17,Yes
+29,Female,R&D,Manager,Bachelor,2,1127,315,49,14,1,4,3,1,2,3,2,3,4,3,No,Travel_Frequently,Divorced,0,6,0,5,Yes
+32,Female,Marketing,Senior,Master,4,5248,1087,68,5,0,9,0,3,7,2,4,1,4,3,Yes,Non-Travel,Divorced,1,4,0,1,No
+25,Female,HR,Engineer,Master,2,2883,1343,76,6,21,1,2,0,10,3,4,2,1,3,No,Travel_Frequently,Divorced,2,2,1,1,No
+30,Female,IT,Specialist,Bachelor,2,3179,939,83,16,3,3,2,1,5,4,3,1,2,3,No,Non-Travel,Married,1,2,0,4,No
+38,Female,IT,Director,Master,2,1858,826,96,5,1,2,1,1,1,1,3,4,3,4,No,Travel_Frequently,Single,4,3,3,1,No
+42,Male,Sales,Engineer,Bachelor,1,1203,1344,30,7,6,0,2,0,0,4,2,2,1,3,Yes,Travel_Rarely,Divorced,2,3,1,15,No
+25,Male,HR,Manager,PhD,2,3145,653,22,11,9,4,2,4,2,3,1,2,2,3,No,Travel_Rarely,Married,0,1,1,2,No
+43,Female,R&D,Manager,PhD,4,3927,1165,45,20,0,5,2,0,1,1,1,2,1,3,No,Non-Travel,Married,1,3,1,3,No
+48,Female,Operations,Director,PhD,4,4235,775,24,13,3,4,3,0,6,2,4,2,2,3,No,Non-Travel,Divorced,4,3,1,6,No
+39,Female,IT,Senior,Master,4,4013,972,70,11,0,6,0,1,0,4,1,3,3,3,No,Travel_Rarely,Divorced,6,3,1,3,No
+53,Male,IT,Director,High School,2,3583,382,90,22,5,4,4,2,0,2,3,4,1,3,No,Travel_Frequently,Married,1,3,0,2,No
+27,Male,Sales,Analyst,High School,3,1878,1181,84,9,22,0,0,0,4,1,2,2,3,3,No,Non-Travel,Divorced,3,3,2,1,Yes
+22,Female,Finance,Manager,Master,3,4375,933,34,21,40,0,0,0,0,3,2,2,1,4,No,Travel_Rarely,Married,2,5,1,4,No
+18,Male,R&D,Specialist,High School,4,1776,636,19,19,10,4,11,5,1,1,3,3,2,3,Yes,Non-Travel,Divorced,0,3,0,10,Yes
+49,Male,Marketing,Analyst,Bachelor,1,5185,1196,37,14,1,1,9,0,1,1,2,1,1,3,No,Travel_Rarely,Single,4,2,1,5,Yes
+41,Female,HR,Junior,High School,3,2858,1022,23,6,23,0,0,2,2,2,4,1,4,3,No,Travel_Rarely,Married,3,4,1,2,No
+34,Male,IT,Engineer,Master,2,2906,1252,72,8,7,2,1,2,0,4,2,1,4,3,No,Non-Travel,Single,0,3,0,1,No
+37,Male,IT,Analyst,Master,3,4596,941,73,9,1,4,0,1,5,1,1,4,1,3,No,Non-Travel,Divorced,0,1,2,8,No
+23,Female,Marketing,Engineer,Bachelor,4,4918,1047,94,9,25,1,1,5,1,3,2,1,4,3,No,Travel_Rarely,Married,2,1,1,14,No
+59,Male,R&D,Director,PhD,1,4382,764,68,15,14,6,5,2,7,1,2,2,3,3,No,Travel_Frequently,Divorced,3,4,1,2,Yes
+36,Male,Finance,Analyst,Master,3,1977,1248,60,6,13,5,9,1,1,2,3,3,4,3,Yes,Travel_Rarely,Married,2,3,1,6,Yes
+36,Female,IT,Director,Bachelor,3,4364,166,36,4,12,2,3,1,0,4,3,3,4,3,Yes,Travel_Frequently,Divorced,2,2,3,2,No
+42,Male,R&D,Junior,High School,4,1983,105,78,22,2,7,1,2,0,3,1,1,3,3,No,Travel_Frequently,Single,1,5,0,3,No
+39,Male,Marketing,Manager,High School,1,4420,736,22,2,2,5,2,1,0,2,3,3,3,3,No,Travel_Frequently,Single,3,6,1,9,Yes
+37,Female,Sales,Junior,Bachelor,1,1461,413,34,17,11,5,1,4,2,1,1,2,2,4,No,Non-Travel,Divorced,3,1,0,1,No
+27,Female,Finance,Manager,Bachelor,4,2844,1449,65,10,2,4,7,0,0,1,4,1,3,3,No,Travel_Rarely,Single,1,4,2,3,No
+39,Female,HR,Director,Master,2,1977,664,92,14,5,0,6,0,1,4,1,2,1,3,No,Travel_Rarely,Single,1,2,0,1,Yes
+53,Male,IT,Manager,High School,3,4605,925,53,20,15,5,2,0,2,2,2,4,4,3,No,Travel_Frequently,Divorced,2,3,0,2,No
+48,Female,R&D,Engineer,Bachelor,2,5206,605,51,19,15,2,1,0,0,2,1,2,2,3,No,Travel_Frequently,Married,3,2,2,5,Yes
+50,Male,Sales,Specialist,High School,3,3292,1205,64,4,6,14,1,0,0,4,4,2,3,3,No,Travel_Frequently,Divorced,2,0,1,1,No
+29,Female,HR,Junior,Bachelor,3,3239,1125,48,23,15,8,0,4,4,3,2,2,4,3,No,Travel_Rarely,Married,2,3,0,4,No
+25,Male,Operations,Analyst,High School,2,4239,303,89,11,18,4,5,2,8,2,1,2,1,4,No,Travel_Frequently,Single,1,4,1,1,No
+33,Female,R&D,Junior,PhD,4,5221,761,47,3,10,1,1,2,0,4,3,4,1,4,No,Travel_Rarely,Single,4,0,2,5,No
+35,Female,R&D,Engineer,Master,4,3037,904,45,14,2,1,1,1,0,2,3,1,2,3,No,Travel_Rarely,Single,1,0,0,1,Yes
+45,Female,HR,Manager,High School,3,2321,503,68,8,3,2,1,3,9,4,3,2,1,3,No,Non-Travel,Single,0,1,0,6,No
+18,Female,Sales,Engineer,PhD,4,4120,1226,58,6,3,3,5,1,0,1,1,1,4,3,No,Travel_Frequently,Single,3,3,3,5,Yes
+50,Male,Operations,Senior,High School,3,1176,635,48,9,1,1,0,4,11,1,1,3,3,3,No,Travel_Frequently,Married,0,1,1,17,No
+33,Female,Marketing,Senior,High School,4,4697,1491,85,22,3,3,5,0,0,2,4,2,1,3,Yes,Travel_Frequently,Married,2,2,0,12,Yes
+30,Female,Sales,Analyst,PhD,3,2089,1335,76,12,2,0,6,5,6,2,2,2,3,3,No,Non-Travel,Married,3,5,2,1,Yes
+24,Male,Finance,Engineer,High School,4,2643,676,37,7,6,19,8,2,1,1,2,3,4,3,No,Travel_Frequently,Divorced,3,3,1,1,No
+18,Female,IT,Director,High School,1,4712,1332,60,11,23,0,1,0,8,3,2,1,4,3,No,Travel_Rarely,Single,3,5,0,5,No
+43,Male,HR,Analyst,Master,2,2421,862,70,21,1,13,0,1,1,4,2,4,3,3,No,Travel_Frequently,Single,1,3,0,4,No
+35,Female,Marketing,Director,PhD,1,4120,216,21,23,12,12,1,1,3,3,1,2,4,3,Yes,Travel_Rarely,Single,2,5,0,1,No
+22,Female,Operations,Analyst,PhD,2,5268,727,75,18,11,3,1,0,0,3,1,3,2,3,Yes,Travel_Rarely,Divorced,2,4,2,1,Yes
+22,Female,HR,Senior,Bachelor,2,3149,848,17,0,1,6,0,1,0,3,4,3,1,3,No,Travel_Rarely,Divorced,0,6,0,4,No
+31,Male,HR,Analyst,High School,3,3483,204,52,15,25,2,2,0,4,1,2,2,2,3,Yes,Travel_Rarely,Divorced,0,2,0,12,No
+51,Female,Sales,Senior,Master,2,2808,594,98,21,8,4,1,0,2,2,1,1,2,3,No,Travel_Frequently,Single,2,4,2,11,Yes
+32,Female,IT,Manager,High School,1,3158,145,48,16,4,2,6,5,7,3,1,1,2,3,Yes,Non-Travel,Married,2,2,0,1,No
+19,Female,Finance,Director,High School,1,1705,922,58,24,14,1,0,2,1,1,1,2,3,3,No,Non-Travel,Divorced,3,3,1,2,No
+32,Male,R&D,Engineer,Bachelor,4,2573,1454,44,17,2,4,3,4,6,4,1,3,3,3,Yes,Travel_Rarely,Divorced,3,2,0,1,No
+32,Male,R&D,Analyst,High School,1,1565,1339,31,10,11,3,4,2,1,2,2,2,4,3,No,Travel_Frequently,Married,1,1,1,3,No
+18,Female,HR,Senior,Master,4,1901,1081,73,17,0,4,4,0,11,4,2,4,3,3,No,Non-Travel,Divorced,2,6,0,6,No
+34,Male,IT,Junior,Master,2,1095,1059,24,6,18,1,6,1,9,3,1,4,4,3,Yes,Travel_Frequently,Married,1,2,0,7,No
+32,Female,Operations,Director,Bachelor,1,3401,944,98,17,5,2,3,2,1,2,3,1,3,3,No,Non-Travel,Single,1,1,1,3,No
+41,Female,Operations,Analyst,High School,2,6945,548,32,7,10,0,7,6,6,3,4,4,4,4,No,Travel_Rarely,Married,0,5,1,1,Yes
+53,Female,Marketing,Specialist,Master,1,2373,635,59,5,2,0,1,0,5,2,2,3,1,3,No,Travel_Rarely,Married,3,3,1,2,No
+46,Female,Sales,Manager,High School,1,4829,610,73,6,11,1,2,4,0,3,2,4,4,4,Yes,Travel_Rarely,Single,2,1,1,13,No
+32,Female,IT,Manager,High School,4,5233,639,76,22,14,0,0,5,2,4,3,2,1,3,No,Non-Travel,Divorced,2,1,1,1,No
+23,Female,IT,Junior,High School,2,1636,115,73,21,6,0,0,2,0,4,2,3,4,3,No,Travel_Frequently,Single,0,3,1,1,No
+60,Female,Sales,Senior,Bachelor,1,1822,342,63,9,9,8,0,5,5,3,3,1,3,3,No,Travel_Rarely,Divorced,3,5,1,6,No
+35,Male,Operations,Analyst,High School,3,4892,1330,77,10,6,0,0,1,0,2,3,1,3,3,No,Travel_Frequently,Divorced,2,1,1,6,No
+35,Male,Operations,Director,Master,2,2846,1011,46,24,22,5,0,6,0,4,1,4,1,3,No,Travel_Frequently,Married,3,1,1,12,No
+34,Male,Operations,Senior,High School,2,1563,1394,24,12,6,1,0,2,1,2,2,1,2,3,No,Travel_Rarely,Single,2,4,1,2,Yes
+36,Male,HR,Manager,Master,2,2168,860,25,8,18,10,0,0,2,2,4,2,2,3,No,Non-Travel,Married,5,5,0,3,Yes
+33,Male,IT,Senior,High School,4,3676,804,84,6,16,3,7,4,5,4,3,3,4,3,Yes,Travel_Rarely,Single,3,5,0,3,No
+29,Male,R&D,Manager,Master,3,2004,214,76,8,5,1,0,1,10,1,4,2,3,3,No,Travel_Rarely,Single,0,6,0,13,Yes
+29,Male,Sales,Senior,Master,2,744,1422,61,12,2,3,3,1,1,1,1,2,2,3,No,Non-Travel,Married,3,4,3,7,No
+34,Female,Operations,Junior,High School,1,2537,496,48,2,5,2,0,1,0,2,2,2,3,4,No,Travel_Frequently,Divorced,2,0,2,8,Yes
+29,Female,Marketing,Engineer,High School,1,2642,493,31,2,17,4,7,0,4,4,1,2,3,3,No,Non-Travel,Divorced,4,2,1,1,No
+27,Female,Operations,Junior,Master,4,2994,1198,68,0,2,0,6,1,2,1,1,3,3,3,No,Non-Travel,Single,2,3,0,7,No
+36,Female,Operations,Junior,PhD,1,5593,1077,90,20,7,29,3,3,1,3,4,3,4,3,Yes,Travel_Rarely,Divorced,4,5,0,2,No
+32,Male,Finance,Engineer,Bachelor,2,3061,1226,99,19,16,2,3,0,1,2,4,2,1,3,No,Non-Travel,Married,4,1,2,1,No
+50,Male,HR,Engineer,PhD,1,3365,396,54,1,4,2,0,0,2,1,3,2,4,3,No,Non-Travel,Married,2,4,2,1,Yes
+18,Female,Sales,Analyst,PhD,2,5053,1101,33,24,10,6,12,0,1,4,2,1,2,4,Yes,Non-Travel,Married,2,3,0,5,No
+45,Female,Finance,Director,High School,1,2996,277,81,2,2,2,6,1,4,4,1,1,1,3,No,Travel_Frequently,Single,3,3,2,2,Yes
+47,Male,Finance,Director,Bachelor,3,8675,1338,96,14,1,8,6,2,2,2,3,3,2,4,No,Travel_Frequently,Single,2,6,1,10,No
+18,Female,Marketing,Analyst,PhD,4,1584,1066,67,23,15,3,3,3,6,4,3,1,1,3,No,Travel_Rarely,Divorced,2,5,0,6,No
+31,Female,IT,Junior,High School,4,1868,414,78,5,1,6,1,5,2,3,1,3,1,3,No,Travel_Rarely,Married,3,1,2,1,No
+31,Female,Marketing,Junior,PhD,3,4052,1162,97,12,3,0,6,1,0,3,1,3,4,3,No,Travel_Frequently,Married,3,3,1,5,No
+20,Female,IT,Manager,PhD,3,5581,358,61,20,19,9,1,0,5,1,3,4,3,3,No,Non-Travel,Single,2,5,2,1,Yes
+27,Male,IT,Manager,High School,4,2696,106,20,0,4,6,2,5,2,4,1,3,3,4,No,Travel_Rarely,Single,2,5,0,2,No
+23,Female,Sales,Director,High School,3,1798,148,30,19,36,1,0,2,0,3,1,1,1,3,No,Travel_Rarely,Single,2,6,0,4,No
+52,Female,Operations,Analyst,High School,2,7190,260,86,18,38,0,7,1,2,2,4,4,4,3,Yes,Non-Travel,Married,4,2,0,10,Yes
+44,Male,Sales,Specialist,Bachelor,1,2005,275,32,0,3,1,0,2,1,4,2,1,2,3,No,Non-Travel,Married,4,4,0,3,No
+47,Male,HR,Specialist,PhD,4,3531,1125,66,20,0,18,0,5,5,1,3,3,2,3,Yes,Non-Travel,Divorced,3,6,1,8,No
+42,Female,IT,Analyst,High School,3,5750,1100,62,21,12,1,2,2,1,2,1,3,3,3,No,Non-Travel,Married,2,1,0,7,No
+23,Male,Finance,Manager,Master,2,2390,554,57,1,5,3,4,0,3,2,3,2,3,3,No,Non-Travel,Divorced,4,1,1,2,No
+29,Female,Operations,Director,PhD,4,2184,375,53,14,1,0,2,2,0,2,2,3,2,3,No,Travel_Frequently,Divorced,2,1,0,3,No
+39,Female,R&D,Director,Master,3,2260,597,63,13,12,2,0,0,1,3,3,4,2,3,No,Non-Travel,Married,2,3,2,6,No
+22,Male,HR,Manager,Bachelor,4,4678,775,26,18,0,4,0,0,12,2,3,3,4,3,Yes,Travel_Rarely,Divorced,6,4,1,1,Yes
+42,Female,Sales,Specialist,High School,3,5064,1151,24,10,20,15,4,1,4,3,3,2,2,3,No,Travel_Frequently,Divorced,1,2,1,11,Yes
+32,Female,Marketing,Senior,Master,4,3031,1456,85,14,1,3,12,0,0,2,4,3,4,3,No,Travel_Rarely,Single,0,2,0,7,No
+31,Female,HR,Senior,Bachelor,2,7642,1124,69,5,1,8,4,0,0,3,2,3,3,4,No,Non-Travel,Married,1,3,0,1,No
+42,Female,HR,Manager,High School,2,3028,1311,15,19,1,3,1,0,1,4,2,3,2,3,No,Travel_Rarely,Divorced,1,5,0,19,No
+39,Male,Operations,Senior,Master,1,5688,155,63,8,32,0,7,2,3,3,3,2,3,3,No,Non-Travel,Divorced,2,5,0,1,No
+31,Male,HR,Engineer,Master,4,2401,646,50,4,11,1,1,3,4,3,3,1,1,4,No,Travel_Rarely,Divorced,0,2,0,12,No
+46,Female,HR,Analyst,Bachelor,1,9574,1235,35,19,16,4,2,8,4,4,2,3,1,3,No,Travel_Rarely,Married,5,5,0,1,No
+24,Male,R&D,Analyst,High School,4,6535,1433,51,1,5,15,1,0,2,2,1,4,1,3,No,Non-Travel,Single,4,1,1,7,No
+41,Female,Marketing,Manager,High School,3,2796,135,38,5,4,9,1,1,4,4,4,2,2,3,No,Travel_Rarely,Single,3,1,3,3,Yes
+40,Female,Marketing,Junior,Master,3,6107,538,69,17,2,1,4,5,1,2,2,4,3,3,No,Travel_Frequently,Married,2,4,0,6,No
+31,Female,Marketing,Specialist,Master,1,5955,694,39,22,6,1,2,0,0,3,3,3,2,3,No,Travel_Rarely,Married,1,3,2,1,No
+38,Female,IT,Manager,Master,4,6480,1448,21,18,8,1,1,2,2,2,1,2,3,3,Yes,Travel_Frequently,Married,2,4,0,1,Yes
+22,Female,Finance,Senior,High School,1,861,406,95,8,9,12,0,2,9,3,1,3,4,3,No,Travel_Frequently,Married,3,4,1,1,No
+44,Male,Marketing,Specialist,Bachelor,2,4271,718,85,20,2,9,0,0,4,2,1,4,2,3,Yes,Travel_Rarely,Single,4,5,1,10,Yes
+33,Female,HR,Junior,Bachelor,1,3909,1232,85,23,29,7,2,3,2,3,4,2,1,3,Yes,Travel_Frequently,Divorced,1,0,3,1,No
+29,Male,HR,Senior,High School,1,3772,1495,38,5,1,2,0,3,3,3,4,1,4,3,Yes,Travel_Frequently,Divorced,0,6,0,5,No
+45,Male,Marketing,Director,PhD,3,3324,456,25,13,33,3,0,0,8,1,2,1,3,3,Yes,Travel_Rarely,Married,1,3,0,8,Yes
+27,Female,Operations,Engineer,Bachelor,1,3374,280,87,23,0,3,3,0,1,2,2,1,2,3,No,Non-Travel,Married,0,4,0,11,Yes
+20,Female,Marketing,Senior,Master,4,5662,1479,26,12,6,1,3,0,1,2,2,3,3,3,Yes,Non-Travel,Divorced,2,1,1,1,Yes
+19,Female,HR,Engineer,PhD,3,3903,167,49,10,4,3,4,0,11,1,2,2,3,3,Yes,Travel_Frequently,Single,2,1,3,11,Yes
+41,Female,IT,Specialist,PhD,1,3322,391,77,11,5,0,2,1,5,3,3,4,2,3,Yes,Travel_Frequently,Married,0,3,2,1,No
+22,Female,Sales,Engineer,Bachelor,2,5269,791,82,18,8,0,6,1,1,3,4,4,2,4,Yes,Non-Travel,Married,0,6,2,6,No
+52,Male,Sales,Specialist,PhD,1,3673,280,71,18,5,10,8,0,1,1,1,3,3,4,Yes,Travel_Frequently,Single,0,6,1,6,No
+18,Female,Marketing,Specialist,PhD,1,3853,533,27,20,5,6,4,4,1,1,3,3,3,3,No,Non-Travel,Single,0,2,2,1,No
+51,Female,R&D,Specialist,Bachelor,1,7581,1013,37,18,13,2,3,0,0,4,2,4,4,3,No,Travel_Rarely,Single,2,6,1,1,No
+37,Male,Marketing,Specialist,Bachelor,3,2398,165,97,23,11,3,1,0,9,3,2,2,1,3,No,Travel_Frequently,Married,3,1,0,3,Yes
+34,Male,Operations,Specialist,PhD,4,1397,1144,53,12,17,2,12,0,1,4,3,3,3,4,No,Travel_Rarely,Single,2,2,2,2,No
+29,Female,Marketing,Senior,Master,2,3090,483,94,13,2,6,0,1,6,2,1,2,1,3,Yes,Non-Travel,Married,2,4,0,12,Yes
+38,Male,Sales,Specialist,High School,1,3318,138,26,23,9,7,0,1,0,4,4,4,4,3,Yes,Non-Travel,Married,3,3,0,2,No
+34,Female,HR,Senior,PhD,4,4275,1408,48,17,8,7,1,0,2,1,4,2,1,3,Yes,Travel_Rarely,Single,2,6,0,13,No
+46,Male,Marketing,Specialist,PhD,4,3145,921,85,11,4,6,0,0,0,1,1,1,1,3,No,Travel_Frequently,Divorced,3,2,1,3,Yes
+36,Male,HR,Engineer,Master,3,4348,701,89,3,6,1,11,3,4,1,4,4,4,3,Yes,Travel_Rarely,Single,3,1,1,16,Yes
+36,Female,HR,Director,PhD,2,10428,884,45,9,3,2,2,11,2,1,2,1,3,3,No,Travel_Rarely,Divorced,3,1,0,6,Yes
+31,Male,R&D,Specialist,PhD,3,4450,1459,76,16,1,3,2,0,2,4,2,4,1,3,Yes,Travel_Frequently,Single,2,6,2,8,No
+34,Male,HR,Junior,High School,4,4859,1311,27,3,2,2,3,0,0,4,2,1,3,3,Yes,Non-Travel,Single,0,1,2,1,Yes
+38,Male,Sales,Specialist,High School,4,2794,770,45,11,1,7,2,1,0,4,2,2,3,3,No,Travel_Rarely,Married,4,1,3,4,No
+18,Male,IT,Specialist,High School,4,1491,1366,16,12,11,1,0,2,0,1,1,4,2,3,No,Travel_Rarely,Married,1,1,1,1,Yes
+21,Male,IT,Engineer,Bachelor,3,944,1196,29,3,10,0,2,0,1,1,4,4,3,3,No,Non-Travel,Married,2,3,2,1,Yes
+42,Male,Finance,Analyst,Bachelor,2,2299,578,71,9,30,2,3,4,2,3,4,1,3,3,No,Travel_Rarely,Married,3,4,2,4,No
+36,Female,Operations,Engineer,High School,1,820,660,89,24,13,19,1,1,2,3,3,2,1,3,No,Non-Travel,Married,5,2,0,6,No
+33,Female,Marketing,Junior,High School,3,3853,200,48,2,0,1,4,1,2,1,1,4,3,3,No,Travel_Frequently,Married,1,3,0,1,No
+35,Male,Operations,Analyst,Bachelor,4,2461,613,82,14,21,4,0,2,2,3,4,3,3,3,No,Non-Travel,Married,2,4,1,3,No
+38,Female,Sales,Manager,Master,3,1545,275,89,1,19,2,0,6,0,2,4,1,2,3,Yes,Non-Travel,Divorced,2,3,0,4,Yes
+29,Female,HR,Manager,PhD,4,3182,337,43,24,5,0,0,3,0,2,3,4,2,3,No,Travel_Rarely,Divorced,3,3,0,1,No
+27,Female,IT,Junior,PhD,1,2060,1009,80,24,8,3,1,0,0,1,2,2,1,3,No,Non-Travel,Married,3,2,1,3,Yes
+36,Male,Operations,Engineer,High School,1,3734,1182,30,16,37,6,5,0,5,4,4,2,1,3,No,Non-Travel,Divorced,1,3,0,6,No
+25,Female,Sales,Senior,Master,2,4246,1222,53,5,7,3,5,1,2,2,2,2,2,3,No,Travel_Rarely,Single,4,4,0,1,No
+39,Male,IT,Junior,Bachelor,4,2098,970,91,7,23,10,1,0,0,2,3,2,2,3,No,Non-Travel,Divorced,2,3,1,7,Yes
+18,Female,HR,Director,High School,2,2647,594,51,2,0,1,2,2,0,4,4,1,4,3,No,Travel_Rarely,Married,3,3,2,4,No
+45,Male,Operations,Analyst,Master,2,3319,1046,95,24,2,0,3,3,6,3,2,4,3,3,No,Travel_Frequently,Divorced,1,2,2,8,No
+39,Male,IT,Analyst,Master,1,1475,854,35,17,5,13,0,2,4,4,1,1,1,3,No,Non-Travel,Single,3,4,1,1,No
+37,Female,Marketing,Specialist,Master,3,3318,1420,58,21,8,2,0,9,3,3,2,1,1,3,No,Travel_Frequently,Divorced,1,4,1,8,Yes
+44,Female,Marketing,Manager,Bachelor,3,1457,310,33,0,16,4,10,0,1,3,2,2,3,3,No,Non-Travel,Married,1,2,0,1,No
+51,Male,Finance,Analyst,Bachelor,2,3955,1246,85,15,40,7,2,4,0,4,2,3,3,3,Yes,Non-Travel,Single,1,6,0,2,No
+45,Female,Finance,Junior,PhD,1,2398,1352,22,6,4,1,11,2,11,3,2,2,1,3,No,Travel_Frequently,Single,4,1,0,1,No
+18,Female,IT,Analyst,PhD,4,1453,239,91,2,0,6,1,0,4,2,1,3,2,3,Yes,Travel_Frequently,Divorced,2,3,2,10,No
+22,Female,Sales,Junior,Master,3,2230,640,80,22,16,0,3,2,1,1,3,1,2,4,No,Travel_Rarely,Single,0,3,1,6,No
+28,Male,Marketing,Senior,Master,2,2278,369,55,3,9,1,0,0,5,3,2,2,3,4,No,Travel_Rarely,Single,1,4,2,1,Yes
+35,Male,Sales,Specialist,Bachelor,3,5086,1135,89,8,2,0,0,3,4,2,2,2,1,3,No,Travel_Frequently,Single,4,4,2,1,No
+40,Female,Sales,Manager,PhD,3,3250,1460,84,4,6,8,2,1,1,4,4,1,3,3,No,Non-Travel,Married,1,6,0,1,Yes
+27,Female,IT,Analyst,Master,4,1848,605,75,18,13,1,1,0,1,3,4,2,2,3,Yes,Travel_Rarely,Single,1,1,1,1,Yes
+36,Female,Sales,Junior,PhD,1,6799,1229,40,14,14,6,0,2,0,2,1,4,4,3,Yes,Non-Travel,Divorced,3,4,1,4,Yes
+27,Male,Marketing,Engineer,PhD,4,4077,131,85,7,6,14,0,2,0,3,1,3,4,3,No,Travel_Rarely,Divorced,0,2,1,5,No
+28,Male,HR,Manager,Master,1,2519,1197,97,5,3,3,0,0,3,4,1,3,2,3,Yes,Travel_Rarely,Single,1,4,1,14,No
+20,Female,Finance,Senior,Bachelor,3,1370,1294,84,17,36,3,3,0,0,1,4,3,3,4,No,Travel_Rarely,Divorced,1,5,3,15,Yes
+25,Female,HR,Junior,Master,2,2410,1192,43,18,10,3,2,1,5,3,2,2,4,3,No,Travel_Frequently,Single,2,4,2,5,Yes
+21,Female,Sales,Director,Master,4,2669,912,80,23,5,1,0,1,16,1,4,4,2,3,No,Non-Travel,Divorced,2,2,3,1,No
+25,Female,HR,Director,PhD,1,3585,461,33,14,3,3,0,4,0,3,3,2,1,3,No,Travel_Frequently,Single,1,5,0,2,No
+45,Female,Marketing,Specialist,Master,3,4038,1028,82,6,13,4,0,5,1,3,1,3,3,3,No,Travel_Rarely,Single,2,2,0,3,No
+25,Female,Marketing,Specialist,Bachelor,1,4461,199,72,9,2,21,2,1,4,4,1,2,3,4,No,Travel_Frequently,Single,1,5,0,3,No
+61,Male,Sales,Senior,Master,1,1331,108,84,5,1,13,0,2,4,3,1,3,4,3,Yes,Travel_Frequently,Married,2,1,0,4,No
+39,Female,IT,Senior,Bachelor,1,3308,796,71,13,7,9,4,1,4,2,3,1,3,3,Yes,Travel_Frequently,Divorced,2,2,1,16,No
+36,Male,HR,Specialist,Bachelor,3,2752,1152,51,16,3,10,0,2,1,2,2,3,4,3,No,Non-Travel,Single,4,4,1,10,No
+26,Female,IT,Analyst,PhD,2,11372,1237,75,8,9,3,0,0,1,1,2,1,4,3,No,Travel_Frequently,Married,1,2,1,1,Yes
+42,Female,IT,Analyst,High School,2,3078,561,44,18,1,5,6,0,2,1,2,1,2,3,Yes,Travel_Frequently,Married,4,3,3,1,Yes
+29,Male,R&D,Junior,High School,2,2183,1020,85,4,10,11,3,2,10,2,1,1,4,3,No,Travel_Frequently,Single,3,1,3,8,Yes
+36,Male,Sales,Engineer,PhD,1,3150,1266,87,22,3,2,0,0,1,1,2,3,1,3,No,Travel_Frequently,Single,3,4,0,8,Yes
+60,Male,Finance,Junior,Master,3,2968,489,39,6,0,16,5,2,7,1,4,4,3,3,No,Travel_Frequently,Single,1,1,2,1,No
+34,Male,Marketing,Engineer,PhD,1,1102,731,79,18,1,2,2,3,0,2,1,3,4,3,No,Travel_Frequently,Single,3,2,1,6,No
+46,Female,Marketing,Senior,Bachelor,2,3656,781,20,19,27,4,5,1,13,2,3,2,3,3,No,Travel_Frequently,Single,2,0,1,5,No
+27,Male,Sales,Manager,High School,2,2552,256,32,6,20,6,2,1,3,2,3,2,4,4,No,Travel_Rarely,Divorced,2,1,2,3,Yes
+34,Female,Operations,Junior,PhD,3,2941,434,24,23,2,15,3,3,1,4,2,4,2,3,No,Travel_Frequently,Single,1,3,0,1,No
+52,Male,Operations,Junior,Master,1,1926,359,25,1,15,1,15,2,2,4,1,4,1,3,No,Travel_Frequently,Single,1,4,2,10,No
+28,Female,Operations,Engineer,PhD,4,1725,181,79,24,9,6,0,0,0,2,4,4,3,4,No,Non-Travel,Divorced,0,0,1,5,Yes
+53,Female,Finance,Senior,High School,4,4625,853,91,22,35,3,2,0,0,3,4,1,2,4,No,Travel_Rarely,Married,3,6,2,1,Yes
+42,Female,Marketing,Senior,PhD,2,5188,1295,98,15,4,1,1,2,0,2,1,4,3,3,Yes,Travel_Frequently,Divorced,3,3,3,6,No
+29,Female,Sales,Director,PhD,3,3674,1354,79,12,11,7,0,1,0,4,2,4,2,3,Yes,Non-Travel,Married,3,3,1,6,No
+41,Female,Marketing,Engineer,High School,1,1205,819,66,7,0,4,0,0,1,1,3,4,1,3,No,Travel_Frequently,Married,1,3,0,10,Yes
+44,Female,IT,Senior,Bachelor,1,3795,174,81,5,5,5,0,0,4,3,3,3,4,3,No,Travel_Frequently,Divorced,1,1,0,1,No
+41,Male,HR,Specialist,Bachelor,2,1214,1393,96,5,33,1,3,4,2,3,4,2,2,3,No,Travel_Frequently,Single,1,4,0,22,No
+19,Female,HR,Analyst,High School,2,2141,725,92,8,7,3,2,2,0,1,4,2,3,3,No,Travel_Frequently,Married,6,3,0,1,No
+27,Male,Marketing,Director,PhD,1,4595,161,45,3,3,4,2,8,5,3,4,4,3,3,Yes,Travel_Frequently,Single,3,3,2,4,No
+32,Male,R&D,Specialist,High School,1,4141,973,31,10,1,2,0,2,2,1,3,2,2,3,No,Non-Travel,Divorced,1,3,0,5,Yes
+34,Female,Finance,Manager,Bachelor,2,3746,419,69,4,12,1,1,5,9,4,4,3,1,4,Yes,Travel_Frequently,Married,4,3,3,2,No
+41,Male,Operations,Junior,Master,1,5747,201,50,24,10,16,7,0,3,3,3,2,1,3,No,Non-Travel,Single,1,2,2,3,No
+36,Female,Finance,Director,PhD,4,3944,973,40,16,4,3,1,2,0,3,3,1,4,3,No,Travel_Frequently,Married,1,2,0,11,Yes
+21,Male,Finance,Manager,Bachelor,2,1086,1053,67,19,30,6,2,0,1,1,2,3,4,3,No,Non-Travel,Married,2,3,1,5,No
+38,Female,IT,Junior,PhD,1,2478,354,31,6,0,2,4,2,3,1,2,2,3,4,Yes,Travel_Rarely,Divorced,0,3,1,3,Yes
+41,Male,Finance,Analyst,High School,2,2919,669,39,14,3,2,4,1,0,4,2,2,3,3,No,Travel_Frequently,Single,2,5,1,1,No
+40,Female,HR,Senior,Master,3,2753,211,16,24,25,2,2,0,0,1,4,3,4,3,No,Travel_Rarely,Single,0,1,1,1,No
+45,Female,IT,Specialist,High School,2,2189,1084,19,14,3,2,5,3,0,1,3,2,4,4,No,Travel_Rarely,Married,1,1,0,1,No
+43,Female,Sales,Engineer,Master,2,1780,1436,18,13,2,3,1,3,0,4,4,2,4,3,No,Travel_Rarely,Single,3,3,1,15,No
+39,Female,Finance,Specialist,PhD,3,9900,1097,50,12,7,3,6,0,1,2,3,4,2,3,No,Travel_Frequently,Married,3,2,1,7,No
+34,Male,Finance,Analyst,PhD,4,2454,560,20,10,17,3,0,1,2,2,2,1,4,4,No,Travel_Rarely,Divorced,2,4,2,17,Yes
+18,Female,Sales,Manager,High School,1,9660,807,35,12,1,0,0,0,0,1,2,3,2,4,No,Non-Travel,Divorced,1,3,2,1,Yes
+39,Male,Finance,Engineer,Master,3,1684,986,91,21,28,3,0,1,3,4,4,4,2,3,Yes,Travel_Frequently,Single,0,3,0,5,No
+37,Male,Sales,Senior,Master,2,4140,1215,40,23,15,0,4,3,2,2,3,2,4,3,No,Travel_Rarely,Divorced,2,1,0,1,No
+37,Male,IT,Analyst,PhD,1,3343,1175,69,8,1,0,1,0,1,4,4,3,1,3,No,Travel_Frequently,Divorced,1,2,2,7,No
+22,Female,HR,Engineer,High School,3,1879,619,53,9,12,13,0,5,0,1,1,3,1,3,No,Travel_Rarely,Single,2,5,3,2,No
+24,Male,Sales,Analyst,Master,1,2359,911,98,3,4,4,0,0,0,1,4,1,3,3,Yes,Non-Travel,Married,4,2,1,1,Yes
+45,Male,R&D,Analyst,PhD,1,2958,1221,47,16,5,5,6,2,1,4,2,1,4,3,Yes,Travel_Frequently,Divorced,1,3,0,4,Yes
+34,Male,Sales,Senior,Bachelor,3,1954,335,28,13,15,2,5,2,0,3,3,3,3,3,Yes,Travel_Frequently,Single,4,2,0,1,No
+41,Female,Finance,Director,High School,1,2622,1497,70,23,32,11,2,0,1,1,3,1,4,3,No,Travel_Rarely,Single,0,3,0,5,No
+35,Female,Operations,Junior,Bachelor,4,913,1026,95,17,1,5,2,0,2,1,4,1,3,3,No,Non-Travel,Single,1,1,0,5,Yes
+35,Male,Operations,Engineer,High School,3,4254,656,35,10,5,7,1,3,2,1,2,2,2,3,No,Travel_Frequently,Divorced,0,4,1,6,Yes
+44,Female,IT,Senior,PhD,4,5505,748,60,15,6,2,1,2,0,1,1,1,4,3,No,Travel_Rarely,Divorced,1,2,1,24,Yes
+29,Female,Marketing,Analyst,Master,2,3741,333,30,0,4,16,7,0,1,4,4,1,1,3,No,Non-Travel,Married,1,3,0,2,No
+35,Male,IT,Senior,Master,1,9247,1155,30,6,4,8,0,1,2,4,3,4,4,3,No,Non-Travel,Married,5,1,0,3,No
+30,Male,Marketing,Director,Master,2,4192,1412,98,9,0,9,1,0,5,4,2,2,3,3,No,Non-Travel,Married,1,1,0,8,No
+30,Female,Operations,Junior,High School,2,5278,678,43,8,11,0,1,0,4,4,3,2,3,3,No,Non-Travel,Married,1,1,2,4,No
+31,Male,Operations,Specialist,PhD,1,5536,641,22,24,5,1,2,1,2,3,3,3,3,3,No,Travel_Frequently,Married,0,3,1,1,No
+37,Female,Sales,Engineer,Bachelor,3,753,213,17,2,2,1,1,0,1,4,3,1,3,3,No,Travel_Frequently,Married,3,0,3,9,No
+30,Female,HR,Junior,PhD,1,3684,303,33,21,16,1,2,3,1,4,3,4,3,3,Yes,Non-Travel,Single,2,2,1,1,No
+47,Female,R&D,Manager,Bachelor,2,1492,1152,80,22,16,9,0,2,6,1,1,4,3,3,No,Travel_Rarely,Married,2,2,0,1,Yes
+26,Female,IT,Engineer,High School,2,1651,742,93,13,6,0,2,5,0,3,2,2,1,3,No,Travel_Rarely,Divorced,2,3,0,1,Yes
+33,Female,Finance,Junior,High School,3,1801,573,88,24,3,0,0,2,13,1,4,1,3,3,No,Non-Travel,Married,3,5,1,1,Yes
+30,Female,Marketing,Analyst,Bachelor,1,2549,796,96,14,10,1,0,5,3,3,2,4,1,4,No,Non-Travel,Divorced,1,3,1,1,No
+49,Male,Finance,Engineer,Bachelor,2,4126,352,36,1,3,1,0,1,3,2,2,3,4,3,Yes,Travel_Rarely,Married,1,5,1,1,Yes
+36,Male,HR,Engineer,Bachelor,4,3703,1004,60,23,2,1,4,1,0,3,2,1,2,3,No,Non-Travel,Single,1,5,2,2,No
+45,Female,Marketing,Senior,PhD,2,2962,485,27,13,13,7,1,7,2,3,4,1,1,3,No,Non-Travel,Single,3,1,2,1,No
+20,Female,IT,Analyst,Bachelor,2,4278,161,47,15,0,4,2,2,1,1,2,1,4,3,No,Travel_Frequently,Divorced,4,5,0,1,No
+37,Female,Sales,Manager,High School,3,4410,614,19,6,0,0,3,0,0,3,4,4,2,3,Yes,Travel_Frequently,Married,3,3,2,5,No
+43,Male,Finance,Specialist,High School,4,3719,529,91,3,0,2,3,2,0,3,4,2,1,3,No,Non-Travel,Single,0,0,1,1,No
+35,Female,HR,Director,Master,2,1258,679,41,17,1,2,1,4,6,1,1,2,1,3,No,Non-Travel,Single,3,4,0,1,Yes
+45,Male,IT,Junior,Bachelor,2,2059,1264,92,23,0,0,1,3,2,2,3,3,4,3,No,Travel_Frequently,Married,3,2,1,2,No
+29,Female,Operations,Senior,PhD,4,3020,842,38,4,40,5,1,1,1,2,4,4,3,3,Yes,Non-Travel,Divorced,0,6,1,1,Yes
+49,Female,Operations,Junior,PhD,1,4301,1423,81,5,3,6,3,2,0,2,3,1,1,3,Yes,Travel_Frequently,Divorced,3,1,0,1,No
+57,Male,IT,Manager,PhD,1,1534,774,77,6,1,6,2,9,3,3,2,3,1,3,No,Travel_Frequently,Divorced,4,2,1,2,No
+31,Male,IT,Manager,Master,2,2964,410,62,14,2,6,5,0,3,1,3,3,4,3,No,Travel_Rarely,Single,1,1,0,5,Yes
+30,Female,IT,Engineer,High School,2,1362,570,77,0,27,0,6,2,2,2,3,2,3,3,No,Travel_Frequently,Married,3,2,0,4,Yes
+49,Female,Marketing,Director,PhD,1,4978,908,92,23,7,15,0,0,2,2,3,1,2,3,No,Travel_Rarely,Single,2,4,0,13,No
+50,Female,IT,Manager,High School,3,3364,271,26,3,4,8,0,2,1,2,2,1,3,3,No,Travel_Rarely,Single,1,5,0,3,Yes
+29,Male,Finance,Junior,Master,4,1520,675,42,24,20,11,2,1,2,2,2,4,3,4,No,Travel_Frequently,Single,5,1,0,3,Yes
+30,Male,HR,Analyst,Bachelor,4,1515,130,58,0,5,0,1,0,0,1,4,4,4,3,Yes,Non-Travel,Single,1,6,0,1,Yes
+32,Male,Marketing,Analyst,Bachelor,3,3618,146,57,10,4,13,0,0,8,2,4,4,3,3,No,Travel_Frequently,Married,0,6,2,7,Yes
+21,Male,IT,Engineer,Bachelor,3,5927,229,31,17,2,8,6,1,2,3,1,3,4,3,No,Travel_Rarely,Single,2,2,0,1,No
+25,Male,R&D,Specialist,PhD,3,1722,451,54,13,4,9,0,0,1,3,2,1,2,3,No,Travel_Frequently,Single,1,2,1,3,Yes
+24,Male,R&D,Junior,Bachelor,3,4417,1077,63,21,3,0,7,0,1,1,1,2,1,3,No,Travel_Frequently,Divorced,4,6,0,2,Yes
+27,Female,HR,Junior,PhD,3,2273,157,99,10,11,6,3,3,4,4,2,3,1,3,No,Travel_Rarely,Single,1,4,2,5,Yes
+34,Female,Operations,Manager,Master,3,4498,1229,71,9,3,16,4,0,0,2,3,3,4,4,Yes,Travel_Frequently,Married,1,5,0,12,Yes
+37,Male,Sales,Director,Master,4,4194,911,98,16,8,5,0,1,1,2,1,2,4,3,No,Travel_Frequently,Single,2,2,0,14,Yes
+50,Female,Sales,Junior,PhD,3,3221,1453,78,3,0,4,0,5,3,3,1,2,3,3,No,Travel_Rarely,Married,1,1,0,1,No
+25,Female,Operations,Senior,High School,1,1191,867,89,23,2,14,2,0,1,1,1,4,3,3,No,Non-Travel,Married,3,5,3,1,Yes
+44,Male,Marketing,Specialist,Bachelor,3,4190,782,71,14,5,2,0,0,4,4,2,2,1,3,No,Travel_Rarely,Married,5,6,1,8,No
+32,Female,Marketing,Manager,Bachelor,3,3831,1285,88,15,27,4,1,1,0,3,4,2,1,3,Yes,Travel_Rarely,Divorced,1,3,0,3,Yes
+34,Male,Marketing,Senior,Bachelor,4,3659,1096,88,20,4,3,1,2,4,4,1,2,1,3,No,Travel_Frequently,Divorced,2,2,0,3,No
+41,Male,Sales,Engineer,PhD,4,3287,385,84,12,10,13,0,4,0,1,4,2,4,3,No,Travel_Rarely,Single,3,2,0,6,Yes
+23,Female,R&D,Analyst,Master,3,1921,1194,90,8,2,0,0,4,0,1,2,4,2,3,Yes,Travel_Frequently,Single,3,4,0,4,Yes
+38,Male,Sales,Engineer,Bachelor,4,5122,985,57,10,1,3,4,2,6,1,1,3,2,3,No,Travel_Frequently,Single,3,5,2,17,No
+36,Male,Finance,Analyst,Master,2,4670,496,37,10,0,5,0,0,2,3,2,1,4,3,Yes,Travel_Frequently,Married,2,4,1,4,No
+39,Male,IT,Engineer,Bachelor,4,1741,125,41,5,3,7,0,0,1,1,4,1,3,3,No,Travel_Rarely,Married,0,6,1,3,Yes
+37,Male,Marketing,Junior,Bachelor,4,5751,412,72,0,1,4,2,0,0,3,4,3,2,3,No,Travel_Rarely,Married,2,2,0,3,No
+59,Male,R&D,Senior,PhD,4,3183,225,51,21,1,11,11,0,2,3,1,1,3,4,No,Travel_Frequently,Single,3,3,1,8,No
+28,Male,HR,Analyst,High School,4,3179,1321,20,5,14,14,1,2,2,2,4,1,1,3,Yes,Non-Travel,Single,2,4,0,4,No
+29,Male,HR,Manager,PhD,1,2729,910,79,12,0,0,0,2,14,3,3,3,1,4,No,Non-Travel,Single,0,2,0,5,No
+28,Male,IT,Senior,Bachelor,1,2866,287,20,21,8,2,2,0,12,3,3,1,3,3,No,Travel_Rarely,Single,3,2,1,17,No
+29,Female,R&D,Manager,Bachelor,1,5916,797,64,23,4,0,7,3,3,2,1,1,1,3,No,Travel_Frequently,Divorced,4,3,0,4,Yes
+28,Female,Sales,Senior,High School,3,4996,909,36,21,7,1,4,0,1,4,2,3,4,3,No,Travel_Frequently,Divorced,1,1,1,2,No
+46,Female,Sales,Senior,Master,3,4943,815,39,4,8,3,2,1,2,2,2,1,3,4,Yes,Travel_Rarely,Divorced,4,2,2,5,Yes
+49,Male,Finance,Engineer,Master,2,3269,549,93,14,3,12,1,2,3,2,2,2,3,3,No,Non-Travel,Single,0,3,0,5,No
+29,Male,Finance,Analyst,Bachelor,1,4649,622,86,17,3,9,2,1,0,1,3,3,3,3,No,Travel_Rarely,Divorced,3,3,2,1,No
+26,Female,Sales,Analyst,Master,3,1964,1477,65,19,13,0,0,1,1,1,4,4,2,3,No,Travel_Rarely,Divorced,3,4,0,3,No
+39,Female,HR,Director,Bachelor,4,3990,1085,62,13,20,0,3,0,0,2,3,1,3,4,No,Travel_Frequently,Single,3,6,0,6,No
+29,Female,Marketing,Senior,High School,4,2760,757,84,14,2,4,3,1,0,1,4,4,3,4,No,Travel_Rarely,Divorced,3,2,1,3,Yes
+41,Male,HR,Junior,High School,1,1064,696,79,4,1,3,10,2,0,2,3,1,3,4,No,Non-Travel,Single,2,5,1,7,Yes
+37,Female,Finance,Junior,Bachelor,2,1348,199,74,3,22,1,0,4,1,1,2,2,2,4,No,Travel_Rarely,Single,1,2,0,2,Yes
+19,Female,IT,Manager,High School,2,2139,715,60,1,4,11,0,1,4,3,2,3,1,3,Yes,Travel_Frequently,Single,3,2,2,20,No
+50,Male,Sales,Manager,PhD,4,3668,1047,50,6,8,13,2,1,1,1,2,4,2,3,No,Non-Travel,Married,1,3,3,1,No
+52,Female,Finance,Engineer,PhD,2,2140,655,72,9,4,2,3,2,1,1,1,3,4,3,Yes,Travel_Frequently,Single,3,4,0,1,No
+28,Male,Finance,Senior,High School,1,2218,377,90,15,1,11,4,5,0,3,1,4,3,3,No,Travel_Rarely,Divorced,3,3,2,2,Yes
+31,Male,Marketing,Manager,Bachelor,4,4366,590,52,9,8,2,0,0,2,2,4,1,4,3,Yes,Travel_Rarely,Divorced,3,4,1,3,Yes
+37,Male,Sales,Manager,Bachelor,3,2258,354,25,17,7,6,0,1,0,1,1,2,2,4,No,Travel_Rarely,Single,2,4,3,2,Yes
+38,Female,Marketing,Specialist,High School,3,5798,480,26,16,2,3,2,3,2,1,3,4,1,3,Yes,Travel_Frequently,Married,3,5,0,1,Yes
+41,Female,Sales,Senior,Master,2,5337,991,56,20,6,0,1,1,11,3,3,4,1,3,Yes,Travel_Rarely,Married,1,3,2,5,No
+55,Male,Marketing,Engineer,PhD,4,3013,641,53,12,15,13,5,0,0,3,4,2,3,4,No,Non-Travel,Married,2,2,0,2,Yes
+33,Female,HR,Manager,Master,4,4344,1387,85,0,8,3,1,1,0,3,4,2,1,3,Yes,Non-Travel,Divorced,1,5,2,4,No
+27,Female,IT,Engineer,Bachelor,3,4058,924,25,0,1,6,4,0,1,4,2,2,2,3,No,Travel_Frequently,Married,4,4,1,7,Yes
+21,Female,IT,Analyst,Bachelor,4,2636,978,50,14,7,2,2,1,10,3,1,2,2,3,No,Travel_Frequently,Married,3,1,0,7,No
+27,Female,Sales,Engineer,Master,4,4586,1452,66,0,12,0,4,1,4,2,2,2,1,3,Yes,Travel_Frequently,Single,4,0,0,2,Yes
+34,Male,R&D,Junior,High School,4,4936,1238,45,5,15,0,1,4,6,1,1,3,3,3,No,Travel_Rarely,Married,4,3,2,4,No
+52,Female,Operations,Junior,Master,2,1851,1399,47,24,9,3,5,1,1,1,1,1,3,3,No,Non-Travel,Married,4,5,1,2,No
+29,Male,Finance,Engineer,Master,4,3218,380,27,12,1,5,0,0,14,4,4,1,2,3,No,Non-Travel,Married,4,4,0,10,No
+37,Male,Finance,Junior,PhD,1,3201,1398,32,0,12,2,2,0,0,1,2,4,1,4,No,Non-Travel,Single,1,6,1,10,No
+34,Female,Sales,Analyst,PhD,2,4558,872,55,4,11,5,0,4,0,1,2,2,2,3,No,Travel_Frequently,Single,0,1,2,2,Yes
+46,Male,Marketing,Senior,Master,4,2387,942,72,8,0,5,1,0,5,2,1,3,2,3,No,Travel_Frequently,Married,0,2,0,1,No
+60,Female,R&D,Junior,Master,4,2210,818,70,24,5,6,1,1,7,1,1,3,4,4,Yes,Travel_Rarely,Divorced,4,3,0,1,Yes
+29,Female,HR,Junior,Bachelor,1,3243,427,38,16,4,3,0,0,0,2,4,4,2,3,No,Travel_Frequently,Divorced,3,6,3,2,No
+30,Male,Marketing,Engineer,PhD,2,5381,310,87,15,11,12,10,2,0,4,3,2,3,3,No,Non-Travel,Single,0,4,0,4,Yes
+45,Male,Marketing,Analyst,PhD,3,1636,826,45,7,2,3,0,1,0,2,2,1,1,3,No,Travel_Rarely,Married,1,6,0,5,Yes
+41,Male,Sales,Director,Bachelor,3,1785,1022,69,16,8,2,4,0,0,3,2,2,1,3,No,Travel_Frequently,Divorced,2,3,0,2,No
+53,Male,Sales,Director,High School,2,2297,651,24,14,24,1,12,0,0,3,4,3,4,3,No,Travel_Frequently,Married,1,4,2,5,No
+40,Female,Finance,Director,PhD,4,2511,125,74,23,15,1,0,3,10,4,4,2,4,3,Yes,Non-Travel,Single,1,2,0,13,No
+31,Female,Sales,Director,PhD,4,1233,126,16,0,25,0,3,1,3,1,2,1,3,3,No,Travel_Rarely,Divorced,6,1,1,5,Yes
+40,Female,Sales,Senior,High School,3,6304,801,29,11,38,5,0,2,4,2,2,1,4,3,No,Travel_Frequently,Single,1,1,2,1,No
+46,Male,Sales,Engineer,PhD,3,2792,1206,17,4,0,1,0,4,4,3,1,4,2,3,Yes,Travel_Frequently,Married,2,2,0,4,No
+43,Male,Finance,Engineer,PhD,3,2591,781,57,23,9,1,1,4,2,2,3,3,2,3,Yes,Travel_Rarely,Single,0,1,2,3,Yes
+40,Male,HR,Specialist,High School,1,6709,512,45,5,5,7,8,0,4,3,2,2,3,3,Yes,Travel_Rarely,Single,1,3,1,10,No
+45,Female,HR,Analyst,High School,3,4267,266,84,24,19,1,0,6,2,2,4,2,1,4,No,Travel_Frequently,Single,1,1,1,2,Yes
+46,Male,Operations,Director,Master,1,2280,268,81,0,2,1,2,0,1,1,1,4,3,3,No,Travel_Frequently,Single,2,2,0,2,Yes
+48,Female,Operations,Senior,Bachelor,2,3236,328,70,24,39,0,2,0,2,4,1,4,4,3,Yes,Non-Travel,Divorced,1,2,1,4,No
+41,Male,Sales,Analyst,Bachelor,4,2919,466,77,0,9,7,6,4,2,1,4,4,1,3,Yes,Travel_Rarely,Married,0,2,0,3,Yes
+33,Female,Operations,Director,High School,3,6149,627,89,9,15,0,0,0,5,2,4,3,1,3,No,Travel_Frequently,Divorced,1,5,0,6,No
+36,Female,Finance,Senior,High School,4,2741,890,29,9,0,3,3,0,12,3,1,2,1,3,No,Travel_Frequently,Married,3,2,3,1,No
+47,Male,HR,Analyst,PhD,4,1449,623,24,2,2,3,3,0,1,3,4,4,4,3,No,Travel_Frequently,Married,1,5,0,4,No
+26,Male,Marketing,Engineer,Master,3,1166,1195,52,16,14,5,3,1,4,4,1,3,2,3,No,Travel_Frequently,Married,1,5,2,1,No
+38,Female,HR,Engineer,Master,3,6232,205,61,18,0,5,8,1,0,1,4,2,2,3,No,Non-Travel,Married,3,3,0,1,Yes
+31,Female,HR,Manager,High School,2,2009,831,71,10,16,8,5,2,4,1,1,1,4,3,Yes,Travel_Rarely,Married,3,4,0,5,No
+35,Male,Finance,Junior,PhD,1,4167,1064,64,17,0,0,0,4,1,1,2,4,4,3,No,Travel_Frequently,Divorced,1,2,2,1,No
+47,Male,Operations,Director,PhD,1,3089,1405,85,1,10,1,1,2,0,3,2,3,3,3,No,Travel_Rarely,Married,0,0,0,1,No
+36,Female,Marketing,Specialist,Bachelor,4,2420,232,29,8,4,1,1,0,1,4,4,2,3,3,No,Travel_Rarely,Single,4,1,2,6,No
+35,Male,Finance,Analyst,Bachelor,3,2617,633,32,23,9,0,1,5,2,3,3,2,2,3,No,Travel_Frequently,Divorced,2,5,1,5,No
+21,Female,Sales,Specialist,PhD,2,6579,1074,96,16,11,1,1,0,0,1,2,4,4,3,No,Travel_Frequently,Divorced,1,5,0,1,No
+42,Female,IT,Manager,Bachelor,2,1445,368,16,13,4,1,1,0,7,2,1,4,3,3,No,Travel_Frequently,Married,3,5,1,4,Yes
+41,Male,HR,Junior,High School,2,2457,772,98,3,1,3,1,0,0,3,3,2,4,3,No,Non-Travel,Single,1,2,0,1,No
+56,Male,IT,Analyst,PhD,2,4690,890,57,16,0,5,11,1,7,4,1,3,4,3,No,Travel_Frequently,Single,1,6,0,1,No
+31,Male,Finance,Senior,Bachelor,2,1569,117,40,16,8,2,0,0,3,1,1,1,2,3,No,Travel_Rarely,Married,4,0,2,3,Yes
+37,Male,Finance,Director,Master,1,5759,216,85,11,7,6,7,0,1,2,2,2,2,3,No,Travel_Rarely,Married,4,4,0,1,Yes
+37,Male,Finance,Junior,PhD,1,4656,897,52,19,13,2,1,0,1,3,4,3,4,3,Yes,Non-Travel,Single,1,1,0,25,No
+50,Female,IT,Engineer,PhD,1,3414,1267,56,17,7,1,2,0,4,2,4,4,1,3,Yes,Travel_Frequently,Divorced,2,3,2,1,No
+34,Female,Finance,Manager,Master,3,2317,650,19,2,5,3,5,1,2,2,1,2,1,3,No,Travel_Frequently,Divorced,4,3,2,7,Yes
+37,Male,Sales,Junior,High School,4,1471,1028,25,10,5,0,1,3,3,4,2,4,4,3,Yes,Non-Travel,Married,2,4,1,8,Yes
+41,Male,Finance,Director,Master,2,4245,852,79,24,0,0,1,2,1,3,1,1,2,4,No,Non-Travel,Divorced,2,1,1,25,No
+36,Male,R&D,Junior,PhD,3,11781,521,48,17,4,2,1,0,2,4,3,4,1,4,Yes,Travel_Frequently,Divorced,1,0,1,2,No
+30,Female,Operations,Director,High School,2,3206,1492,15,3,37,14,1,0,13,1,1,1,2,3,No,Travel_Frequently,Single,2,4,1,10,No
+36,Male,IT,Engineer,Bachelor,1,1196,745,97,16,20,6,7,6,0,2,2,4,1,4,No,Travel_Rarely,Divorced,1,3,1,15,No
+45,Male,R&D,Analyst,Bachelor,3,3747,657,16,17,3,0,5,0,1,4,1,4,4,3,No,Travel_Frequently,Single,3,5,3,1,No
+24,Female,Finance,Senior,Bachelor,1,4583,149,99,4,8,9,0,4,1,4,2,1,3,3,Yes,Travel_Frequently,Married,4,4,0,3,No
+36,Female,Sales,Engineer,PhD,2,1883,777,34,13,18,6,0,0,4,1,4,4,3,3,No,Travel_Rarely,Married,3,2,1,1,No
+27,Male,HR,Senior,Master,2,2158,205,75,9,5,4,1,5,4,3,2,3,2,3,No,Travel_Rarely,Single,1,4,2,4,Yes
+46,Male,Marketing,Analyst,High School,4,2051,1339,35,14,0,8,0,0,1,4,3,4,2,4,No,Travel_Rarely,Single,0,0,1,4,No
+19,Male,Operations,Junior,Bachelor,2,2285,757,82,0,0,2,2,1,0,2,2,2,1,3,Yes,Travel_Rarely,Married,1,1,2,1,Yes
+29,Female,Marketing,Senior,High School,1,2735,1195,26,15,7,1,0,2,0,2,3,4,4,4,Yes,Non-Travel,Single,4,4,0,7,Yes
+38,Male,Finance,Manager,PhD,2,1938,1087,36,10,34,3,2,1,1,2,3,3,1,3,No,Travel_Rarely,Married,1,0,0,1,Yes
+50,Male,Operations,Manager,Bachelor,4,1606,941,34,22,11,3,0,0,1,2,1,2,4,3,Yes,Non-Travel,Married,2,6,2,8,No
+34,Male,Operations,Director,PhD,4,3252,545,96,19,0,3,1,1,13,4,3,3,4,3,No,Travel_Rarely,Married,0,4,0,1,No
+29,Female,Sales,Engineer,Master,1,2720,1309,15,5,2,4,3,2,1,2,2,2,2,3,No,Travel_Rarely,Married,5,6,2,5,No
+53,Female,Operations,Analyst,PhD,3,2396,169,44,23,14,14,1,0,0,4,4,4,3,3,Yes,Travel_Rarely,Married,2,4,0,1,Yes
+20,Male,IT,Director,PhD,2,3107,249,38,21,18,11,11,0,6,3,2,3,3,3,No,Travel_Frequently,Married,1,4,2,1,No
+18,Male,R&D,Engineer,Master,4,1393,1369,28,15,9,10,6,1,2,2,4,4,2,4,Yes,Non-Travel,Divorced,3,0,1,6,Yes
+39,Female,R&D,Engineer,High School,2,3400,873,50,1,10,8,1,0,2,3,3,2,3,3,No,Travel_Rarely,Divorced,4,2,0,1,No
+29,Female,R&D,Director,Master,2,2421,1222,83,0,0,14,0,2,0,4,1,3,2,3,No,Travel_Frequently,Married,1,3,1,3,No
+24,Female,IT,Specialist,Master,3,3360,1401,89,23,17,0,5,0,1,1,3,1,1,3,No,Non-Travel,Divorced,1,1,1,12,Yes
+42,Female,Marketing,Engineer,PhD,4,3640,1043,38,23,15,1,7,1,8,3,3,3,4,4,No,Non-Travel,Single,4,2,0,1,No
+37,Female,Sales,Specialist,High School,2,5247,554,74,8,2,3,5,0,2,2,4,4,3,3,No,Travel_Frequently,Single,4,3,1,8,No
+29,Female,Operations,Manager,Bachelor,4,3138,1227,69,21,12,9,0,1,1,1,2,1,3,3,No,Non-Travel,Married,1,2,1,1,No
+22,Female,IT,Manager,Master,1,5081,1045,91,11,2,3,18,0,2,3,1,1,1,3,No,Travel_Frequently,Divorced,2,3,0,1,No
+43,Female,R&D,Engineer,High School,1,2537,700,94,16,0,6,0,0,7,4,1,2,1,3,No,Travel_Rarely,Single,3,1,2,1,No
+41,Female,Finance,Manager,Master,2,2599,752,38,24,2,0,3,0,0,4,1,1,3,3,No,Travel_Frequently,Single,2,4,0,25,Yes
+34,Male,HR,Analyst,Master,4,2848,824,91,14,1,1,7,6,2,4,1,1,3,3,Yes,Non-Travel,Single,3,2,0,1,No
+53,Male,Operations,Specialist,Master,2,4389,332,38,18,4,6,0,0,9,3,2,2,2,4,Yes,Non-Travel,Single,2,1,1,11,Yes
+24,Male,IT,Specialist,Master,4,4086,350,68,21,5,0,7,2,0,4,1,3,2,4,No,Travel_Rarely,Divorced,8,4,1,23,No
+19,Female,IT,Engineer,PhD,4,3189,178,40,9,7,2,1,0,3,3,4,4,3,3,No,Travel_Frequently,Single,2,1,3,2,No
+28,Male,Sales,Manager,High School,3,1613,1175,80,11,6,1,11,0,2,2,4,3,2,4,No,Travel_Rarely,Single,1,6,0,4,Yes
+34,Female,Sales,Senior,High School,3,4050,997,94,13,3,2,0,1,3,2,1,1,1,3,No,Travel_Frequently,Single,1,3,0,7,Yes
+37,Female,IT,Director,High School,3,1937,1020,52,8,0,6,9,1,1,3,1,4,4,3,Yes,Travel_Frequently,Married,0,3,0,2,Yes
+32,Male,R&D,Director,Master,2,1885,880,79,12,9,2,0,6,1,3,2,3,2,3,Yes,Travel_Frequently,Single,0,5,2,1,Yes
+38,Female,HR,Specialist,PhD,3,1687,325,89,2,5,4,3,5,3,1,2,4,4,3,Yes,Travel_Rarely,Single,2,3,1,2,Yes
+22,Male,Operations,Engineer,Master,3,2859,1174,65,20,3,0,2,3,0,4,1,1,2,3,No,Travel_Rarely,Divorced,1,5,2,7,No
+49,Male,Sales,Engineer,Master,1,5463,1309,49,13,20,8,1,1,1,2,2,3,3,3,No,Non-Travel,Single,3,2,0,7,Yes
+34,Male,Operations,Analyst,High School,4,1839,1157,57,20,13,2,0,1,0,2,3,4,2,3,No,Travel_Rarely,Single,2,3,2,1,No
+46,Female,R&D,Junior,Master,4,6900,902,43,9,19,5,3,0,0,1,1,4,4,3,Yes,Travel_Frequently,Single,1,6,1,1,No
+38,Male,Operations,Junior,Bachelor,3,4698,841,51,15,6,6,0,5,10,3,2,3,4,3,No,Travel_Frequently,Married,1,6,3,12,No
+39,Female,Finance,Specialist,Master,4,1433,230,95,6,1,1,2,1,1,3,4,3,3,3,No,Travel_Frequently,Divorced,2,3,0,1,No
+40,Male,Sales,Director,Bachelor,1,2461,1122,72,3,11,10,0,1,10,1,1,1,4,3,No,Travel_Rarely,Divorced,4,3,1,6,Yes
+39,Male,R&D,Analyst,Master,1,1772,731,68,19,2,4,9,0,0,4,1,2,3,3,No,Non-Travel,Married,2,3,2,1,No
+41,Male,R&D,Analyst,PhD,3,4156,937,53,22,5,2,0,0,2,3,4,4,3,4,No,Travel_Rarely,Married,2,1,1,9,No
+48,Female,HR,Analyst,PhD,1,1818,858,56,24,0,1,0,5,0,3,4,3,4,3,No,Non-Travel,Divorced,1,5,0,11,Yes
+36,Female,HR,Specialist,High School,4,1325,803,42,10,17,14,0,0,4,4,2,3,1,3,Yes,Travel_Rarely,Single,1,3,3,1,Yes
+42,Female,Finance,Junior,Master,2,2532,596,43,15,1,7,1,1,4,4,4,3,4,3,Yes,Travel_Frequently,Divorced,1,4,0,1,No
+34,Male,R&D,Director,Bachelor,4,5349,422,57,19,23,1,0,0,0,1,3,4,4,3,Yes,Non-Travel,Married,1,1,0,3,Yes
+49,Male,Marketing,Analyst,Bachelor,2,2707,1333,17,3,19,2,2,3,7,1,1,1,2,4,No,Travel_Rarely,Single,2,3,1,1,No
+28,Female,R&D,Director,Master,3,3638,714,24,21,6,8,6,0,0,1,3,2,4,3,No,Travel_Frequently,Divorced,2,5,1,2,No
+53,Female,HR,Manager,Bachelor,2,3709,428,73,21,13,5,3,3,2,3,2,4,2,3,Yes,Non-Travel,Single,4,3,2,5,No
+34,Female,Marketing,Engineer,PhD,1,1399,1495,28,22,9,7,2,0,12,1,4,1,2,4,No,Non-Travel,Single,3,1,0,1,No
+20,Female,Sales,Engineer,Bachelor,4,1901,232,90,16,16,2,0,4,6,3,1,4,4,3,No,Travel_Frequently,Married,4,3,1,2,No
+36,Female,Sales,Director,High School,2,2990,934,61,12,5,6,3,2,9,2,4,4,3,3,No,Travel_Frequently,Divorced,5,3,1,7,No
+28,Female,Operations,Senior,PhD,4,2255,750,56,10,15,2,0,0,1,4,4,3,1,3,No,Travel_Rarely,Married,3,4,0,5,No
+43,Male,IT,Senior,PhD,3,6989,220,46,2,6,1,4,1,0,4,2,1,4,3,No,Travel_Rarely,Divorced,2,2,3,1,No
+28,Female,HR,Specialist,PhD,3,1612,705,46,8,28,5,0,0,0,2,2,3,4,3,No,Travel_Frequently,Divorced,1,6,2,5,Yes
+30,Male,IT,Specialist,Master,1,1891,1064,56,5,6,18,1,0,2,1,2,3,3,3,No,Travel_Rarely,Single,3,2,1,7,Yes
+18,Male,Marketing,Engineer,Master,3,3447,228,46,21,6,1,1,3,4,3,2,1,2,3,No,Travel_Frequently,Single,2,4,0,4,No
+30,Female,HR,Manager,PhD,2,2177,1214,40,20,15,3,5,1,0,3,1,3,3,3,No,Travel_Frequently,Single,0,2,3,1,No
+18,Female,Finance,Junior,Master,3,702,128,15,10,17,5,0,1,3,3,3,3,3,3,Yes,Travel_Rarely,Married,4,6,0,1,No
+19,Male,R&D,Junior,Bachelor,1,7842,821,70,15,8,3,2,0,1,4,3,2,2,3,No,Travel_Rarely,Single,3,6,0,8,No
+42,Female,Finance,Specialist,Master,4,1742,432,16,18,1,9,0,0,1,1,1,1,4,3,No,Non-Travel,Married,2,2,0,8,Yes
+42,Female,Marketing,Manager,Master,4,3945,1420,95,4,6,7,3,4,3,3,4,1,3,3,No,Non-Travel,Single,0,5,0,5,No
+39,Male,HR,Specialist,PhD,3,1592,1253,44,13,34,0,7,0,1,3,1,3,3,3,No,Travel_Rarely,Married,1,3,2,1,No
+25,Male,Marketing,Junior,High School,2,1936,1416,85,16,13,32,1,6,5,3,3,3,4,3,No,Travel_Rarely,Divorced,6,3,1,4,No
+34,Male,R&D,Director,High School,1,1324,1296,66,2,16,6,2,5,0,2,3,1,4,3,No,Travel_Rarely,Married,1,1,3,8,No
+34,Female,Sales,Specialist,High School,2,2057,1043,23,3,0,9,7,0,4,3,1,1,1,3,Yes,Non-Travel,Married,3,2,0,2,Yes
+23,Male,Sales,Analyst,Bachelor,1,2159,1147,36,15,6,5,2,0,0,2,2,4,3,3,No,Travel_Rarely,Married,2,4,1,1,No
+50,Female,Marketing,Director,Master,3,2789,1222,48,15,10,9,2,3,0,3,4,1,1,3,Yes,Non-Travel,Divorced,4,5,3,4,No
+43,Male,IT,Specialist,High School,1,2474,455,63,20,17,0,2,0,3,3,1,4,2,3,Yes,Non-Travel,Married,0,2,2,8,No
+32,Male,HR,Engineer,PhD,1,1449,238,15,24,0,2,3,0,5,3,3,3,4,3,No,Non-Travel,Divorced,2,2,2,1,No
+35,Male,HR,Specialist,High School,3,2293,1297,87,3,19,10,0,0,0,2,2,2,4,3,Yes,Non-Travel,Single,3,0,0,4,Yes
+37,Female,Sales,Engineer,High School,2,6145,128,98,18,7,1,5,1,1,3,4,2,1,4,No,Travel_Frequently,Single,1,5,2,5,No
+18,Female,Operations,Manager,Master,3,5791,1030,67,16,2,0,1,3,2,1,3,4,3,3,No,Travel_Rarely,Divorced,0,2,0,4,No
+32,Male,Finance,Junior,Master,1,3743,595,97,12,3,7,0,0,0,3,4,3,2,3,No,Travel_Rarely,Married,1,2,1,5,No
+28,Male,Operations,Director,Master,3,4152,1113,54,21,3,9,4,0,5,2,2,3,3,3,Yes,Travel_Frequently,Single,4,4,1,4,Yes
+24,Male,R&D,Director,Bachelor,1,8353,754,59,22,7,0,1,5,4,2,3,3,3,4,No,Travel_Rarely,Married,2,6,1,1,No
+32,Female,Finance,Senior,Bachelor,3,3966,927,82,23,0,9,0,2,0,1,2,1,1,3,No,Non-Travel,Married,1,1,2,1,No
+52,Male,Finance,Senior,High School,4,4113,450,23,0,1,5,3,1,1,4,1,3,3,3,No,Travel_Frequently,Divorced,1,2,1,4,No
+41,Female,Marketing,Junior,Master,4,1363,653,36,11,16,3,6,2,4,1,1,1,1,4,No,Non-Travel,Single,2,1,0,1,Yes
+29,Male,Sales,Senior,High School,3,1709,398,32,3,1,8,6,1,1,1,4,4,4,3,Yes,Travel_Frequently,Divorced,1,2,1,5,Yes
+40,Male,Operations,Director,PhD,2,2932,1315,90,10,2,2,9,2,3,2,2,2,4,3,No,Non-Travel,Divorced,3,2,1,5,Yes

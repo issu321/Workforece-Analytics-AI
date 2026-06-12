@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block title %}Search - WorkforceAI{% endblock %}
+{% block content %}
+<div class="dashboard-page">
+    <div class="page-header">
+        <div>
+            <h1><i class="fas fa-search"></i> Search</h1>
+            <p>Find employees, departments, and analytics</p>
+        </div>
+    </div>
+    <div class="search-bar glass">
+        <form method="GET" action="{{ url_for('search') }}" class="search-form">
+            <i class="fas fa-search"></i>
+            <input type="text" name="q" value="{{ query }}" placeholder="Search employees, departments, job roles..." autofocus>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+    {% if query %}
+    <div class="search-results">
+        <h3><i class="fas fa-search"></i> Results for "{{ query }}"</h3>
+        {% if results.employees %}
+        <div class="card glass">
+            <div class="card-header"><h4><i class="fas fa-users"></i> Employees ({{ results.employees|length }} found)</h4></div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead><tr>{% for col in results.employees[0].keys() %}<th>{{ col }}</th>{% endfor %}</tr></thead>
+                        <tbody>
+                            {% for emp in results.employees %}
+                            <tr>{% for val in emp.values() %}<td>{{ val }}</td>{% endfor %}</tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if results.departments %}
+        <div class="card glass">
+            <div class="card-header"><h4><i class="fas fa-building"></i> Departments ({{ results.departments|length }} found)</h4></div>
+            <div class="card-body"><div class="dept-tags">{% for dept in results.departments %}<span class="dept-tag">{{ dept }}</span>{% endfor %}</div></div>
+        </div>
+        {% endif %}
+        {% if not results.employees and not results.departments %}
+        <div class="empty-state-small glass">
+            <i class="fas fa-search" style="font-size:3rem; color:var(--accent-primary); margin-bottom:16px;"></i>
+            <h3>No results found for "{{ query }}"</h3>
+            <p>Try searching with different keywords or check if data is loaded.</p>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
